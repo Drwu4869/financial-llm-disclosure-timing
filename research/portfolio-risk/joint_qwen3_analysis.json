@@ -1,0 +1,334 @@
+{
+  "status": "OBSERVED_JOINT_OUTPUT_DIAGNOSTIC",
+  "model_id": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "attempts": 16,
+  "valid_joint": 16,
+  "correct_reported_exposures": 15,
+  "risk_within_5pct_given_correct_reported_exposures": 0,
+  "inconsistent_with_own_weights_by_over_5pct_of_true_risk": 16,
+  "raw_sha256": "b7a00d354d8561eb255a7e8b58a7bd8fd3a467cafce308e8737ce3d916e517ab",
+  "interpretation": "Reported weights are observable outputs, not evidence of the model hidden reasoning process.",
+  "records": [
+    {
+      "request_id": "evaluation_public_returns_02__joint_eight",
+      "case_id": "evaluation_public_returns_02",
+      "domain": "public_returns",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 10.0,
+      "true_risk_pct": 5.924987209901807,
+      "risk_of_reported_weights_pct": 5.924987209901807,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": 0.6877673564067874,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": 0.6877673564067874
+    },
+    {
+      "request_id": "evaluation_synthetic_02__joint_one",
+      "case_id": "evaluation_synthetic_02",
+      "domain": "synthetic",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 0.25,
+      "true_risk_pct": 1.8473438327861775,
+      "risk_of_reported_weights_pct": 1.8473438327861775,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.864670563452745,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.864670563452745
+    },
+    {
+      "request_id": "evaluation_synthetic_01__joint_eight",
+      "case_id": "evaluation_synthetic_01",
+      "domain": "synthetic",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.875,
+        0.125
+      ],
+      "reported_risk_pct": 1.0,
+      "true_risk_pct": 2.7080303573726794,
+      "risk_of_reported_weights_pct": 2.942356194250133,
+      "exposure_l1_error": 0.1499999999999999,
+      "normalized_total_error": -0.6307279210229401,
+      "normalized_reported_exposure_component": 0.08652998894177674,
+      "normalized_inconsistency_component": -0.7172579099647167
+    },
+    {
+      "request_id": "evaluation_public_returns_03__joint_one",
+      "case_id": "evaluation_public_returns_03",
+      "domain": "public_returns",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.9,
+        0.1
+      ],
+      "reported_risk_pct": 1.02,
+      "true_risk_pct": 3.7344438320016273,
+      "risk_of_reported_weights_pct": 3.7344438320016278,
+      "exposure_l1_error": 2.7755575615628914e-17,
+      "normalized_total_error": -0.7268669590745218,
+      "normalized_reported_exposure_component": 1.189170944397455e-16,
+      "normalized_inconsistency_component": -0.7268669590745219
+    },
+    {
+      "request_id": "evaluation_public_returns_01__joint_one",
+      "case_id": "evaluation_public_returns_01",
+      "domain": "public_returns",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 3.41,
+      "true_risk_pct": 4.256969836338989,
+      "risk_of_reported_weights_pct": 4.256969836338989,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.1989607323756342,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.1989607323756342
+    },
+    {
+      "request_id": "evaluation_synthetic_03__joint_one",
+      "case_id": "evaluation_synthetic_03",
+      "domain": "synthetic",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.9,
+        0.1
+      ],
+      "reported_risk_pct": 1.25,
+      "true_risk_pct": 3.5497366779653756,
+      "risk_of_reported_weights_pct": 3.5497366779653756,
+      "exposure_l1_error": 2.7755575615628914e-17,
+      "normalized_total_error": -0.6478612039706364,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.6478612039706364
+    },
+    {
+      "request_id": "evaluation_public_returns_03__joint_eight",
+      "case_id": "evaluation_public_returns_03",
+      "domain": "public_returns",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.9,
+        0.1
+      ],
+      "reported_risk_pct": 0.945,
+      "true_risk_pct": 3.7344438320016273,
+      "risk_of_reported_weights_pct": 3.7344438320016278,
+      "exposure_l1_error": 2.7755575615628914e-17,
+      "normalized_total_error": -0.7469502709072776,
+      "normalized_reported_exposure_component": 1.189170944397455e-16,
+      "normalized_inconsistency_component": -0.7469502709072777
+    },
+    {
+      "request_id": "evaluation_public_returns_02__joint_one",
+      "case_id": "evaluation_public_returns_02",
+      "domain": "public_returns",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 8.53,
+      "true_risk_pct": 5.924987209901807,
+      "risk_of_reported_weights_pct": 5.924987209901807,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": 0.4396655550149896,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": 0.4396655550149896
+    },
+    {
+      "request_id": "evaluation_public_returns_04__joint_eight",
+      "case_id": "evaluation_public_returns_04",
+      "domain": "public_returns",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 2.5,
+      "true_risk_pct": 2.275806175841871,
+      "risk_of_reported_weights_pct": 2.275806175841871,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": 0.09851182694642029,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": 0.09851182694642029
+    },
+    {
+      "request_id": "evaluation_synthetic_02__joint_eight",
+      "case_id": "evaluation_synthetic_02",
+      "domain": "synthetic",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 0.014285714285714285,
+      "true_risk_pct": 1.8473438327861775,
+      "risk_of_reported_weights_pct": 1.8473438327861775,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.9922668893401568,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.9922668893401568
+    },
+    {
+      "request_id": "evaluation_synthetic_01__joint_one",
+      "case_id": "evaluation_synthetic_01",
+      "domain": "synthetic",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.8,
+        0.2
+      ],
+      "reported_risk_pct": 1.25,
+      "true_risk_pct": 2.7080303573726794,
+      "risk_of_reported_weights_pct": 2.7080303573726794,
+      "exposure_l1_error": 5.551115123125783e-17,
+      "normalized_total_error": -0.538409901278675,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.538409901278675
+    },
+    {
+      "request_id": "evaluation_public_returns_01__joint_eight",
+      "case_id": "evaluation_public_returns_01",
+      "domain": "public_returns",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 2.5,
+      "true_risk_pct": 4.256969836338989,
+      "risk_of_reported_weights_pct": 4.256969836338989,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.41272780965955586,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.41272780965955586
+    },
+    {
+      "request_id": "evaluation_synthetic_04__joint_eight",
+      "case_id": "evaluation_synthetic_04",
+      "domain": "synthetic",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.75,
+        0.25
+      ],
+      "reported_risk_pct": 1.25,
+      "true_risk_pct": 1.9155704293793352,
+      "risk_of_reported_weights_pct": 1.9155704293793352,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.3474528626937444,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.3474528626937444
+    },
+    {
+      "request_id": "evaluation_public_returns_04__joint_one",
+      "case_id": "evaluation_public_returns_04",
+      "domain": "public_returns",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.5,
+        0.5
+      ],
+      "reported_risk_pct": 2.5,
+      "true_risk_pct": 2.275806175841871,
+      "risk_of_reported_weights_pct": 2.275806175841871,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": 0.09851182694642029,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": 0.09851182694642029
+    },
+    {
+      "request_id": "evaluation_synthetic_03__joint_eight",
+      "case_id": "evaluation_synthetic_03",
+      "domain": "synthetic",
+      "condition": "joint_eight",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.9,
+        0.1
+      ],
+      "reported_risk_pct": 0.0144,
+      "true_risk_pct": 3.5497366779653756,
+      "risk_of_reported_weights_pct": 3.5497366779653756,
+      "exposure_l1_error": 2.7755575615628914e-17,
+      "normalized_total_error": -0.9959433610697417,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.9959433610697417
+    },
+    {
+      "request_id": "evaluation_synthetic_04__joint_one",
+      "case_id": "evaluation_synthetic_04",
+      "domain": "synthetic",
+      "condition": "joint_one",
+      "valid_joint": true,
+      "weights_status": "valid",
+      "risk_status": "valid",
+      "reported_weights": [
+        0.75,
+        0.25
+      ],
+      "reported_risk_pct": 1.25,
+      "true_risk_pct": 1.9155704293793352,
+      "risk_of_reported_weights_pct": 1.9155704293793352,
+      "exposure_l1_error": 0.0,
+      "normalized_total_error": -0.3474528626937444,
+      "normalized_reported_exposure_component": 0.0,
+      "normalized_inconsistency_component": -0.3474528626937444
+    }
+  ],
+  "posthoc_output_normalization": false
+}
