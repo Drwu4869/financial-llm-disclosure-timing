@@ -1,0 +1,119 @@
+{
+  "verified_at_utc": "2026-11-09T05:02:32.724495+00:00",
+  "status": "PASS",
+  "browsable_source_copies": 70,
+  "copies_match_archives": true,
+  "checks": {
+    "exact_certificate_provenance": {
+      "status": "PASS",
+      "certificates": 86,
+      "method": "exact rational arithmetic; no optimizer",
+      "max_gap": 3.0769905145594137e-10
+    },
+    "controlled_request_binding": {
+      "status": "PASS",
+      "requests_and_labels_checked": 216,
+      "raw_records_checked": 216,
+      "source_of_labels": "independent Decimal calculation from printed prompt strings",
+      "max_prompt_tokens": 374,
+      "reserved_output_tokens": 512,
+      "context_per_slot": 1536,
+      "empty_outputs": 0,
+      "length_terminated": 0,
+      "exact_prompt_overlap_with_v4": null,
+      "protocol_sha256": "323bc17c99829e0b6753c2a81c4fa744bcf1f56d9d445d63cc992d53e53e5edf",
+      "chronology": "local pre-inference freeze verified; not external preregistration"
+    },
+    "exposure_study_request_binding": {
+      "checked_at_utc": "2026-11-09T05:02:31.977179+00:00",
+      "sets": [
+        {
+          "corpus": "controlled",
+          "model": "qwen8",
+          "requests": 216,
+          "errors": 0,
+          "empty_outputs": 0,
+          "truncated": 0,
+          "max_preflight_tokens": null,
+          "max_response_usage_prompt_tokens": 374,
+          "raw_sha256": "d2c6486a486be92c53ef16e57ade0487977efcf829f206635bbc5804d8ffb0da"
+        },
+        {
+          "corpus": "controlled",
+          "model": "phi4",
+          "requests": 216,
+          "errors": 0,
+          "empty_outputs": 0,
+          "truncated": 0,
+          "max_preflight_tokens": 342,
+          "max_response_usage_prompt_tokens": 342,
+          "raw_sha256": "e69c7cf781b75c217095881ff6b171781420c86abec86d79c819aac7c40cccc4"
+        },
+        {
+          "corpus": "source",
+          "model": "qwen8",
+          "requests": 52,
+          "errors": 0,
+          "empty_outputs": 0,
+          "truncated": 0,
+          "max_preflight_tokens": 840,
+          "max_response_usage_prompt_tokens": 840,
+          "raw_sha256": "95063fdb26d09abcad2116716c55183605ed32f7b9e7f68769942c849248ab7f"
+        },
+        {
+          "corpus": "source",
+          "model": "phi4",
+          "requests": 52,
+          "errors": 0,
+          "empty_outputs": 0,
+          "truncated": 0,
+          "max_preflight_tokens": 802,
+          "max_response_usage_prompt_tokens": 802,
+          "raw_sha256": "7c6a1c370b471a4d158131898568647076bed31469220f318c2180709e14b4f6"
+        }
+      ],
+      "status": "PASS",
+      "source_decimal_oracle_verified": true,
+      "frozen_hashes_verified": true,
+      "replication_freeze_precedes_new_responses": true,
+      "source_freeze_precedes_source_responses": true,
+      "full_output_budget_fits_context": true
+    },
+    "recheck_provenance": {
+      "unique_matched_ids": 100,
+      "request_text_and_json_constraints_matched": 100,
+      "new_request_payload_hashes_matched": 100,
+      "gold_totals_recomputed": 100,
+      "restored_prefix_preserved": 69,
+      "evaluation_raw_sha256": "557067f376282f4bd9f1f298eba8a64b8088e2952bf993c1021c26050ad19c1d"
+    },
+    "recheck_analysis": {
+      "matches_saved_analysis": true,
+      "counts": [
+        [
+          24,
+          4,
+          2,
+          5
+        ],
+        [
+          24,
+          24,
+          25,
+          25
+        ]
+      ],
+      "total_correct": [
+        35,
+        98
+      ],
+      "new_responses": 100,
+      "truncated": 2
+    },
+    "top10_answer_key": "PASS: 20 blind prompts, 10 point answers, 10 independently bounded intervals and 5 positive withheld targets."
+  },
+  "worked_example_arithmetic": "PASS",
+  "new_model_calls": 0,
+  "candidate_programs_executed": false,
+  "scope": "Selected saved-evidence checks, not a rerun of every historical experiment or independent human replication. Public export archive bytes differ from original private release containers; each copied member is checked against its published container."
+}

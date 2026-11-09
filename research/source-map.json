@@ -1,0 +1,687 @@
+{
+  "prepared_on": "2026-11-09",
+  "purpose": "Browsable, byte-identical historical evidence copies; retrospective commentary is separate.",
+  "new_model_calls": 0,
+  "files": [
+    {
+      "path": "research/text-fragmentation/protocol.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/data/frozen/protocol.json",
+      "bytes": 1696,
+      "sha256": "af07f7e150347e1d0ad7ddb3e29140145dfdd08dac64ab5a6201589cf90a8042",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/cases.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/data/frozen/cases.jsonl",
+      "bytes": 25422,
+      "sha256": "276f88e7937a80f62cf3008baa3ba6abfac1d07b22add4ca835a366f0767b1ab",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/prompts.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/data/frozen/prompts.jsonl",
+      "bytes": 815360,
+      "sha256": "ea730fd352ed221a88c787cb7bd4d65bf8d3af34090b99619a90032b5d20464a",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/answer_key.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/data/frozen/answer_key.jsonl",
+      "bytes": 106847,
+      "sha256": "fdc1fac27dabf22ff7e3568979fa39cc71cd68cd41f06ac01a050f7aab039888",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/pilot_qwen15_analysis.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/results/analysis.json",
+      "bytes": 17090,
+      "sha256": "632924bebaf98e989dc65b9d12489eaebf187122f012d62cc6a0a8cef34b5a3f",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/pilot_qwen3_analysis.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/results_3b/analysis.json",
+      "bytes": 18055,
+      "sha256": "4b7e14d08753bb083818241258e31545e0ffcf4a7935121677c891be6b134920",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/cue_sensitivity.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/results/posthoc/analysis.json",
+      "bytes": 17742,
+      "sha256": "682b7eba2785798744b261eddd625af63de136cdb3c60c4392ca185c6a6187e1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/text-fragmentation/original_build_experiment.py",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/build_experiment.py",
+      "bytes": 11976,
+      "sha256": "3e5983981232cac3374a4fb1a99436ee540dd113527142216601e4a745b4fef0",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/portfolio-risk/joint_qwen3_analysis.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/results_3b/joint/analysis.json",
+      "bytes": 11497,
+      "sha256": "5779906360335c58029eac2958cb52233ddae406f9a76d63dd27589312b855b1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/portfolio-risk/joint_prompts.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/data/frozen/joint_prompts.jsonl",
+      "bytes": 60862,
+      "sha256": "accec76321b514df1501a8b6ef8b628041036983c7f3d63fcef7f9773028456a",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/portfolio-risk/original_analyze_joint.py",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v3/analyze_joint.py",
+      "bytes": 2738,
+      "sha256": "a13548e052c03b3c8cbe61b02f6b5c575024276def38f0aa42eed5b1ac3e6c14",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/protocol.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/data/protocol.json",
+      "bytes": 2367,
+      "sha256": "535f72186c1b041ca48d4d2307c3a79240f0a0597f9863b8e678951b584e25a5",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/cases.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/data/cases.jsonl",
+      "bytes": 11196,
+      "sha256": "2ddf7913cbb9273abc3446c9c341ab0d13036a495578861532e2b4b8bc5755f1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/fault_injection_summary.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/results/theory/summary.json",
+      "bytes": 452,
+      "sha256": "aa76b0ff46dae512872e7b22b157073c9a101e1484fdba34d30dfb61a10517f1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/certificate_summary.json",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/results/certificates/summary.json",
+      "bytes": 2007,
+      "sha256": "073be1c4fadfa0cb2a1940ddd156c42c0eddbc68244bf726d0179e148b9276b3",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/certificates.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/results/certificates/certificates.jsonl",
+      "bytes": 229529,
+      "sha256": "e9e49ed872469b02f90ee3b545cc83516b5d53046f0bebab56a9d7446cd0b995",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/original_verify_certificates.py",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "experiment_v4/verify_certificates.py",
+      "bytes": 3001,
+      "sha256": "c19f5f72795d38a8d5e935e7c88d590fc0d83c5be8e3cc9445255947ff784922",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/certificate_method.tex",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "certificate_method.tex",
+      "bytes": 4519,
+      "sha256": "6639bd5fe618c410620a972581cb98d090202056282af38e14fefdeeb5bc6d19",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/certificate_results.tex",
+      "archive": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+      "nested_archives": [],
+      "member": "certificate_results.tex",
+      "bytes": 5009,
+      "sha256": "19ed1171a34c126553f87180ec6f770be76cb20211b8e2a51af36ca6bb08a199",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/aggregation-diagnostics/theory.tex",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [],
+      "member": "Portfolio_Exposure_v9/support/theory.tex",
+      "bytes": 14823,
+      "sha256": "f23d1ed3e8d9d1accb79df87820519a47e135db19a2ebf89279cda4f162c3433",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/controlled_cases.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/data/cases.jsonl",
+      "bytes": 4312,
+      "sha256": "601bd59766c544ae0666d811024b225771b0e773977a2d8fd17eae6b49aa8f96",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/controlled_prompts.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/data/prompts.jsonl",
+      "bytes": 339228,
+      "sha256": "66d5b4bcb9163bd536e7db84b20eed41b05283b8313480fb24b247bf7a129c44",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/controlled_qwen8_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/results/qwen8/raw.jsonl",
+      "bytes": 556655,
+      "sha256": "d2c6486a486be92c53ef16e57ade0487977efcf829f206635bbc5804d8ffb0da",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/controlled_phi4_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/results/phi4/raw.jsonl",
+      "bytes": 556329,
+      "sha256": "e69c7cf781b75c217095881ff6b171781420c86abec86d79c819aac7c40cccc4",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_cases.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/data/source_cases.jsonl",
+      "bytes": 2626,
+      "sha256": "23a6a2555415bc7ece65c087c44f5f29e23f1d6efc045f74e02d8876824f43b4",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_prompts.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/data/source_prompts.jsonl",
+      "bytes": 148208,
+      "sha256": "8fcc0e1dc927ad5f870a825c7cb0ee4003657df086c6052ef0a66966186fd344",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_qwen8_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/results/source/qwen8/raw.jsonl",
+      "bytes": 205590,
+      "sha256": "95063fdb26d09abcad2116716c55183605ed32f7b9e7f68769942c849248ab7f",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_phi4_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/results/source/phi4/raw.jsonl",
+      "bytes": 205638,
+      "sha256": "7c6a1c370b471a4d158131898568647076bed31469220f318c2180709e14b4f6",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/fund_tables.json",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/sources/fund_tables.json",
+      "bytes": 11962,
+      "sha256": "0734e9782f9f5001263431dbc8438bac90a0ee8c2a1405a997ada287a5d23380",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_manifest.json",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/sources/source_manifest.json",
+      "bytes": 1156,
+      "sha256": "f0e0caabe9fc14458cc61e03bbfb880b46ae32b599bfdd10fe19703ae5d891f7",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/reader_summary.json",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/results/reader_summary.json",
+      "bytes": 2962,
+      "sha256": "9824bd560f4268dfcde8b68cc8b4d5a0c367afbbb400787a23abf615b49277c0",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/source_field_failures.json",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/results/source_field_failures.json",
+      "bytes": 3270,
+      "sha256": "64e3964c3865c8882658233d6cd03a135214d00b208c5b6856b0388c9f4c56ac",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/format_sensitivity.json",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/results/format_sensitivity/all.json",
+      "bytes": 1518,
+      "sha256": "ee48e79e573ad9592edc817896f8f3a7305c4c7e949b7ecb846f271b606b725f",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/original_score.py",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/score.py",
+      "bytes": 2353,
+      "sha256": "52de6200c5a446fe119a8fd96b6f4091149f98556af481e8e0397608262a8eea",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/original_simple_parser.py",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/simple_parser.py",
+      "bytes": 1924,
+      "sha256": "8f2774b72d127788221e1bc4e287a9eb735df63acff2fa6e75593fd7c14c27c1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/original_build.py",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip",
+        "Portfolio_Risk_Integrated_v8/evidence/Portfolio_Exposure_Validation_v7.zip"
+      ],
+      "member": "Portfolio_Exposure_Validation_v7/controlled/build.py",
+      "bytes": 6433,
+      "sha256": "0cd1e442a1bed7253e78f974dfe81967ce32aaaf0f1846b1d1342f32c3b2b3e8",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/exposure-lookthrough/historical_matched_transfer.png",
+      "archive": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+      "nested_archives": [
+        "Portfolio_Exposure_v9/evidence/Portfolio_Risk_Integrated_v8.zip"
+      ],
+      "member": "Portfolio_Risk_Integrated_v8/figures/matched_transfer.png",
+      "bytes": 44164,
+      "sha256": "7dcc58f90a3f8e98c52dfc9fdef588ebebc1123849a658ac4d1e119271446359",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/protocol.json",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/data/protocol.json",
+      "bytes": 4705,
+      "sha256": "62835b271c05600a55304cf754b574d464d7f73575876e6babd7a5df5ef9ef7f",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/prompts.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/data/prompts.jsonl",
+      "bytes": 214639,
+      "sha256": "adbe0e07a2883f5b32296f93f345915cd623a1081582e553b02c2939a862ee2c",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/baseline_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/data/baseline_raw.jsonl",
+      "bytes": 315465,
+      "sha256": "65e2d31f5d50a05c49ff49edfe75a6795a1fbe9e705d07bc99781eb25ed5d5f1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/recheck_raw.jsonl",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/results/evaluation/raw.jsonl",
+      "bytes": 1124358,
+      "sha256": "557067f376282f4bd9f1f298eba8a64b8088e2952bf993c1021c26050ad19c1d",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/analysis.json",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/results/analysis.json",
+      "bytes": 10510,
+      "sha256": "ce781d295f48fce06943658406096692ddfa1ef10cad134cd3465d2884b080ae",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/counts.csv",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/results/counts.csv",
+      "bytes": 2696,
+      "sha256": "786abd0e9426660003969f42a631784a9b98f7b4592cad9c5f2b740c3aed7ca6",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/original_analyze.py",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/analyze.py",
+      "bytes": 5884,
+      "sha256": "0f30abe442a050c69b8ea447c7e2c49f590863f6ad006d01352d8e51e9010be1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/original_score.py",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/controlled/score.py",
+      "bytes": 2353,
+      "sha256": "52de6200c5a446fe119a8fd96b6f4091149f98556af481e8e0397608262a8eea",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/reasoning-recheck/original_verify_provenance.py",
+      "archive": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+      "nested_archives": [],
+      "member": "thinking_recheck/verify_record_provenance.py",
+      "bytes": 2912,
+      "sha256": "3850c7d34a936c490ff5b3dfaa6267ba9ddcbf6e426a14f52e39c52a58e36c97",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/prompts.jsonl",
+      "archive": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Pilot/prompts.jsonl",
+      "bytes": 38798,
+      "sha256": "e6a04ac249e9081c8815af34b56394821674f3f9b3958ab696bcd3f3561df6d0",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/gold.csv",
+      "archive": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Pilot/answer_key/gold.csv",
+      "bytes": 2971,
+      "sha256": "9b14ca604dd253690e2f02e46211b88934a0950a4bdda5ecdc73adb8d310d2b6",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/manifest.json",
+      "archive": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Pilot/manifest.json",
+      "bytes": 1833,
+      "sha256": "de96825001c79304680f0c7cf785b6e61b238d5c56aea56bdffe303106727bf1",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/fund_tables.json",
+      "archive": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Pilot/sources/original_tables.json",
+      "bytes": 11962,
+      "sha256": "0734e9782f9f5001263431dbc8438bac90a0ee8c2a1405a997ada287a5d23380",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/original_verify.py",
+      "archive": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Pilot/verify.py",
+      "bytes": 2977,
+      "sha256": "a5762224ec60a31d4c64f896470da0b704ba18483ea3b7fe5de479c49affe4cb",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/gpt_case_scores.csv",
+      "archive": "archive/packages/Top10_Hosted_Reasoning_Results.zip",
+      "nested_archives": [],
+      "member": "scoring/case_scores.csv",
+      "bytes": 5442,
+      "sha256": "6b715f751aac101f49eab096f82e435e9e48de75aa82fda14ccb6ca3a1bb6280",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/gemini_case_scores.csv",
+      "archive": "archive/packages/Top10_Hosted_Reasoning_Results.zip",
+      "nested_archives": [],
+      "member": "gemini/case_scores.csv",
+      "bytes": 2855,
+      "sha256": "47723a4c813efe5715074460b383ef7edf3dbedea7411f57846de8260034d18c",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/collection_status.json",
+      "archive": "archive/packages/Top10_Hosted_Reasoning_Results.zip",
+      "nested_archives": [],
+      "member": "status.json",
+      "bytes": 1209,
+      "sha256": "6be01b9fdfe475cae1a7a50f77dfeae33ac46c3b92d2aac2f89ffbb6c3421c0b",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/local_qwen3_raw.jsonl",
+      "archive": "archive/packages/Top10_Disclosure_Blind_Run.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Run/raw/local_qwen3_8b.jsonl",
+      "bytes": 25483,
+      "sha256": "1f76ffe51295953e84e62115efbf4424fe2bbf8f25bd62c5d41bf6141f919dc6",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/partial-disclosure/local_scores.json",
+      "archive": "archive/packages/Top10_Disclosure_Blind_Run.zip",
+      "nested_archives": [],
+      "member": "Top10_Disclosure_Run/grades/local_qwen3_8b_scores.json",
+      "bytes": 13034,
+      "sha256": "422584dc7a7e82e147d214ed1a848351c5ad4f667524740053d3ab055d03791d",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/protocol.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "protocol.json",
+      "bytes": 2659,
+      "sha256": "e4d70494a33f63044f7b58d9991118fcabf3427b59c6f23986444a98d32bfb54",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/questions.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "inputs/questions.json",
+      "bytes": 2662,
+      "sha256": "a9383f55c19e8a9f788bb8835d73c5e2d66545b418bf37184fd9ea612425961a",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/case_scores.csv",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "scoring/case_scores.csv",
+      "bytes": 1867,
+      "sha256": "ce03c42ad5a2f8c58a3529c49fea0c43a04552147617b9478b3f6fed26572bc9",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/sources.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "sources.json",
+      "bytes": 994,
+      "sha256": "8d710624882b78fbaf6e5a10dd2b2127f1f955e78da9f863f084924378697b79",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/answer_key.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "scoring/key.json",
+      "bytes": 650,
+      "sha256": "8ab7c674466aa764269d1437c8914a17569007cb07d900248aee0c6472bbfccd",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/original_verify.py",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "scoring/verify.py",
+      "bytes": 3191,
+      "sha256": "d53e0e2275e7be7da2b1a9f813a8d035b4cee3dfdc7596ab5e7b5ca55f280f76",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/A_pdf.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/A_pdf.answer.json",
+      "bytes": 3088,
+      "sha256": "c665eb88089f2d140b9299b0091d722b2c9159adc175cc2a9cd3e297500df615",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/A_txt.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/A_txt.answer.json",
+      "bytes": 2390,
+      "sha256": "ec83a46eaf0e1426bb64dce290fe07f669c7aaacd8991ea2bf41b047780f934a",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/B_pdf.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/B_pdf.answer.json",
+      "bytes": 4152,
+      "sha256": "e179d48c7d5a3fe481e1e4f6e76f2ce96a507463d26e67617bcfb7708d5b2a5b",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/B_txt.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/B_txt.answer.json",
+      "bytes": 2743,
+      "sha256": "4470dac315aefff99d606ffb7469f92210fda106daab8b56744c1b4d8c02143a",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/C_pdf.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/C_pdf.answer.json",
+      "bytes": 2987,
+      "sha256": "d8e34e12c8e28907edad78ca3fd2968bb8933e31bc903404b08550f627f40703",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/C_txt.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/C_txt.answer.json",
+      "bytes": 2651,
+      "sha256": "558e402c9c793669a90fa04026b26b59ffe41423015ec21485ad26939548bfa8",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/D_pdf.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/D_pdf.answer.json",
+      "bytes": 2691,
+      "sha256": "1fe06f48a0c6fb47ecbbe4546ba86150ba4d27ee60bf29df9b0ec0ab522c726c",
+      "status": "byte-for-byte copy of already published evidence"
+    },
+    {
+      "path": "research/document-reading/D_txt.answer.json",
+      "archive": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+      "nested_archives": [],
+      "member": "raw/D_txt.answer.json",
+      "bytes": 3201,
+      "sha256": "4b49c16f39aec5f37fa8a120d38886512df4f7489f75b1fe79f4b3ecc8445dc8",
+      "status": "byte-for-byte copy of already published evidence"
+    }
+  ]
+}
