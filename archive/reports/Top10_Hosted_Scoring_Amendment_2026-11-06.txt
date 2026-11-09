@@ -1,0 +1,24 @@
+TOP-TEN FUND DISCLOSURE PILOT
+Hosted reasoning-model scoring amendment 1
+Frozen on 2026-11-06T17:03:27+00:00 (London time, GMT)
+Registration at freeze: ChatGPT reasoning 0 sent, 0 received. Gemini 3.1 Pro Advanced reasoning 0 sent, 0 received.
+
+1. Scope and timing
+This amendment governs the two hosted configurations before either receives P01. All 20 prompts, their order, ten point controls, ten interval cases and the original reference values are fixed. The local Qwen3-8B results and P07 were seen before this amendment. Any application to that local series is retrospective. The model receives only the original blind question, one fresh chat per item. Record the displayed model and reasoning mode before dispatch. Retain each complete visible first reply and the scoring decisions.
+
+2. Score the answer form first
+Record whether the model claims a unique exposure, gives lower and upper bounds, explicitly acknowledges missing information with incomplete bounds, or gives a mixed, missing or unscorable answer. Preserve the original uncertainty and error flags. On an interval item, an asserted actual point is unsupported even if it matches an endpoint or the withheld full-table value. A clearly conditional example identified as such alongside an interval does not count as an asserted actual point. A generic caveat attached to an asserted actual point does not rescue it.
+
+3. Select values before comparing them with the key
+When the same account total or same endpoint appears both precisely and rounded, score the explicitly reported higher-precision value, even if the rounded version is in the final sentence. Apply the rule separately to each endpoint. If only a rounded value is supplied, score it directly. Record both the selected value and the final displayed value. Do not reconstruct an unreported figure, use hidden reasoning or select an unrelated component. When two asserted totals or endpoints genuinely conflict rather than restating one value at a different precision, record the conflict. If no correction is identifiable, give no numeric success credit for that item. Do not choose whichever is closer to the key.
+
+4. Numeric conventions
+Use exact decimal arithmetic in percentage points on the 0 to 100 scale. For every type-appropriate number, the primary indicator is absolute error <= 0.005 percentage points. Report in parallel the strict indicator at <= 0.001 percentage points, using the identical extracted values. Equality at either boundary passes. Compare without first rounding the reference. A point control needs one supported and correct point. An interval item needs an ordered pair of endpoints with each endpoint separately satisfying tolerance. A conditional point, single bound or refusal cannot earn credit for a complete interval. Rounded agreement is a scoring convention, not a claim of exact set coverage.
+
+5. Decision and reporting
+Tabulate the answer forms separately from numeric accuracy for each model. Use the 0.005 point-control score for the 9/10 competence check and the primary numeric interval score. Retain the original form-based expansion rule: at least one hosted model passes 9/10 controls and asserts an unsupported point on at least 3/10 interval cases across at least two underlying parent-fund pairings, with errors occurring despite an explicit top-ten heading. The stop rule requires both hosted models each to score at least 9/10 in each group. Otherwise report the grey zone. Publish the parallel 0.001 scores and indicate whether the decision would change. Report a missing model as unobserved. No cross-model pooling or substitutions. Preserve the original record of the local P07 timing.
+
+Frozen question manifest SHA-256
+de96825001c79304680f0c7cf785b6e61b238d5c56aea56bdffe303106727bf1
+Frozen reference CSV SHA-256
+9b14ca604dd253690e2f02e46211b88934a0950a4bdda5ecdc73adb8d310d2b6

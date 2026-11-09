@@ -1,0 +1,72 @@
+PORTFOLIO EXPOSURE: REASONING-ENABLED RECHECK
+Status: COMPLETE -- all 100 frozen evaluation responses recorded.
+Generated at UTC: 2026-11-06T05:59:26.676647+00:00
+
+This is an experimental result note, not a revised manuscript.
+The v5-v8 manuscripts remain unchanged. Four engineering development
+responses on two separate prompts are excluded from every result below.
+
+MAIN COUNTS (original -> reasoning configuration; numerator / denominator)
+
+STRICT
+Controlled homogeneous: correct final total: 24/24 -> 24/24
+Controlled heterogeneous: correct final total: 4/24 -> 24/24
+Published tables, direct: correct final total: 2/26 -> 25/26
+Published tables, ledger: correct final total: 5/26 -> 25/26
+Published tables: exact reported ledger: 23/26 -> 25/26
+Published tables: calculator on reported ledger: 23/26 -> 25/26
+Correct ledger but wrong model-reported total: 18/26 -> 0/26
+Homogeneous-minus-heterogeneous accuracy gap: 83.33 pp -> 0.00 pp
+Paired-family empirical bootstrap range for new gap: [0.0, 0.0] pp.
+
+FORMAT_ONLY
+Controlled homogeneous: correct final total: 24/24 -> 24/24
+Controlled heterogeneous: correct final total: 4/24 -> 24/24
+Published tables, direct: correct final total: 2/26 -> 25/26
+Published tables, ledger: correct final total: 5/26 -> 25/26
+Published tables: exact reported ledger: 23/26 -> 25/26
+Published tables: calculator on reported ledger: 23/26 -> 25/26
+Correct ledger but wrong model-reported total: 18/26 -> 0/26
+Homogeneous-minus-heterogeneous accuracy gap: 83.33 pp -> 0.00 pp
+Paired-family empirical bootstrap range for new gap: [0.0, 0.0] pp.
+
+RUNTIME AND INTERPRETATION
+Request errors: 0; truncated responses: 2; responses with nonempty reasoning: 100/100.
+All failures remain in the denominator. A truncated response is an
+output-budget failure and does not establish inability to solve the task.
+Strict parsing is primary. The predeclared format-only view removes
+one enclosing code fence or aliases lots to rows; no numbers are repaired.
+The calculator uses only the model-reported ledger, with no oracle edits.
+
+Same checkpoint, quantization, input texts and JSON-object constraint.
+Thinking, sampling, seed, output budget and runtime context/batching
+change together. Improvements cannot be assigned to thinking alone.
+The output limit is 4096 tokens, below the model card recommendation
+of 32768; remaining truncation requires separate budget analysis.
+The cases were previously examined. This is not a new blind holdout.
+The controlled recheck covers merged direct prompts only; it does not
+rerun all controlled fragmentation or changed-exposure conditions.
+Source evidence uses cleaned published tables and constructed accounts,
+not end-to-end PDF extraction or observed customer portfolios.
+The 13 source accounts reuse 8 funds; counts are descriptive.
+Neither zero observed errors nor a zero bootstrap range establishes equivalence.
+This note makes no automatic claim about novelty or publishability.
+
+DECISION RULE
+If the old errors largely disappear under this configuration, the old
+practical failure claim must be narrowed. The algebraic weakness of
+homogeneous tests alone does not establish a difficult real-world task.
+If exact fields plus a calculator succeed while model totals fail, the
+remaining evidence concerns arithmetic and pipeline design.
+If field errors remain, use the complete failure census; a few cases
+do not establish a general extraction mechanism.
+
+SOURCE AND EVIDENCE
+Official model settings: https://huggingface.co/Qwen/Qwen3-8B
+The companion ZIP contains frozen protocol, original and new raw
+answers, exact prompts, scoring code, paired comparisons, all failures
+and runtime manifests. Read results/analysis.json and results/counts.csv.
+
+中文说明：100 题已全部返回，以上为原始计分结果，尚未据此修改论文。
+先看异质组合正确率、真实材料明细正确率，以及计算器是否消除错误。
+不能把配置整体改善说成仅由开启推理导致，也不能只挑剩下的失败案例。
