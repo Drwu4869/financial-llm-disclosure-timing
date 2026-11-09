@@ -1,0 +1,33 @@
+{
+  "frozen_at_utc": "2026-11-04T21:13:58.977294+00:00",
+  "status": "EXPLORATORY_PROTOCOL_FROZEN_BEFORE_MODEL_RESPONSES_NOT_EXTERNALLY_PREREGISTERED",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "quantization": "Q4_K_M",
+  "engine": "llama.cpp b12110 CPU",
+  "temperature": 0,
+  "seed": 20261104,
+  "max_tokens": 128,
+  "replicates": 1,
+  "evaluation_split_only": true,
+  "request_order_seed": 20261104,
+  "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip",
+  "source_sha256": "d1a3b0b9896e1e633ed2aa85e24ca144d7998f8ab2ff344e2379383ebeb7b836",
+  "files": {
+    "answer_key.jsonl": "fdc1fac27dabf22ff7e3568979fa39cc71cd68cd41f06ac01a050f7aab039888",
+    "cases.jsonl": "276f88e7937a80f62cf3008baa3ba6abfac1d07b22add4ca835a366f0767b1ab",
+    "prompts.jsonl": "ea730fd352ed221a88c787cb7bd4d65bf8d3af34090b99619a90032b5d20464a"
+  },
+  "analysis_plan": {
+    "primary": "mean normalized direct_eight minus direct_one, separately by domain",
+    "controls": "matched-one/eight, verified weights, canonical input, extraction plus fixed calculator, heterogeneous products, balanced increases/decreases",
+    "accuracy_thresholds_relative": [
+      0.01,
+      0.05
+    ],
+    "exposure_l1_tolerance": 1e-06,
+    "bootstrap": "case paired, 10000 samples, exploratory 95% percentile intervals",
+    "failures": "retain all raw outputs; invalid outputs excluded only from numerical conditional means; report coverage and failed attempts",
+    "claim_limit": "one small quantized model, no general LLM, causal mechanism, market forecasting, or publication-readiness claim"
+  }
+}

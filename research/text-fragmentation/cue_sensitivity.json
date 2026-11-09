@@ -1,0 +1,564 @@
+{
+  "status": "POST_HOC_OBSERVED_CUE_SENSITIVITY",
+  "model_id": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "attempts": 32,
+  "raw_sha256": "f7dc5ab72bf87c6ae1de07eaa088e83499a69898093abae9d98dc0ff1f8f8c3d",
+  "summary": [
+    {
+      "task": "extract",
+      "variant": "changed_example",
+      "attempts": 8,
+      "strict_valid": 3,
+      "normalized_valid": 4,
+      "within_5pct_all_attempts": 4,
+      "equals_changed_cue": 0,
+      "correct_exposures": 4
+    },
+    {
+      "task": "extract",
+      "variant": "no_example",
+      "attempts": 8,
+      "strict_valid": 8,
+      "normalized_valid": 8,
+      "within_5pct_all_attempts": 7,
+      "equals_changed_cue": 0,
+      "correct_exposures": 7
+    },
+    {
+      "task": "risk",
+      "variant": "changed_example",
+      "attempts": 8,
+      "strict_valid": 1,
+      "normalized_valid": 8,
+      "within_5pct_all_attempts": 0,
+      "equals_changed_cue": 8,
+      "correct_exposures": null
+    },
+    {
+      "task": "risk",
+      "variant": "no_example",
+      "attempts": 8,
+      "strict_valid": 0,
+      "normalized_valid": 8,
+      "within_5pct_all_attempts": 0,
+      "equals_changed_cue": 0,
+      "correct_exposures": null
+    }
+  ],
+  "records": [
+    {
+      "request_id": "evaluation_synthetic_01__extract_one__no_example",
+      "reference_request_id": "evaluation_synthetic_01__extract_one",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.8,
+        0.2
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_01__direct_one__no_example",
+      "reference_request_id": "evaluation_public_returns_01__direct_one",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 10.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 1.3490887613617766,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_02__extract_one__no_example",
+      "reference_request_id": "evaluation_public_returns_02__extract_one",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__direct_one__changed_example",
+      "reference_request_id": "evaluation_synthetic_02__direct_one",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 3.281823372355151,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_synthetic_01__extract_one__changed_example",
+      "reference_request_id": "evaluation_synthetic_01__extract_one",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": [
+        0.8,
+        0.2
+      ],
+      "illustrative_cue": 0.37,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_02__extract_one__changed_example",
+      "reference_request_id": "evaluation_public_returns_02__extract_one",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": 0.37,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_01__extract_eight__no_example",
+      "reference_request_id": "evaluation_synthetic_01__extract_eight",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.96,
+        0.04
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.18603859668193717,
+      "correct_exposures": false,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_01__direct_one__changed_example",
+      "reference_request_id": "evaluation_synthetic_01__direct_one",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 1.9209421447085442,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_synthetic_01__direct_eight__changed_example",
+      "reference_request_id": "evaluation_synthetic_01__direct_eight",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 1.9209421447085442,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_public_returns_01__extract_one__changed_example",
+      "reference_request_id": "evaluation_public_returns_01__extract_one",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": 0.37,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__direct_one__no_example",
+      "reference_request_id": "evaluation_synthetic_02__direct_one",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 1.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.4586822538109797,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_01__extract_eight__no_example",
+      "reference_request_id": "evaluation_public_returns_01__extract_eight",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_02__extract_eight__no_example",
+      "reference_request_id": "evaluation_public_returns_02__extract_eight",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_02__extract_eight__changed_example",
+      "reference_request_id": "evaluation_public_returns_02__extract_eight",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": false,
+      "normalized_valid": false,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": null,
+      "illustrative_cue": 0.37
+    },
+    {
+      "request_id": "evaluation_public_returns_02__direct_one__changed_example",
+      "reference_request_id": "evaluation_public_returns_02__direct_one",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence",
+        "numeric_string_to_number"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 0.3350239789177689,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_public_returns_01__extract_eight__changed_example",
+      "reference_request_id": "evaluation_public_returns_01__extract_eight",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": false,
+      "normalized_valid": false,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": null,
+      "illustrative_cue": 0.37
+    },
+    {
+      "request_id": "evaluation_public_returns_02__direct_one__no_example",
+      "reference_request_id": "evaluation_public_returns_02__direct_one",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 10.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.6877673564067874,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__extract_eight__no_example",
+      "reference_request_id": "evaluation_synthetic_02__extract_eight",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_01__direct_eight__no_example",
+      "reference_request_id": "evaluation_synthetic_01__direct_eight",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 1.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.6307279210229401,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_01__direct_eight__changed_example",
+      "reference_request_id": "evaluation_public_returns_01__direct_eight",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 0.8581292102371653,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_public_returns_02__direct_eight__changed_example",
+      "reference_request_id": "evaluation_public_returns_02__direct_eight",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence",
+        "numeric_string_to_number"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 0.3350239789177689,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_public_returns_01__direct_one__changed_example",
+      "reference_request_id": "evaluation_public_returns_01__direct_one",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 0.8581292102371653,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_public_returns_01__extract_one__no_example",
+      "reference_request_id": "evaluation_public_returns_01__extract_one",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_02__direct_eight__no_example",
+      "reference_request_id": "evaluation_public_returns_02__direct_eight",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 10.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.6877673564067874,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__extract_one__no_example",
+      "reference_request_id": "evaluation_synthetic_02__extract_one",
+      "variant": "no_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": null,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_01__extract_eight__changed_example",
+      "reference_request_id": "evaluation_synthetic_01__extract_eight",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": false,
+      "normalized_valid": false,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": null,
+      "illustrative_cue": 0.37
+    },
+    {
+      "request_id": "evaluation_synthetic_01__direct_one__no_example",
+      "reference_request_id": "evaluation_synthetic_01__direct_one",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 1.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.6307279210229401,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_public_returns_01__direct_eight__no_example",
+      "reference_request_id": "evaluation_public_returns_01__direct_eight",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 10.0,
+      "illustrative_cue": null,
+      "relative_risk_error": 1.3490887613617766,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__extract_eight__changed_example",
+      "reference_request_id": "evaluation_synthetic_02__extract_eight",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": false,
+      "normalized_valid": false,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": null,
+      "illustrative_cue": 0.37
+    },
+    {
+      "request_id": "evaluation_synthetic_02__direct_eight__changed_example",
+      "reference_request_id": "evaluation_synthetic_02__direct_eight",
+      "variant": "changed_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 7.91,
+      "illustrative_cue": 7.91,
+      "relative_risk_error": 3.281823372355151,
+      "correct_exposures": null,
+      "equals_changed_cue": true
+    },
+    {
+      "request_id": "evaluation_synthetic_02__direct_eight__no_example",
+      "reference_request_id": "evaluation_synthetic_02__direct_eight",
+      "variant": "no_example",
+      "task": "risk",
+      "strict_valid": false,
+      "normalized_valid": true,
+      "normalization_actions": [
+        "removed_single_outer_code_fence"
+      ],
+      "parsed_value": 1.468047,
+      "illustrative_cue": null,
+      "relative_risk_error": 0.20532010666044725,
+      "correct_exposures": null,
+      "equals_changed_cue": false
+    },
+    {
+      "request_id": "evaluation_synthetic_02__extract_one__changed_example",
+      "reference_request_id": "evaluation_synthetic_02__extract_one",
+      "variant": "changed_example",
+      "task": "extract",
+      "strict_valid": true,
+      "normalized_valid": true,
+      "normalization_actions": [],
+      "parsed_value": [
+        0.5,
+        0.5
+      ],
+      "illustrative_cue": 0.37,
+      "relative_risk_error": 0.0,
+      "correct_exposures": true,
+      "equals_changed_cue": false
+    }
+  ]
+}
