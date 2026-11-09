@@ -1,0 +1,165 @@
+TITLE AND AUTHOR REVISION — 9 NOVEMBER 2026
+
+CURRENT TITLE
+No Look-Ahead, Yet Too Late:
+Inapplicable Disclosure Rules in LLM-Generated Backtest Code
+
+The subtitle and first contribution now assert inapplicability to the task period,
+not identification of a unique historical source. Related-work framing uses the
+same historical-applicability language. Statements of consistency with the 2016
+schedule remain; they do not identify the model's internal source. The alternative
+2024-schedule explanation remains in the limitations section.
+
+AUTHOR BLOCK
+Changyi Wu
+Independent Researcher
+changyiwu04@gmail.com | hs26971@bristol.ac.uk
+The designation and both addresses are supplied by the author. Bristol is not
+listed as an affiliation solely because an institutional email is supplied.
+
+VALIDATION
+Nine pages including references and appendices; all rendered pages inspected.
+Both email addresses are clickable mailto links. Four figures, five tables and
+the complete citation sequence are retained. Section 7.3 remains attached to its
+checklist. No overfull boxes or unresolved references after compilation.
+
+SCOPE
+No changes to experimental results, scoring, figures, references or audit scripts.
+The preceding paper is preserved under archive/2026-11-09-layout-revision/.
+Earlier revision records follow for provenance; their titles describe those versions.
+
+LAYOUT AND FACTUAL PRECISION REVISION — 9 NOVEMBER 2026
+
+CURRENT DELIVERABLE
+9 pages including references and appendices; four numbered figures, five tables,
+one nonfloating practitioner checklist and twenty references. Body type remains
+10 pt; references and appendix text use 9 pt. No evidence table was removed.
+
+1. Section 7.3 and its checklist now form one nonfloating, unbreakable block.
+The heading, introduction and box appear together in the right column of page 6.
+Section 8 follows the complete box. This corrects the preceding floating layout.
+
+2. The first-page example now says “in five of the six report periods”. The
+saved-output audit independently verifies 40 delayed rows, eight per affected
+period, and eight unchanged rows in the period filed on day 61. The audit adds
+an explicit 5/6-period assertion; no model answer or original score was changed.
+
+3. A04 and D01 have been removed from the main text and replaced with readable
+study/audit descriptions. Appendix A supplies the mapping to archived identifiers.
+
+4. Section 3.2 states the four-text comparison explicitly. New Figure 1 shows
+2016 adopted, 2019 interim final, 2024 adopted and 2026 proposed texts. It uses
+actual document-year spacing, highlights the 2019 rule governing the 2022–2023
+task, and distinguishes the superseded, deferred and proposed schedules. The
+comparison concerns public report portions and does not infer the model's
+internal cause or explain the 13F negative result causally. All three previous
+figures are retained and automatically renumbered.
+
+VALIDATION
+Both manuscript evidence scripts pass. The first-page statement, 5/6 audit,
+absence of A04/D01 before the appendix, figure/table/reference totals, and box
+position were checked. All nine rendered PDF pages were visually inspected.
+No overflow or unresolved citation/reference warnings remain. Normal underfull
+line warnings from justified text and URLs do not indicate clipped content.
+
+PRESERVED VERSION
+archive/2026-11-09-editorial-restructure/ preserves the preceding manuscript,
+PDF, references and audit source. The earlier two archives remain intact.
+
+The preceding editorial change record follows for provenance.
+
+EDITORIAL RESTRUCTURE — 9 NOVEMBER 2026
+
+Current title:
+No Look-Ahead, Yet Too Late:
+Superseded Disclosure Rules in LLM-Generated Backtest Code
+
+PRECEDING EDITORIAL DELIVERABLE
+9 pages including references and appendices. Three original numbered figures,
+five evidence tables, one unnumbered practitioner checklist, twenty references.
+The abstract has approximately 195 words in extracted PDF text. All four files
+(PDF, TEX, compilation source ZIP, full reproducibility ZIP) describe this revision.
+
+CHANGE MAP TO THE NINE REQUESTED IMPROVEMENTS
+
+1. Contributions (page 1)
+Replaced the deliberately limited framing with three specific contributions:
+execution of a superseded disclosure rule; evidence across forms and prompts;
+and timing consequences plus practical validation. The 2016 rule correspondence
+is now the first contribution. Attribution to a memory source remains in the
+limitations section.
+
+2. Abstract (page 1)
+Shortened to approximately 195 words. The opening states the wrong-rule problem;
+the final sentence states the need to test both early use and unnecessary
+withholding against the historical disclosure regime. The explicit counts and
+post-hoc status of calendar variants remain visible.
+
+3. Subtitle
+Changed from Unnecessary Disclosure Delays to Superseded Disclosure Rules.
+This names the implemented-rule mismatch rather than only its timing symptom.
+It does not claim to identify the model's internal causal mechanism.
+
+4. Concrete opening (page 1; audit detail in Section 5.2)
+Added the preserved CLAUDE_NPORT_P0_r1 seed-101 output: 40 of 48 rows became
+usable after their filing_date, alongside its 60-day justification. The 40 rows
+are summed across six report periods, not simultaneously withheld on one day.
+revision_checks.py verifies the saved-output hash, exact quote fragments and
+an independently recomputed 40/48 eligibility count. No candidate was rerun.
+
+5. Why it matters (Section 7.2)
+Added the direction-reversal scenario from the 2024 adopted N-PORT amendments:
+submission and public release can occur on different dates. A day-30/day-60
+illustration is labelled as a rule-derived scenario, not a measured model result.
+The 2025 postponement and 2026 proposal are distinguished from implementation.
+The 2026 proposal's official SEC status was checked on 9 November 2026.
+Important correction: P2's use of actual public availability remains valid.
+The assumption that raw submission always equals public availability can fail.
+The manuscript does not claim that the P2 experiment itself demonstrated failure.
+
+6. Practitioner checklist (page 6)
+Added a boxed five-item checklist: version the rule; separate timestamps;
+specify boundary conventions; test both timing directions; revalidate transitions.
+
+7. Collection details
+Sections 4.1–4.2 retain the design and model settings needed to interpret results.
+Appendix A preserves freeze timestamps, 58-attempt accounting, recovery handling,
+concurrency amendments, source capture and transport deviations.
+
+8. Secondary and duplicate material
+The missing-date results and authored calibration table are in Appendix B.1.
+The complete follow-up count table is in Appendix B.3; the main text uses the
+policy figure. The table is formatted compactly without dropping any nonzero
+counts; zero 45-day/fixed-lag/report-date counts are stated in its caption.
+All three original figures and all five evidence tables remain in the PDF.
+
+9. Scope qualifications
+Repeated hedges were consolidated into Section 8. Necessary local distinctions
+remain next to their evidence (post-hoc classifications, inconclusive refusals,
+and the analytical rather than experimental status of future-rule scenarios).
+The limitation section explicitly allows an alternative explanation: applying
+the later 2024 schedule could resemble recalling the 2016 schedule. Executed
+behavior is established; the internal origin is not.
+
+UNCHANGED EMPIRICAL RECORD
+No new model calls, modified candidate code, changed frozen fixtures, new scores,
+or financial-return claims were introduced. The previous QA denominator correction
+and 13F sensitivity values are retained. The raw experimental archive is unchanged.
+
+VERIFICATION
+Compile main.tex with pdfLaTeX and BibTeX (build.sh).
+From the full archive's submission_paper directory:
+  python3 verify_evidence.py
+  python3 revision_checks.py
+The second script now includes the opening-case audit as well as all earlier
+lag, 13F sensitivity, source-quotation and QA checks.
+
+PRESERVED VERSIONS
+archive/2026-11-08/: the earlier integrated paper.
+archive/2026-11-09-evidence-revision/: the preceding 10-page evidence revision.
+These archives are in the full reproducibility ZIP. The compile-only ZIP contains
+one main.tex entry to avoid ambiguity in Overleaf.
+
+中文说明：本次重点是重排论证顺序、突出过时规则对应关系和实际使用价值。
+原始三张图和五张证据表全部保留；篇幅减少来自压缩重复表述和流程文字。
+规则方向反转是有一手文献依据的情景分析，不是新增模型实验结果。
