@@ -1,0 +1,1845 @@
+{
+  "audited_at": "2026-11-08T22:43:40.657998+00:00",
+  "frozen_files_verified": 72,
+  "verified_program_seed_cases": 180,
+  "baseline_daily_vectors": 85860,
+  "isolated_executions_in_saved_files": 2520,
+  "intervention_outcomes": {
+    "inconclusive_intervention_refusal": 65,
+    "no_witness": 2095
+  },
+  "checks": [
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "floor60_strict"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "seed": 101,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "seed": 202,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "seed": 303,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "seed": 404,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "seed": 505,
+      "status": "verified",
+      "matching_policies": [
+        "filing_inclusive"
+      ],
+      "interventions": 12
+    }
+  ],
+  "controls": [
+    {
+      "seed": 101,
+      "policy": "filing_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "filing_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "floor45_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "floor45_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "floor60_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "floor60_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 101,
+      "policy": "fixed45_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 101,
+      "policy": "fixed60_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 101,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "seed": 202,
+      "policy": "filing_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "filing_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "floor45_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "floor45_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "floor60_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "floor60_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 202,
+      "policy": "fixed45_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 202,
+      "policy": "fixed60_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 202,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "seed": 303,
+      "policy": "filing_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "filing_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "floor45_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "floor45_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "floor60_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "floor60_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 303,
+      "policy": "fixed45_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 303,
+      "policy": "fixed60_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 303,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "seed": 404,
+      "policy": "filing_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "filing_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "floor45_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "floor45_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "floor60_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "floor60_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 404,
+      "policy": "fixed45_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 404,
+      "policy": "fixed60_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 404,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "seed": 505,
+      "policy": "filing_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "filing_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "floor45_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "floor45_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "floor60_inclusive",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "floor60_strict",
+      "has_witness": false
+    },
+    {
+      "seed": 505,
+      "policy": "fixed45_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 505,
+      "policy": "fixed60_inclusive",
+      "has_witness": true
+    },
+    {
+      "seed": 505,
+      "policy": "report_date",
+      "has_witness": true
+    }
+  ],
+  "scope": "Saved-output recomputation and integrity check; no new model generation or candidate execution."
+}

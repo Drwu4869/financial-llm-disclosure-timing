@@ -1,0 +1,1157 @@
+{
+  "analysis": "D01 post-hoc source classification",
+  "programs": [
+    {
+      "token": "GEM_dates_P0_r1",
+      "trial": "dates_P0_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P0_r1.py",
+      "source_sha256": "3cc876d57dfeb9093422a9b4d86ff2313f3d72649f05c5237e742a43fd2735be",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P0_r1.json",
+      "source_anchors": [
+        {
+          "line": 3,
+          "text": "Builds a holdings-based portfolio signal evaluating Form N-PORT filings."
+        },
+        {
+          "line": 7,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 19,
+          "text": "# Group filings by asset for efficient querying"
+        },
+        {
+          "line": 20,
+          "text": "asset_filings = {a: [] for a in assets}"
+        },
+        {
+          "line": 21,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 22,
+          "text": "if f.get('asset') in asset_filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P0_r2",
+      "trial": "dates_P0_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P0_r2.py",
+      "source_sha256": "e1c17b4b12964b313980158078a88bc14fe42606891df51aca09dbb245f40862",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P0_r2.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 19,
+          "text": "# Pre-group filings by asset for faster lookup"
+        },
+        {
+          "line": 20,
+          "text": "filings_by_asset = {asset: [] for asset in assets}"
+        },
+        {
+          "line": 21,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 23,
+          "text": "if asset_name in filings_by_asset:"
+        },
+        {
+          "line": 24,
+          "text": "filings_by_asset[asset_name].append({"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P0_r3",
+      "trial": "dates_P0_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P0_r3.py",
+      "source_sha256": "a6f7d5e4ba76c89e066f31e24385dc2eb59e309ad94bbd233ff8d0c40bbf94d9",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P0_r3.json",
+      "source_anchors": [
+        {
+          "line": 8,
+          "text": "payload: Dictionary containing 'dates', 'assets', 'filings', and 'prices'."
+        },
+        {
+          "line": 9,
+          "text": "Filings are expected to have 'asset', 'period_end', 'filing_date',"
+        },
+        {
+          "line": 17,
+          "text": "filings: List[Dict[str, Any]] = payload.get('filings', [])"
+        },
+        {
+          "line": 34,
+          "text": "# Filter for well-formed filings and sort chronologically."
+        },
+        {
+          "line": 35,
+          "text": "# Sorting by filing_date (asc) ensures we process data as it becomes public."
+        },
+        {
+          "line": 38,
+          "text": "valid_filings = ["
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P1_r1",
+      "trial": "dates_P1_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P1_r1.py",
+      "source_sha256": "357710c81cfdca1ad8a6bb9462b340978bec6cfec20e2c5849d3c64bc07627b8",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P1_r1.json",
+      "source_anchors": [
+        {
+          "line": 3,
+          "text": "Builds a holdings-based portfolio signal evaluating filings point-in-time."
+        },
+        {
+          "line": 6,
+          "text": "payload (dict): Expected to contain 'dates', 'assets', 'filings', and optionally 'prices'."
+        },
+        {
+          "line": 13,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 31,
+          "text": "# Pre-group filings by asset for faster point-in-time traversal."
+        },
+        {
+          "line": 33,
+          "text": "asset_filings = {a: [] for a in assets}"
+        },
+        {
+          "line": 34,
+          "text": "for f in filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P1_r2",
+      "trial": "dates_P1_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P1_r2.py",
+      "source_sha256": "ba53b92de90a8a894f17b314d4d024233ee025b6fd064599359b12d797193a80",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P1_r2.json",
+      "source_anchors": [
+        {
+          "line": 6,
+          "text": "payload (dict): Contains 'dates', 'assets', 'filings', and 'prices'."
+        },
+        {
+          "line": 13,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 27,
+          "text": "# Pre-process filings by asset for faster lookups"
+        },
+        {
+          "line": 28,
+          "text": "asset_filings = {a: [] for a in assets}"
+        },
+        {
+          "line": 29,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 31,
+          "text": "if asset_name in asset_filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P1_r3",
+      "trial": "dates_P1_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P1_r3.py",
+      "source_sha256": "d935aabaf60393f5b7a54d1b9ef81446582a5ef60809120495bd9bf0f42c77dd",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P1_r3.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "using point-in-time SEC Form N-PORT filings."
+        },
+        {
+          "line": 8,
+          "text": "filings = payload.get(\"filings\", [])"
+        },
+        {
+          "line": 19,
+          "text": "# Pre-process filings by asset for faster point-in-time resolution"
+        },
+        {
+          "line": 20,
+          "text": "asset_filings = {a: [] for a in assets}"
+        },
+        {
+          "line": 21,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 23,
+          "text": "if a in asset_filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P2_r1",
+      "trial": "dates_P2_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P2_r1.py",
+      "source_sha256": "6694d9a18e6e9c7062c38715c1a4d0c82ce61874ad0518c07daf710b6a5f1f84",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P2_r1.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 6,
+          "text": "# Verify the presence of actual filing dates to establish exact historical alignment"
+        },
+        {
+          "line": 7,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 8,
+          "text": "if 'filing_date' not in f or not f['filing_date']:"
+        },
+        {
+          "line": 11,
+          "text": "'reason': 'exact historical alignment cannot be established from these inputs; filing_date is absent.',"
+        },
+        {
+          "line": 31,
+          "text": "valid_filings = [f for f in filings if f['asset'] == asset and f['filing_date'] <= date]"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P2_r2",
+      "trial": "dates_P2_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P2_r2.py",
+      "source_sha256": "928946d5f35569f29de89563ca19caf134300e19aca2d2d08d2daf23d7160f58",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P2_r2.json",
+      "source_anchors": [
+        {
+          "line": 6,
+          "text": "filings: List[Dict[str, Any]] = payload.get('filings', [])"
+        },
+        {
+          "line": 8,
+          "text": "# Ensure all filings have an actual filing date; do not invent dates if missing"
+        },
+        {
+          "line": 9,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 10,
+          "text": "if not f.get('filing_date'):"
+        },
+        {
+          "line": 28,
+          "text": "# Pre-group filings by asset for efficient temporal lookup"
+        },
+        {
+          "line": 29,
+          "text": "filings_by_asset: Dict[str, List[Dict[str, Any]]] = {a: [] for a in assets}"
+        }
+      ]
+    },
+    {
+      "token": "GEM_dates_P2_r3",
+      "trial": "dates_P2_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GEM_dates_P2_r3.py",
+      "source_sha256": "81ca7a33f8df462ff3fec0d06d9aba1892849a339f11f7a15a65fa8aba7ebd81",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_dates_P2_r3.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 6,
+          "text": "# Validation: Check for absent filing dates"
+        },
+        {
+          "line": 7,
+          "text": "# If any filing is missing its filing_date, we cannot guarantee true point-in-time alignment"
+        },
+        {
+          "line": 8,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 9,
+          "text": "if not f.get('filing_date'):"
+        },
+        {
+          "line": 16,
+          "text": "# Group filings by asset for faster lookups"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P0_r3",
+      "trial": "revisions_P0_r3",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P0_r3.py",
+      "source_sha256": "fd07e45255ff58b2ccb5e3944523fdb42943153542bf5d5947b4b62f97857462",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P0_r3.json",
+      "source_anchors": [
+        {
+          "line": 5,
+          "text": "Builds a holdings-based portfolio signal based on N-PORT filings."
+        },
+        {
+          "line": 8,
+          "text": "payload (dict): Dictionary containing 'dates', 'assets', 'filings', and 'prices'."
+        },
+        {
+          "line": 15,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 29,
+          "text": "# Group filings by asset to optimize point-in-time filtering"
+        },
+        {
+          "line": 30,
+          "text": "filings_by_asset = {asset: [] for asset in assets}"
+        },
+        {
+          "line": 31,
+          "text": "for filing in filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P1_r1",
+      "trial": "revisions_P1_r1",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P1_r1.py",
+      "source_sha256": "fbc8fa51af281cbe873b87566cf5292f599318c4008142ccc3a40990df42c61e",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P1_r1.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "filings = payload.get(\"filings\", [])"
+        },
+        {
+          "line": 18,
+          "text": "# Group and sort filings by asset."
+        },
+        {
+          "line": 20,
+          "text": "# allows us to confidently take the first filing we iterate over that is legally"
+        },
+        {
+          "line": 21,
+          "text": "# known as-of the decision date (filing_date <= decision_date), preventing look-ahead bias."
+        },
+        {
+          "line": 22,
+          "text": "filings_by_asset = {asset: [] for asset in assets}"
+        },
+        {
+          "line": 23,
+          "text": "for f in filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P1_r2",
+      "trial": "revisions_P1_r2",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P1_r2.py",
+      "source_sha256": "b78633ce2eae844930068020bb02579fc42ee1945e15256af19608047573e894",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P1_r2.json",
+      "source_anchors": [
+        {
+          "line": 3,
+          "text": "Builds a holdings-based portfolio signal using Form N-PORT filing data,"
+        },
+        {
+          "line": 9,
+          "text": "filings = payload.get('filings')"
+        },
+        {
+          "line": 29,
+          "text": "# Pre-group filings by asset for faster lookup per date"
+        },
+        {
+          "line": 30,
+          "text": "filings_by_asset = {a: [] for a in assets}"
+        },
+        {
+          "line": 31,
+          "text": "if filings:"
+        },
+        {
+          "line": 32,
+          "text": "for f in filings:"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P2_r1",
+      "trial": "revisions_P2_r1",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P2_r1.py",
+      "source_sha256": "c42b9b32e15e121070cb5fc866f65d94763a48f4cb687b9b80f94e3c76c01962",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P2_r1.json",
+      "source_anchors": [
+        {
+          "line": 3,
+          "text": "Evaluates a holdings-based portfolio signal using Form N-PORT filings."
+        },
+        {
+          "line": 7,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 9,
+          "text": "# Check for the existence of filing_date to ensure point-in-time accuracy"
+        },
+        {
+          "line": 10,
+          "text": "if any('filing_date' not in f for f in filings):"
+        },
+        {
+          "line": 16,
+          "text": "# Pre-group filings by asset to optimize the daily lookups"
+        },
+        {
+          "line": 17,
+          "text": "filings_by_asset = {asset: [] for asset in assets}"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P2_r2",
+      "trial": "revisions_P2_r2",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P2_r2.py",
+      "source_sha256": "e73d52f6b49ae7c6bc89acdbdab8a55f0c7f08934839eaae97e9f9fce8a81214",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P2_r2.json",
+      "source_anchors": [
+        {
+          "line": 6,
+          "text": "filings: List[Dict[str, Any]] = payload.get('filings', [])"
+        },
+        {
+          "line": 8,
+          "text": "# Check for missing filing dates to prevent lookahead / leakage"
+        },
+        {
+          "line": 9,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 10,
+          "text": "if 'filing_date' not in f or not f['filing_date']:"
+        },
+        {
+          "line": 13,
+          "text": "'reason': 'Exact historical alignment cannot be established from these inputs due to absent filing dates.',"
+        },
+        {
+          "line": 29,
+          "text": "# Pre-group filings by asset to optimize point-in-time lookups"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P2_r3",
+      "trial": "revisions_P2_r3",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GEM_revisions_P2_r3.py",
+      "source_sha256": "4b01d7985b1ea9ddaffcd0c0d03c04201e103584931d07a73e81400569eedb62",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GEM_revisions_P2_r3.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 6,
+          "text": "# Check that actual filing dates are present across all provided filings"
+        },
+        {
+          "line": 7,
+          "text": "for f in filings:"
+        },
+        {
+          "line": 8,
+          "text": "if not f.get('filing_date'):"
+        },
+        {
+          "line": 22,
+          "text": "# Organize filings by asset for faster lookup"
+        },
+        {
+          "line": 23,
+          "text": "filings_by_asset = {a: [] for a in assets}"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P0_r1",
+      "trial": "dates_P0_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P0_r1.py",
+      "source_sha256": "76003f3cec10d82cd21e3b1972d9a502307eb75e7fa0ea47594b011366e8da69",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_dates_P0_r1.json",
+      "source_anchors": [
+        {
+          "line": 135,
+          "text": "period_end + timedelta(days=60),"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P0_r2",
+      "trial": "dates_P0_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P0_r2.py",
+      "source_sha256": "f3ce303ae7fe9d70fee7d66f5abf5a6f948413df571e13e018d2affaed24e9de",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_dates_P0_r2.json",
+      "source_anchors": [
+        {
+          "line": 137,
+          "text": "disclosure_date = period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P0_r3",
+      "trial": "dates_P0_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P0_r3.py",
+      "source_sha256": "e6a0f2bc9270a84db95770f86b2677684ea310f2118bb376dc6f02d8ec7a1e7a",
+      "rule": "filing_date",
+      "boundary": "strict",
+      "category": "interface_refusal",
+      "result_path": "results/model_evaluation/GPT_dates_P0_r3.json",
+      "source_anchors": [
+        {
+          "line": 258,
+          "text": "\"A decision has no subsequent execution session.\""
+        },
+        {
+          "line": 369,
+          "text": "and events[event_index][0] < decision"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P1_r1",
+      "trial": "dates_P1_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P1_r1.py",
+      "source_sha256": "8c2f04357e3b70f17c86fc91d56874171b629862b72c127c49d4e946b55ae317",
+      "rule": "filing_date",
+      "boundary": "strict",
+      "category": "filing_date_strict",
+      "result_path": "results/model_evaluation/GPT_dates_P1_r1.json",
+      "source_anchors": [
+        {
+          "line": 16,
+          "text": "payload[\"filings\"]:"
+        },
+        {
+          "line": 21,
+          "text": "filing_date"
+        },
+        {
+          "line": 29,
+          "text": "A filing is eligible only when:"
+        },
+        {
+          "line": 30,
+          "text": "filing_date < decision_date"
+        },
+        {
+          "line": 32,
+          "text": "This conservative rule avoids assuming that a filing with"
+        },
+        {
+          "line": 38,
+          "text": "2. The latest eligible filing version within that period."
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P1_r2",
+      "trial": "dates_P1_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P1_r2.py",
+      "source_sha256": "23db846ec5975d1a6a88012feadf058ea0c12294fab76c6fcb1988870b054e2f",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_dates_P1_r2.json",
+      "source_anchors": [
+        {
+          "line": 219,
+          "text": "period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P1_r3",
+      "trial": "dates_P1_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P1_r3.py",
+      "source_sha256": "d26e7d61dc4f342af5e0e652b4b747b8a6228482c877542b868c42b9a3b71eba",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_dates_P1_r3.json",
+      "source_anchors": [
+        {
+          "line": 134,
+          "text": "period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P2_r1",
+      "trial": "dates_P2_r1",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P2_r1.py",
+      "source_sha256": "3316545a2321f9f7e8f8a16cb8f4400e34bb7daf7ff6cc6d4dce8ebbc33eddf6",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_dates_P2_r1.json",
+      "source_anchors": [
+        {
+          "line": 11,
+          "text": "- Use actual SEC filing dates, never inferred reporting lags."
+        },
+        {
+          "line": 12,
+          "text": "- A filing is available at the end of its filing_date."
+        },
+        {
+          "line": 15,
+          "text": "- Never backdate revisions or use future filings."
+        },
+        {
+          "line": 55,
+          "text": "filings = payload.get(\"filings\")"
+        },
+        {
+          "line": 63,
+          "text": "if not isinstance(filings, (list, tuple)):"
+        },
+        {
+          "line": 64,
+          "text": "return insufficient(\"A filings sequence is required.\")"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P2_r2",
+      "trial": "dates_P2_r2",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P2_r2.py",
+      "source_sha256": "15792b5ee0a7ad3c725dc10b9ed75a4c09fe0f3ac1da5a7795f9353e4985c83b",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_dates_P2_r2.json",
+      "source_anchors": [
+        {
+          "line": 12,
+          "text": "1. Use only filings with filing_date <= decision date."
+        },
+        {
+          "line": 15,
+          "text": "4. Before an asset's first eligible filing, use 100 / N percent."
+        },
+        {
+          "line": 24,
+          "text": "No exchange calendar, reporting lag, or intraday filing time"
+        },
+        {
+          "line": 51,
+          "text": "filings = payload[\"filings\"]"
+        },
+        {
+          "line": 59,
+          "text": "if not isinstance(filings, (list, tuple)):"
+        },
+        {
+          "line": 60,
+          "text": "return insufficient(\"filings must be a sequence.\")"
+        }
+      ]
+    },
+    {
+      "token": "GPT_dates_P2_r3",
+      "trial": "dates_P2_r3",
+      "group": "primary",
+      "schema": "dates",
+      "source": "model_responses/GPT_dates_P2_r3.py",
+      "source_sha256": "8f67b6e50443452b9511a96e6d1a9a4694ee4c7b9972a4cdad0b07585a23fd1d",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_dates_P2_r3.json",
+      "source_anchors": [
+        {
+          "line": 10,
+          "text": "- Use actual SEC filing dates, never estimated filing lags."
+        },
+        {
+          "line": 11,
+          "text": "- A filing is available at the end of its filing date."
+        },
+        {
+          "line": 100,
+          "text": "filings = payload.get(\"filings\")"
+        },
+        {
+          "line": 112,
+          "text": "if not isinstance(filings, list):"
+        },
+        {
+          "line": 153,
+          "text": "# (filing_date, period_end, asset_index, weight_pct)"
+        },
+        {
+          "line": 160,
+          "text": "for row_number, row in enumerate(filings):"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P0_r1",
+      "trial": "revisions_P0_r1",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P0_r1.py",
+      "source_sha256": "d28374268323fce2646a5b1a991ff006a353cb08c54c65dc1752acd91ecb7f91",
+      "rule": "max_filing_period60",
+      "boundary": "inclusive",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P0_r1.json",
+      "source_anchors": [
+        {
+          "line": 157,
+          "text": "period + timedelta(days=60),"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P0_r2",
+      "trial": "revisions_P0_r2",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P0_r2.py",
+      "source_sha256": "d19630b4463f94c0b75269872f1c168b7b56d146f895299d282c56a62b0bab23",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P0_r2.json",
+      "source_anchors": [
+        {
+          "line": 161,
+          "text": "regulatory_public_date = period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P0_r3",
+      "trial": "revisions_P0_r3",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P0_r3.py",
+      "source_sha256": "6dcaccd7914466527b81fa1647f23cc8749c7d2ddfbb38588a03d55449290a45",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P0_r3.json",
+      "source_anchors": [
+        {
+          "line": 144,
+          "text": "period_end + timedelta(days=60),"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P1_r1",
+      "trial": "revisions_P1_r1",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P1_r1.py",
+      "source_sha256": "3807e0be3cb57e15a45f2bfd33f80721daf43839b02c6085bd355a164e6e9227",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P1_r1.json",
+      "source_anchors": [
+        {
+          "line": 224,
+          "text": "disclosure_date = period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P1_r2",
+      "trial": "revisions_P1_r2",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P1_r2.py",
+      "source_sha256": "d8f64ec43b0dabbb5202be0a01630fb48347b1501e1e34466795c7d594dafa49",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P1_r2.json",
+      "source_anchors": [
+        {
+          "line": 180,
+          "text": "period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P1_r3",
+      "trial": "revisions_P1_r3",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P1_r3.py",
+      "source_sha256": "4225b316cb5df3250f5404991ef7d67053a37f8782bb6966d3c24ff65949611b",
+      "rule": "max_filing_period60",
+      "boundary": "strict",
+      "category": "sixty_day_floor",
+      "result_path": "results/model_evaluation/GPT_revisions_P1_r3.json",
+      "source_anchors": [
+        {
+          "line": 127,
+          "text": "period_end + timedelta(days=60)"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P2_r1",
+      "trial": "revisions_P2_r1",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P2_r1.py",
+      "source_sha256": "1a10d75dac456805e71a6fcdb102b48cb707d10bde8fac2e27a3837d1edcce2a",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_revisions_P2_r1.json",
+      "source_anchors": [
+        {
+          "line": 25,
+          "text": "filings = payload[\"filings\"]"
+        },
+        {
+          "line": 39,
+          "text": "if not isinstance(filings, list):"
+        },
+        {
+          "line": 42,
+          "text": "# Actual filing dates are essential for point-in-time alignment."
+        },
+        {
+          "line": 44,
+          "text": "for row in filings:"
+        },
+        {
+          "line": 46,
+          "text": "return insufficient(\"Each filing must be a dictionary.\")"
+        },
+        {
+          "line": 48,
+          "text": "if not row.get(\"filing_date\"):"
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P2_r2",
+      "trial": "revisions_P2_r2",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P2_r2.py",
+      "source_sha256": "a31c627d41b1aae5b1c553919a6b9ac0f9b8c38d2dbfa1c2fcff4caa3200a730",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_revisions_P2_r2.json",
+      "source_anchors": [
+        {
+          "line": 47,
+          "text": "filings = payload.get(\"filings\")"
+        },
+        {
+          "line": 55,
+          "text": "if not isinstance(filings, list):"
+        },
+        {
+          "line": 56,
+          "text": "return insufficient(\"Missing or invalid filing records.\")"
+        },
+        {
+          "line": 80,
+          "text": "# (public_filing_date, report_period, version, asset_index, weight)"
+        },
+        {
+          "line": 86,
+          "text": "for row in filings:"
+        },
+        {
+          "line": 91,
+          "text": "# or assumed regulatory filing delays."
+        }
+      ]
+    },
+    {
+      "token": "GPT_revisions_P2_r3",
+      "trial": "revisions_P2_r3",
+      "group": "primary",
+      "schema": "revisions",
+      "source": "model_responses/GPT_revisions_P2_r3.py",
+      "source_sha256": "527cc44231b4c4b2c31db53ce383c959c99de7cfa00275ca4ac0a2d86df11678",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "results/model_evaluation/GPT_revisions_P2_r3.json",
+      "source_anchors": [
+        {
+          "line": 11,
+          "text": "- filing_date is the public availability date."
+        },
+        {
+          "line": 12,
+          "text": "- A filing is usable at the end of its filing_date."
+        },
+        {
+          "line": 15,
+          "text": "- Revisions never affect decisions before their filing_date."
+        },
+        {
+          "line": 50,
+          "text": "filings = payload.get(\"filings\")"
+        },
+        {
+          "line": 82,
+          "text": "if not isinstance(filings, list):"
+        },
+        {
+          "line": 86,
+          "text": "# 2. Validate point-in-time filing information."
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P0_r1",
+      "trial": "revisions_P0_r1",
+      "group": "A03",
+      "schema": "revisions",
+      "source": "technical_recovery/GEM_revisions_P0_r1.py",
+      "source_sha256": "e40d98160b7131a67e6a3d6337a305d7af333eaf810c86ff863fb44649a38b3f",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "technical_recovery/GEM_revisions_P0_r1.json",
+      "source_anchors": [
+        {
+          "line": 5,
+          "text": "Builds a mean-reverting holdings-based portfolio signal using point-in-time N-PORT filings."
+        },
+        {
+          "line": 9,
+          "text": "filings: List[Dict[str, Any]] = payload.get('filings', [])"
+        },
+        {
+          "line": 22,
+          "text": "# Pre-group filings by asset to optimize the point-in-time lookup"
+        },
+        {
+          "line": 23,
+          "text": "filings_by_asset: Dict[str, List[Dict[str, Any]]] = {asset: [] for asset in assets}"
+        },
+        {
+          "line": 24,
+          "text": "for filing in filings:"
+        },
+        {
+          "line": 25,
+          "text": "asset = filing.get('asset')"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P0_r2",
+      "trial": "revisions_P0_r2",
+      "group": "A03",
+      "schema": "revisions",
+      "source": "technical_recovery/GEM_revisions_P0_r2.py",
+      "source_sha256": "15f531faa55b20e8de8690744a44c98218a57acf0fe87f2e21cb334d9f149a35",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "technical_recovery/GEM_revisions_P0_r2.json",
+      "source_anchors": [
+        {
+          "line": 4,
+          "text": "signal from SEC Form N-PORT filings."
+        },
+        {
+          "line": 8,
+          "text": "filings = payload.get(\"filings\", [])"
+        },
+        {
+          "line": 21,
+          "text": "# Sort filings chronologically by filing_date"
+        },
+        {
+          "line": 22,
+          "text": "sorted_filings = sorted(filings, key=lambda x: x[\"filing_date\"])"
+        },
+        {
+          "line": 23,
+          "text": "num_filings = len(sorted_filings)"
+        },
+        {
+          "line": 26,
+          "text": "# current_best tracks the latest valid filing dict for each asset"
+        }
+      ]
+    },
+    {
+      "token": "GEM_revisions_P1_r3",
+      "trial": "revisions_P1_r3",
+      "group": "A03",
+      "schema": "revisions",
+      "source": "technical_recovery/GEM_revisions_P1_r3.py",
+      "source_sha256": "16cac126df3bd5a4617b16e2f0c779db2467140f4578c82c8c5349c7b03ece34",
+      "rule": "filing_date",
+      "boundary": "inclusive",
+      "category": "oracle_alignment",
+      "result_path": "technical_recovery/GEM_revisions_P1_r3.json",
+      "source_anchors": [
+        {
+          "line": 8,
+          "text": "filings = payload.get('filings', [])"
+        },
+        {
+          "line": 18,
+          "text": "# The default assumption for an asset before any filings is its equal-weight percentage."
+        },
+        {
+          "line": 22,
+          "text": "# Pre-group filings by asset for faster O(1) key lookup"
+        },
+        {
+          "line": 23,
+          "text": "filings_by_asset = {asset: [] for asset in assets}"
+        },
+        {
+          "line": 24,
+          "text": "for filing in filings:"
+        },
+        {
+          "line": 25,
+          "text": "asset_name = filing.get('asset')"
+        }
+      ]
+    }
+  ]
+}

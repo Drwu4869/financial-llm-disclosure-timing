@@ -1,0 +1,194 @@
+[
+  {
+    "path": "archive/packages/Disclosure_Timing_Public_Evidence.zip",
+    "source_name": "Disclosure_Timing_Complete_Reproducibility.zip",
+    "original_sha256": "b98a2866976e67fb2dc9c8e31710b8319bcf15196e0067cf422f2ff371e5908d",
+    "public_sha256": "0dd1693d181288d1aa67f801da63b10f91886669500f97296949e9d623c4cb85",
+    "bytes": 16545031,
+    "stage": "current disclosure-code study"
+  },
+  {
+    "path": "archive/reports/BlackRock_Original_PDF_Pilot.pdf",
+    "source_name": "BlackRock_Original_PDF_Pilot.pdf",
+    "original_sha256": "80e88029078ad847699e136c42cf5c1e868457c3afabe4d718273ac07170dd9d",
+    "public_sha256": "80e88029078ad847699e136c42cf5c1e868457c3afabe4d718273ac07170dd9d",
+    "bytes": 169522,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/BlackRock_Original_PDF_Pilot_Evidence.zip",
+    "source_name": "BlackRock_Original_PDF_Pilot_Evidence.zip",
+    "original_sha256": "e2773dd6673c461c82c3b1ebabc845d277f04d9b0a15d077c03abadc5b5b62f3",
+    "public_sha256": "e2773dd6673c461c82c3b1ebabc845d277f04d9b0a15d077c03abadc5b5b62f3",
+    "bytes": 164839,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Holiday_13F_Check.pdf",
+    "source_name": "Holiday_13F_Check.pdf",
+    "original_sha256": "d19d366475391b83f7d30dddc489c657d6b90f8baede2d808c57800f5db1b247",
+    "public_sha256": "d19d366475391b83f7d30dddc489c657d6b90f8baede2d808c57800f5db1b247",
+    "bytes": 203636,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Holiday_13F_Evidence.zip",
+    "source_name": "Holiday_13F_Evidence.zip",
+    "original_sha256": "1322df813917cb0fc1e677a50f2863f2e9cbf56383f217e6f7e719f33bb5d4bd",
+    "public_sha256": "1322df813917cb0fc1e677a50f2863f2e9cbf56383f217e6f7e719f33bb5d4bd",
+    "bytes": 179733,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/PIT_Disclosure_Frozen_Protocol.zip",
+    "source_name": "PIT_Disclosure_Frozen_Protocol.zip",
+    "original_sha256": "f19b0017d5480640ae94ff0e84f490506e3b849eb076d081cad47ca3b8291443",
+    "public_sha256": "daf5d3e87fa4b4da3eeacc7dafa50af10623e0c3118194a0d880fe75a43ae8e4",
+    "bytes": 68150,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/PIT_Disclosure_Pilot_Evidence.zip",
+    "source_name": "PIT_Disclosure_Pilot_Evidence.zip",
+    "original_sha256": "f0180133abafd3dc2293c70685ab057c5e83f88688c0e8f07eb418dc758fdcad",
+    "public_sha256": "584954dd93bd030434f8add7d0db8e984d0152f684230dc9d2c021030c422f9e",
+    "bytes": 331537,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/PIT_Disclosure_Pilot_Results.pdf",
+    "source_name": "PIT_Disclosure_Pilot_Results.pdf",
+    "original_sha256": "8cf507f72d3ac0dd0e239b73573c97d51852515202b44d85dd751aa182e0d1e4",
+    "public_sha256": "8cf507f72d3ac0dd0e239b73573c97d51852515202b44d85dd751aa182e0d1e4",
+    "bytes": 167236,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Exposure_Submission.pdf",
+    "source_name": "Portfolio_Exposure_Submission.pdf",
+    "original_sha256": "7eb33ca0ce983d671e38fdc6c7601492428fbd55456cd34e4d65d16007538df0",
+    "public_sha256": "7eb33ca0ce983d671e38fdc6c7601492428fbd55456cd34e4d65d16007538df0",
+    "bytes": 342253,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Exposure_v9_Full.pdf",
+    "source_name": "Portfolio_Exposure_v9_Full.pdf",
+    "original_sha256": "9055c8f4a710001f63307da16e81d41376b668ea4693271fba4861e3f63ba6d8",
+    "public_sha256": "9055c8f4a710001f63307da16e81d41376b668ea4693271fba4861e3f63ba6d8",
+    "bytes": 736987,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+    "source_name": "Portfolio_Exposure_v9_LaTeX_and_Evidence.zip",
+    "original_sha256": "342d1870c61a210acf2162e1fa14625bdc00497bac610bad44b10606a4608afc",
+    "public_sha256": "22b2cc6b592b39a7e67ece378af009f864c516db090ae548fe77bcebac73451d",
+    "bytes": 11004379,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Risk_Integrated_v8.pdf",
+    "source_name": "Portfolio_Risk_Integrated_v8.pdf",
+    "original_sha256": "969601e2e25a5bd77d045d55fa6841ea6ae3e3bd54f0f4ef0c12bfa4a0dbc4b2",
+    "public_sha256": "969601e2e25a5bd77d045d55fa6841ea6ae3e3bd54f0f4ef0c12bfa4a0dbc4b2",
+    "bytes": 637703,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+    "source_name": "Portfolio_Risk_LaTeX_and_Evidence_v5.zip",
+    "original_sha256": "41d64ac8d5dae92166ec9df5b2df00eb6da65274252528bf6439d3cb4bfb1b61",
+    "public_sha256": "2537cc5dd5a88198baa68f944191cc6307fff4795cda3f4a62332e4e7c4b0756",
+    "bytes": 7064145,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Risk_Recheck_Results.pdf",
+    "source_name": "Portfolio_Risk_Recheck_Results.pdf",
+    "original_sha256": "8b547f24ab98c942dec7d7d2421e76cf6421ed4b2632519a95f216a872d46428",
+    "public_sha256": "8b547f24ab98c942dec7d7d2421e76cf6421ed4b2632519a95f216a872d46428",
+    "bytes": 183857,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Risk_Text_Fragmentation_English_v5.pdf",
+    "source_name": "Portfolio_Risk_Text_Fragmentation_English_v5.pdf",
+    "original_sha256": "116daa7ab0ca79f4518ea6ca96eed6305bf9a91c493fb2fbfb70bb1f922e1fb5",
+    "public_sha256": "116daa7ab0ca79f4518ea6ca96eed6305bf9a91c493fb2fbfb70bb1f922e1fb5",
+    "bytes": 563745,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Portfolio_Risk_Thinking_Recheck.zip",
+    "source_name": "Portfolio_Risk_Thinking_Recheck.zip",
+    "original_sha256": "0d06d8b6bd5149357769645997199bf20494ea711270247bc227f1210809cd74",
+    "public_sha256": "0d06d8b6bd5149357769645997199bf20494ea711270247bc227f1210809cd74",
+    "bytes": 568057,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Risk_Thinking_Recheck_Report.txt",
+    "source_name": "Portfolio_Risk_Thinking_Recheck_Report.txt",
+    "original_sha256": "09d6556d692a8e70ef81ba5af339ca808aa53befa906c7eaffdf618a23bd7611",
+    "public_sha256": "09d6556d692a8e70ef81ba5af339ca808aa53befa906c7eaffdf618a23bd7611",
+    "bytes": 4013,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Portfolio_Risk_v8_Chinese_Guide.txt",
+    "source_name": "Portfolio_Risk_v8_Chinese_Guide.txt",
+    "original_sha256": "ca6c277c4a386c83c9d266988972b32092185e9ae40f25cd0d1dec8756ee41d4",
+    "public_sha256": "ca6c277c4a386c83c9d266988972b32092185e9ae40f25cd0d1dec8756ee41d4",
+    "bytes": 5090,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Top10_Disclosure_Blind_Run.zip",
+    "source_name": "Top10_Disclosure_Blind_Run.zip",
+    "original_sha256": "903ab1d402e5fc3a2dec3baf4c144aeb5afa8811f9de47d4288513684e90741c",
+    "public_sha256": "903ab1d402e5fc3a2dec3baf4c144aeb5afa8811f9de47d4288513684e90741c",
+    "bytes": 196633,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Top10_Disclosure_Local_Results.pdf",
+    "source_name": "Top10_Disclosure_Local_Results.pdf",
+    "original_sha256": "c5421b49165fccee89d67f2cf1434bfcdbdedb83421d1003f7a2ac92f94a4d38",
+    "public_sha256": "c5421b49165fccee89d67f2cf1434bfcdbdedb83421d1003f7a2ac92f94a4d38",
+    "bytes": 162804,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Top10_Disclosure_Pilot_20.zip",
+    "source_name": "Top10_Disclosure_Pilot_20.zip",
+    "original_sha256": "fab108374901b248fc6c7570dc29b3dace0a3d536ab138bbcb52eeeb16affb39",
+    "public_sha256": "fab108374901b248fc6c7570dc29b3dace0a3d536ab138bbcb52eeeb16affb39",
+    "bytes": 33530,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Top10_Gemini_and_GPT6_Results.pdf",
+    "source_name": "Top10_Gemini_and_GPT6_Results.pdf",
+    "original_sha256": "f89c9a03ffd31ce0bc618a57b1295a8ba156228ec0df563ecdc2013d13714d19",
+    "public_sha256": "f89c9a03ffd31ce0bc618a57b1295a8ba156228ec0df563ecdc2013d13714d19",
+    "bytes": 156293,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/packages/Top10_Hosted_Reasoning_Results.zip",
+    "source_name": "Top10_Hosted_Reasoning_Results.zip",
+    "original_sha256": "f10ebc8e042a0c0c59ca1ee438d7928625b77f5f27ab733c56959e6237a02a96",
+    "public_sha256": "f10ebc8e042a0c0c59ca1ee438d7928625b77f5f27ab733c56959e6237a02a96",
+    "bytes": 325259,
+    "stage": "historical evidence; see research journey"
+  },
+  {
+    "path": "archive/reports/Top10_Hosted_Scoring_Amendment_2026-11-06.txt",
+    "source_name": "Top10_Hosted_Scoring_Amendment_2026-11-06.txt",
+    "original_sha256": "986d92cb78beb826c512a30f6fc9362c20fbe442557c0b0ca909d7f1cdb2c87f",
+    "public_sha256": "986d92cb78beb826c512a30f6fc9362c20fbe442557c0b0ca909d7f1cdb2c87f",
+    "bytes": 3867,
+    "stage": "historical evidence; see research journey"
+  }
+]

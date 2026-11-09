@@ -1,0 +1,57 @@
+{
+  "models": {
+    "pilot_dated_programs": 36,
+    "A04_programs": 36,
+    "A04_baseline_vectors": 85860,
+    "A04_no_witness": 2095,
+    "A04_inconclusive": 65,
+    "posthoc_calendar_matches": 2
+  },
+  "metadata": {
+    "verified_raw_tables": 28,
+    "raw_rows": 355115,
+    "excluded": {
+      "amendment": 5344,
+      "off_fiscal_quarter_month": 98
+    },
+    "full_cohort": {
+      "n": 349673,
+      "median_lag": 57,
+      "mean_wait": 4.126046334718437,
+      "median_wait": 3,
+      "positive_count": 300464,
+      "positive_percent": 85.92713764002367,
+      "at_least5_percent": 32.820663877394026,
+      "after60_count": 12612,
+      "bins": {
+        "0": 49209,
+        "1-2": 96650,
+        "3-4": 89049,
+        "5-9": 83931,
+        "10-19": 24352,
+        "20+": 6482
+      }
+    },
+    "report_2022_2023_posthoc": {
+      "n": 100513,
+      "median_lag": 57,
+      "mean_wait": 3.9265965596490005,
+      "median_wait": 3,
+      "positive_count": 83938,
+      "positive_percent": 83.50959577368101,
+      "at_least5_percent": 31.229791171291275,
+      "after60_count": 3205,
+      "bins": {
+        "0": 16575,
+        "1-2": 27101,
+        "3-4": 25447,
+        "5-9": 23206,
+        "10-19": 6298,
+        "20+": 1886
+      }
+    },
+    "checked_against_prior_rows": true,
+    "prior_summary_sha256": "44526905c3273b76e702518228005c36067ba0d1e7567e5b0783235dc5e13eea"
+  },
+  "candidate_programs_executed": false
+}

@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-11-07T16:41:56.341353+00:00",
+  "checks": {
+    "frozen_bytes_unchanged": true,
+    "unique_model_question_pairs": true,
+    "all_submissions_after_freeze": true,
+    "observed_order_is_frozen_prefix": true,
+    "returned_answers_have_saved_text": true,
+    "no_missing_answer_was_graded": true,
+    "predictions_precede_applications": true
+  },
+  "scope": "Internal recorded trace and frozen file consistency only; not independent legal review, backend audit or proof of absence of undisclosed tools."
+}

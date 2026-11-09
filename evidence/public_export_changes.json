@@ -1,0 +1,816 @@
+{
+  "prepared": "2026-11-09",
+  "scope": "Public export only; private session URLs and operational browser/render traces. Model source and saved experimental outputs are not edited. Nested archives are recompressed. Original internal manifests describe original private artifacts; use release_manifest.json for distributed bytes.",
+  "changes": [
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/attempts.json",
+      "action": "private chat URL removed",
+      "original_sha256": "7502db19733c2dc2802760addbe213c150d08d0ac09560df0c5ff3b93ddf5d8d",
+      "public_sha256": "c45bb6081a61068ea4b2e69ca20339f497856a9c63686f606cac6d57a41a163e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "00d2ff0a33c8521a430f947f2600aba5d3338b4d52488df093088d03f3293511",
+      "public_sha256": "3f271b0e4824437072cceedf5ec4fb150872005368680014bb8e3a1d80db342a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "4b38e2ed34947e9394cac0a65528e87f725765342f82a71fbfd3113c56e9a23f",
+      "public_sha256": "ca503a0566b1ce677d1bc213559b3666a40e0de1abde8def4ccf4b90db56c872"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "723f6f96fb632ba10850e739c767b40aed901aff6852fcfbf58d9e4f92d42760",
+      "public_sha256": "c7a8b481f1ecb7b440f3fb806d5f6e1e5efe5e01d2f0a849fdc6efbd34c9bbbc"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "a66f7b0c10565b108976397307ba01a973ffc03d04f90faf29edb64a99e939a4",
+      "public_sha256": "009bcb870de55fe9f322121b2ad027e186130b5275aeacbef14b0d4de695ffc4"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ec29da56cf0301fc603e8ed4febf6314fd767b17d262ad2ee4c8cc7650343260",
+      "public_sha256": "7e2b9912ef731b934a4cbd277220a78de27b59381134839400df622c43fe0583"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "37e4396e29cee2c2b9b6e68392791f0fc323cf22b9c160b4b1c2e47bf3fede35",
+      "public_sha256": "f2b0c90855dfa8e618456bb8a68d3f158b3f38e3d89ed0a2edfa06eca1d66047"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "18521b5518be50c6f06d0ddf1be891073364bc419f11a2da09fd60f0bb8e4d06",
+      "public_sha256": "3645ecd6615486bc21dca6105bc89b3250325df38f00bf1616b45be62d47afc0"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "b419cd4d910eed83e07816bf139ae8f3e6aacabf297f402694fd6d44b456b555",
+      "public_sha256": "ca57abf0af6a7f4bc2af8e207cf892c01c553e5b6bc85c5468d33aea74d1f609"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_dates_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "6365e621ba7a1d695cab22790eae35f471946757cbc066de9321dcdf1167bc41",
+      "public_sha256": "3ceb8b2023e6d81764d05c4b9847153f21795a1e792d3b9847eb33cf23531359"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ed374d1395724fa849e3c288971540502b4bdc15525fd83f3f3d9d2f0541684b",
+      "public_sha256": "1b5e2cbdb50f83b47ee0f485e3a8e6f3c8e73cc2547dbac625529cf96eaaa671"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "3c80002c017c08dc0499fafe7e07741264a5c918c343b94f5346c4dab5dc1a69",
+      "public_sha256": "fc44dc8671e4fdfdc3d79895f7b7acf90d693543cb74f68932f707f431b509b9"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "e64911bb64648153d82437756a7e651fed66601303262c54e708a44fcfcd48f5",
+      "public_sha256": "8beeabb6289ac3b48213243834579edd6249646524d6195678583f81314e892d"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "8eb787c2d4b37e30864df7797603e9044857e4a9a1fc14138d660df6712c2975",
+      "public_sha256": "8e6453b4b4dc99394333550385969dfdb10d5b5c6867fddded393be5e8981467"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "7438fc6d1ac885d9c477c1b9098fc1309c8477f947be8c977e0a8d044fd87417",
+      "public_sha256": "fda9dfb1c78f5d5cb77b8adeebd257949324486f6e124d78bc1e1ad21f52bd71"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "dd1ddd7cf1f2bab84dff379f5dfa11416d21bb566a780b1c6def2732b61f9769",
+      "public_sha256": "d911205a159ee4b08a396ee3e5dd724dd2a69ac144cc682e8e8c47474327a3f8"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "1fbbefe9ceabca06f443346f8a744fb392131c0ce959e3729b01b29b41463fb8",
+      "public_sha256": "8fbde4e32a9748d899ddb8183b84d14224a0d8fc32876a815006ec9f6369ee9a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "6d14437681d88b170510281d497e43b19ed3d80c80f7b928c7076a3c3733540d",
+      "public_sha256": "59aad167c34f61ac484459f2f34a01d7de82a079b7ab8c09a04b1e0289bd8c21"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_missing_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "4850428c06fad92f2cf207eb0f8ed5cf95456b633813d367866008cea0762f27",
+      "public_sha256": "28eb9392d351f182645b2d01af1d49b1c76a8ae63025f016d1fcff169a1dda64"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "0fddcf0d1f7d5c3564a5d8b497a34e81ac0187e934fede460d0ac0954fbcda34",
+      "public_sha256": "4413b2b0b7b434139d60d37d64afbebfc7e78a0a8a19ac215c5ac401f5565981"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "055b10a7313f6cd478217dd11af41824911bd3bf8b0e662ad9f28526c6ed7952",
+      "public_sha256": "58881b9cb1a87854d5ed8d3219b8ff84704343406de202ada3dcc3722a62d170"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "95fafddb948d60c6bdce758148650ac5f091d2f43257ab54e99ebb0f23d3ae9b",
+      "public_sha256": "7ba3e13940f140d070a24393c6b2042995434b106f233d0680c6775f05d0b9e6"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "437538020255be42e9b648e8771da66c90d683078f0e7ffaaecb73deb92a6c2d",
+      "public_sha256": "4cc0a82e9389753f18fff349c42bc1a0791343df33896f0ccf4b540246400c5a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "d5ed46a1a735090e7abcd00ea83f86e47ab67f2cbcdcbb63bb5b68154bd46976",
+      "public_sha256": "88d819168e4f603a83b8d7d6bcffbfc3c7898322f498d8c6bffcd7ba08555e20"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "6522265b8288caca3ad67ff792653322e2ef19400c811d10b11c6493c1fcf806",
+      "public_sha256": "21209550595c4a89ce4941ae27f957727c23236701372d06c94bddf42fdbf31c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "7df79a8d531a8100ea6d9ebbf1743ad4ac8d9c0dd8194bef99928d9e5216becf",
+      "public_sha256": "8eee8aafe7b266aa2db6630049aa687700058348a926c7b4110bd1c38954c5d6"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "fdaeaeffe5a8614ecf609e7e993c21f65045611cfc075fb4ce2442f4ca483b6c",
+      "public_sha256": "bb45f292fb6b1f2849eadea03e1e3f098b9fbed9bc4ee20fc20e5a92c36b8f9f"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/capture_metadata/GPT_revisions_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "f695705bb9993f5c9bbd2197018ead1ce127b7f3be8fe225b61a32d8e2ae0824",
+      "public_sha256": "12414d88913d0c63ede5b34035abbd76370cc9338de50ccf731fc8e1f77329de"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/attempts.json",
+      "action": "private chat URL removed",
+      "original_sha256": "4796405c4f22a5dfaa99a6f191ff7e2974a2eb49c5b3d50886374e8d1086fc8f",
+      "public_sha256": "35241a7098d6ce29d58ac0e5d262b6b901c536504de41078dca95197a94f7a39"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P0_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "5fe1fcf30c7ca13c427ce4263e15288e48dc091bd8fa50155b99c3bad60e04e4"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P0_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "621e3e1e0b7c32e108a4399642820c7c573b241b1f3cff9768609db2beb932a7"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P0_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "05306328ab77a388a1e7ecbf004c61487413c7c31bc9dd26b5b514d6ed8cd8b0"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P1_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "9e17a2360c8ad86b6a26f52eac0ca76881d98a1369a9caad13d0599cb6350f0c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P1_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "45ee6f86a747723c641a713f1a0ad24344a76cdc4b735dcfa39d033178227246"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P1_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "c4d634d8812c0a2b07283fa93e9e9a8b04cea817ef80251f78c63753389323d4"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P2_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "5b91e85cb6a0197becc283898022af1740411f30b02bf556a31b361fbad5302e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P2_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "91e9acdd8a3efe3f0cb9769d727b2c0f7f04238efb0219f680eea88e66bc7eaf"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_F13_P2_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "343514133429cabc6ed9abbcd1c02788ccc831f4fc09ba52c5943dc848acdca7"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P0_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "b14c325b3f736142ea6b3716fd339fabbe37fac9a9a5b72e2e27cb9149c68cbf"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P0_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "54e394b5837e40e2188a0d7d60ee38af05f2d6da0fb433e9bb84fc2e1c27ccdf"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P0_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "1374f745baf102d08db676d03b97f826ffd0614c62844b9e01759bc67b66b6ca"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P1_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "69869a154001f018e2f4f67ca10f55ce77f5825a934983e2d8dbb25e7ac492c0"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P1_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "6d13bb7319c65ecbfff9a268520a599ff35f1bd50e18b421b543001fe13b66de"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P1_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "e421b44c1151715adb71fe5a354eb0cd0039dfed4eb879ea5e34c2dd82265e1e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P2_r1.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "e6d20cf7cee68d0810304757a3106b96c242ed7046d18e9c02250be0503608a8"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P2_r2.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "2ac3f9e987852a15947515f841668b6437cb8a70a6740760f88668d04c782603"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/capture_metadata/CLAUDE_NPORT_P2_r3.final_ax.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "ed0339b06ca9b24ba97584f1cb3760409fdf7d79db580d58e9bd61713980b1e1"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "6564d1190b2d01a3977d9bc1f9c400cedb11351c5ff442ad185b5980c50ac0d0",
+      "public_sha256": "e86ef3bed7d2c7abe30060ba21f320e8ca0bc09848459409d42b1862c29d3102"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "4123f15b62dec2c48b6be64229e47cdf615ab53d55e900a946112cb4f39736f1",
+      "public_sha256": "763aa43607a7bebd7213dcf72641f8cb23e298db7465c329f84dda6ed33049ad"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ad77b029fbf8e9c51123a8fcede6564112eacc15bb4e091ffa86c49c30072756",
+      "public_sha256": "7ff51479dff95b4faa7a801d076bede22d721d2ea7cb88be57dd43427c3d16ff"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "cbf863a48a4a54dd70ba8b87a068692190eda4ca2dce9af2ddf8e23a3764d24f",
+      "public_sha256": "0671d0ae237726611a37e4f0d176f1a6d24de174362990a3355df542c17bff84"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "d840a13d9670d65e050637c60dce8147cc7c090326176f292ed1097108b0b0c4",
+      "public_sha256": "bbad5a6b4b3c54fc215400266dc283295520a9cbbd7ef54d7efe1451bb01a1ab"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "1af2c5f08b79c8ce90943192fe887b4aa851e3a273761468d6a93e008532b78a",
+      "public_sha256": "82fdcbddb6de7a04abd95b2a1f4623e1ea40e4d2963cf52a45bfe6b0b75476db"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "05afe785bb9938f5163cb3aac59e1e06db64a807f8c169a86785e5bbb175e26e",
+      "public_sha256": "f6343a76956005cb59e2ea80fe9bc97e3887c29a54b64b39757d9fa56f9cf7e1"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "075508ef37b78ce845e7436bdd719499de4ee38c5c79c39e6771bc841f6deff8",
+      "public_sha256": "bbece4fd311fe9db56d8e6caa19cd5a8731612dad3e838176562c4438553d312"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_F13_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "5a0d0868787d93648f9c7d78a739e54d560080f3b78c1205fd15f4f9e5064338",
+      "public_sha256": "894e4977a45b36b210e334422e40cddbe2dfd088a416de8259d389b182914907"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "7c151f976d2cb6e46def2fb332433524bae71f335b491f439701b5b88b6e8ea7",
+      "public_sha256": "21fac3e3a6d0219ecb8f123655377af1824895c8404ac1b53638c3effd349c2c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "62cca4586cd330c711fd7226ef6e4862491a7179a56d5399f36b7cb3dd40db80",
+      "public_sha256": "8be353e01349b1218060f03280b0c83b25019de780d25f4e2e3e1a1f7c66c4b7"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "3ffa9695eee5f2e681b531be56780613680ff66d4ca9589c32622db35df67a0c",
+      "public_sha256": "148a03e151effbea736e38dd63ccbaa1a1c5f3ca943df9cb86e0f3a832a76a80"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "6ce1250f3adf9edf8fc56c5a36a0a02425f2bcd6b51b587556828f94f07d34c2",
+      "public_sha256": "9d84579c0b0d91c3fc63afc805ad63870ba5faf6e7dea27cce57748f00d0da6a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "acd473f0f8856c2d53d3bf647e5407804a1305e6e72e8d855fac0414de4c1a45",
+      "public_sha256": "6989957aa9cd9cf34c0211e8573a4c4386e118b87e7225916531372b619db94a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "149ddf7af272188b094b37c5a233e820cd15993a2a5233eae5ad91b323c46e26",
+      "public_sha256": "66613ac5a678089259700a99bbfc98ccb708b425cc01a8e87823c2dc81fdc706"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "f3f52fcbd40650e331112553b5f818d76384eb660c2072c29bf120c9d4043c68",
+      "public_sha256": "afed2b72edfd158139cc5845683c59892ef86d45c779033e455e82fa1ef74450"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "beca3705d7fbe808c729921fd5cd30fc05b9f1a02146f7e373dc3095dc8eece9",
+      "public_sha256": "bc5165194e4393785474244f377c09b9988702cdccd0d4b20f09c35715f16355"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/CLAUDE_NPORT_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ff7e9cb0146489ee0f66ecb8395d26fc5ecdbbd07136c378bbeeed265cb5d56a",
+      "public_sha256": "e59911622e9f3448848f6ea57ff04dc0f611ddbb8e2fd28b859cd52973a39be9"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "c82a353e03f2a611e6b6da82b7e2aef6a3c87a7ea70338f9635ad21ebe252d5d",
+      "public_sha256": "610ce31ee18e2b30c230ae4eee26c08a7c70515db99370daba7c0ab039994509"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "794521ffb41d19c18cc37d790266e340fc2885b8dee90978282608eedf50c592",
+      "public_sha256": "c8c7521474bee7f7c93d97b36cf70d1b8a0f046d0e2630936c7f00fe10d8f276"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "2b6d1a744bf229105dfbfd1f52f10ed61bb1352340c21633cee5d52e1fe0c3ae",
+      "public_sha256": "f535676ffc623eab6220b18bea813cf3223cfb920d077e69326940c186cae771"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "c3c129c1699740820ac1ee7fec46e6974052be5e7215b5dadfc89b2ca18a243c",
+      "public_sha256": "f260a2c0cf618cc97baffcefa92f0113c0e14508a3a73373f9c22504be160865"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "5bd425591166bd45449dc94074f4f6af4a0d307b37b608734a41744f9614e1de",
+      "public_sha256": "d3d5fa90ddce4887405c1174e06d5620e38e8ff37e8504da67a40707c7a0cfdd"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "2e1038bf67396fd1271cb40065a939dfd8321f0a11e7357123f3e42f290effdb",
+      "public_sha256": "cb96d62da73805d314d16d710951cd0439cfb8ca0251b34fad55ff1912297e64"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "df8e28b7a4c760def27df9f8f775ad07ad9b5ae62b9a817e498edf8d335118ea",
+      "public_sha256": "5e71acb24c05f4b7fc21e8c071d8a07fabf6058175278bdf144fe4ce99e09d3f"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "f650c24bf0ebdc792dc9920fc0bb4e9e79b8c735933051f31b0544c01012bd27",
+      "public_sha256": "d89559b648dd0243112fb8963f24af145522d305c4f159db5a690bf30975394e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_F13_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ad0bbf21e093a7b5320ed972893d5f045d0465cbba7b05e431d46e67bb66a854",
+      "public_sha256": "bf7c2871d8b4a92a4ac0872575f52ad671aa688f3d2383a03fef0cc0b8bb2409"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P0_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "92b2c52fd17e1dea9c93a53b3f0fd073417bf02db7be2f4ea5079eed44bfd72d",
+      "public_sha256": "0ca3acb11631166ad3225c6379db1ae54eeba85a31ab590099cc62f0919f8b4b"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P0_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "2f9de75ea13fd27f8d7011bfddd0fe14272cd245b3c3ef5dfa80e186b305d5be",
+      "public_sha256": "66c0d9a9a7c3435606e7085dbd3505194f61f580df63c7f976192deb4813f0f2"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P0_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "5a66e0e940eb151b8dcf115a0ea70d85915745cc6f39fcd2aa54bba87017f77c",
+      "public_sha256": "f939b6a68aba62d4b6dccb57fe764fa6de3b7affe31d447f26f84461f2464c31"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P1_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "be89632364147d6ed7539d396d4f0e19fbbf6bb5da07d809baff79c3e765c697",
+      "public_sha256": "ee558176dd267d638a14dc91a9d572940e105a735e796980fbf3e8275368c236"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P1_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "838c45a31846c88273bdee149d7acfcf522e2caff235e9cdfd7aab9b0a79c2a2",
+      "public_sha256": "d944936cb50d62cda31112b632884e030324a012c6a20fed749af30d1aacb732"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P1_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "ddd245e3714120f559fa97e8e4f99bbd670e095506c10d55b1cc5af8f3b873ad",
+      "public_sha256": "9084922b86db629e075ccf4e83bc3469ea4200ba2dc48aff73172d66407f507f"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P2_r1.json",
+      "action": "private chat URL removed",
+      "original_sha256": "68e450df85deb110d4bde7223d5cd60316fc09f938619bf8f88759ea349d403e",
+      "public_sha256": "9ed246f9a8e588c29f682748e56963842fc87d5593e036c810f9311e3e3057cf"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P2_r2.json",
+      "action": "private chat URL removed",
+      "original_sha256": "4c09f9bc92ca228cc3a0082b0ef9ec8f48b63f21348e6f61304b12fbde398c36",
+      "public_sha256": "7401077fcaaadd4a1378f5638c7689fa89a85c4c3e0b6b5302d9654d215ca7ff"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/extensions/A04_form_swap/results/GPT_NPORT_P2_r3.json",
+      "action": "private chat URL removed",
+      "original_sha256": "75271e4ac8019112316baf603a06b7f50dbd5fb93d6f2d4b6c481d2646fe5c29",
+      "public_sha256": "b43a0a14167458c8ddd6fc5721bd7bf55b23efc2505c26c7c4e887a45d65593f"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/contact.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "0339f06846bae4a056e90a02cdb2044a2db954adaeaacd07fdaf6f523aa89c4e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/final-7.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "58d8c965af944f2fcf8faa0b4f76e5e35ba6e793d996d7df5ec47970a47a188c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-1.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "c4cd9987d4f258c88b3442dfb6bc6a3d710c348d73a965a766bc98254b339971"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-2.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "d32e3d7b20df2a9b810b27e8abf8c1f69c8580f367b53935107a2873d002641d"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-3.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "c90e039fc4230d8b877e2fcd283c8bb7939f757681dd090e5aee64b7b06acb9e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-4.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "fddc690f31e2e291e9d2a2b51a1b7e996f32691f78a421e089d22eab41a0c50a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-5.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "f36708fcf33928762c0f44e4e26eb1298f572d9a450111088fb3fce43b79d241"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-6.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "e23634392e720cd57423e4afeabfe9725de3a2d214f5861d9db82b13c25c848e"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-7.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "9f3eed2ba2d9bbc58deb6d14693940a2b44b005323bbddb8211b057de11dfd75"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-8.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "68a37bc5b42a8b847bf10ca943afb3d68ba234fcde8ca889e627dc0c198ddf96"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/D01/page-9.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "f7a6e5e11f9494a7ec902f7386cd999c58f2d8d2f90f2ebf9e9494a1d80ffa77"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/contact.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "3dccc16a1f3145851203b90084f833fc824dc5bc42335291279d42c5d37f25cf"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/final-5.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "5cf1e50ba92204f09dfcc9bffbebb48366c68d463dedd83ee9426ea8c9c2744a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/final_checkpoint-6.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "cb47621d211b05a66da2451aef79fe6061eb2fd4cf3b8deda8c270bed8aa5dca"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/final_checkpoint-7.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "be41eda53357618c8bf51fdd20ae4091c1fa10c87568300d9ddd7008bc42590a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/first_final-1.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "c2b8afa57f4baa41ff4f8340f71ca52d22b10648c795e5fbf1b933014dacfa78"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/model_checkpoint-6.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "cbeecf7465cc1d78c4dbcfcdc7ea1e4c435b312c7e7636c9b9425c79e609df4a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/model_checkpoint-7.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "a9f6c79c7206363e2ab820bf41f1dce17e6986bd7b204de001bee6feb0e2ddea"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/page-1.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "7fc47593b987cec09e27ad97e6a662e74c04f5164199bb5904dcf5d4f4e7fb1a"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/page-2.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "d0704784944d47494b63fcaa326c481e33e9b89a04612756adf66a1b1982dce1"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/page-3.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "9c0c588989603f3b21bb7a0c88640c54df0c225b5b42c886adb092df7c71b11c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/page-4.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "0b2c629b36a9b1f62b90960cc94b135e7a8102a95eb12ae7ff80c3630167373c"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/page-5.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "b20847ba9a40a6766d75776c1c8a72ec2b200784eb9e9766f7030a36f1b3139f"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "disclosure_code_pilot/qa/runtime_final-5.png",
+      "action": "omitted operational/render cache",
+      "original_sha256": "33428db809a82c222cc14e10d44eea55429664f5285636b180562bff44848cca"
+    },
+    {
+      "archive": "Disclosure_Timing_Complete_Reproducibility.zip",
+      "path": "rule_history/model_run_v1/run_log.json",
+      "action": "private chat URL removed",
+      "original_sha256": "5107033b971ef2f606f170a6dda7d8e0b5fc8973bcfa41d490261f0dd8bb861b",
+      "public_sha256": "6421929a4b8d15734223cf77b8216a1909c19ff6553d20cc01f7577dc134c1c3"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/audit_order.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "73968e944a015b1df07d4f91ed9d65f666805923d43819bbef18514289de0df7"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/decisions.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "36c939263dbc7bfc92c758c30a89ea7d0b05495060f7a972c0578bdbfd65db27"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/five_item_blind_review.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "e4af1e73aeda73cf7852bfa45dd0d778dd88cc1d1a2fded83b0d6579d9900bb1"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/gold_check.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "67962c4015f466f7e39ec629259b89b8825a77f511f2b1206078c0b383388ffe"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/selected.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "d989989f8e641c50a27b1b88902b5c056faf660284594e6b07b5cb9352327207"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/smoke_Q15.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "51df0531adc8f6b0f0faf97fa6db68c415b16a95329816d923746636438175e8"
+    },
+    {
+      "archive": "PIT_Disclosure_Frozen_Protocol.zip",
+      "path": "qa/smoke_Q19.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "521913b76e8eafc10325ac89380fda6710f3db30e0c9993283dfc3bea5c83ae3"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/audit_order.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "73968e944a015b1df07d4f91ed9d65f666805923d43819bbef18514289de0df7"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/decisions.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "36c939263dbc7bfc92c758c30a89ea7d0b05495060f7a972c0578bdbfd65db27"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/five_item_blind_review.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "e4af1e73aeda73cf7852bfa45dd0d778dd88cc1d1a2fded83b0d6579d9900bb1"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/format_note.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "0d94f453c2428e48ce6c76189e74888b5c039bab3290c8662001edbfede0cb21"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/gold_check.txt",
+      "action": "omitted operational/render cache",
+      "original_sha256": "67962c4015f466f7e39ec629259b89b8825a77f511f2b1206078c0b383388ffe"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/selected.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "d989989f8e641c50a27b1b88902b5c056faf660284594e6b07b5cb9352327207"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/smoke_Q15.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "51df0531adc8f6b0f0faf97fa6db68c415b16a95329816d923746636438175e8"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/smoke_Q19.json",
+      "action": "omitted operational/render cache",
+      "original_sha256": "521913b76e8eafc10325ac89380fda6710f3db30e0c9993283dfc3bea5c83ae3"
+    },
+    {
+      "archive": "PIT_Disclosure_Pilot_Evidence.zip",
+      "path": "qa/ten_item_review.csv",
+      "action": "omitted operational/render cache",
+      "original_sha256": "4164a49e649e9ea3cf0940c7f57038fd9e250a07f84e55256a7553b560efd5d0"
+    }
+  ]
+}

@@ -1,0 +1,2191 @@
+{
+  "generated_at": "2026-11-07T16:41:56.313251+00:00",
+  "planned": 88,
+  "submitted": 65,
+  "returned": 61,
+  "missing": 4,
+  "models": {
+    "GPT-6 High": {
+      "direct": {
+        "planned": 17,
+        "returned": 17,
+        "scored": 17,
+        "core_correct": 15,
+        "full_correct": 15,
+        "tool_deviations": 0
+      },
+      "application": {
+        "planned": 17,
+        "returned": 17,
+        "scored": 17,
+        "core_correct": 16,
+        "full_correct": 16,
+        "tool_deviations": 0
+      },
+      "original_16": {
+        "planned": 16,
+        "returned": 16,
+        "scored": 16,
+        "core_correct": 16,
+        "full_correct": 16,
+        "tool_deviations": 0
+      },
+      "diagnostic": {
+        "planned": 1,
+        "returned": 1,
+        "scored": 1,
+        "core_correct": 1,
+        "full_correct": 1,
+        "tool_deviations": 0
+      },
+      "oracle": {
+        "planned": 9,
+        "returned": 9,
+        "scored": 9,
+        "core_correct": 9,
+        "full_correct": 9,
+        "tool_deviations": 0
+      },
+      "by_rule": {
+        "R01": {
+          "all_product_answers": {
+            "planned": 1,
+            "returned": 1,
+            "scored": 1,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 1,
+            "returned": 1,
+            "scored": 1,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R02": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R03": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R04": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R05": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R06": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R07": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R08": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        },
+        "R09": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 2,
+            "returned": 2,
+            "scored": 2,
+            "core_correct": 2,
+            "full_correct": 2,
+            "tool_deviations": 0
+          }
+        }
+      },
+      "clean_version_error_families": [
+        "NPORT"
+      ],
+      "category_macro_error_rates": {
+        "registered_categories__all_product_answers": {
+          "news_level": {
+            "complete_rules": [
+              {
+                "rule_id": "R06",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R07",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R09",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.0
+          },
+          "operational": {
+            "complete_rules": [
+              {
+                "rule_id": "R01",
+                "error_rate": 1.0
+              },
+              {
+                "rule_id": "R02",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R03",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R04",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R05",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R08",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.16666666666666666
+          }
+        },
+        "registered_categories__no_observed_tools": {
+          "news_level": {
+            "complete_rules": [
+              {
+                "rule_id": "R06",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R07",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R09",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.0
+          },
+          "operational": {
+            "complete_rules": [
+              {
+                "rule_id": "R01",
+                "error_rate": 1.0
+              },
+              {
+                "rule_id": "R02",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R03",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R04",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R05",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R08",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.16666666666666666
+          }
+        },
+        "R08_news_sensitivity__all_product_answers": {
+          "news_level": {
+            "complete_rules": [
+              {
+                "rule_id": "R06",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R07",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R08",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R09",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.0
+          },
+          "operational": {
+            "complete_rules": [
+              {
+                "rule_id": "R01",
+                "error_rate": 1.0
+              },
+              {
+                "rule_id": "R02",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R03",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R04",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R05",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.2
+          }
+        },
+        "R08_news_sensitivity__no_observed_tools": {
+          "news_level": {
+            "complete_rules": [
+              {
+                "rule_id": "R06",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R07",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R08",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R09",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.0
+          },
+          "operational": {
+            "complete_rules": [
+              {
+                "rule_id": "R01",
+                "error_rate": 1.0
+              },
+              {
+                "rule_id": "R02",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R03",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R04",
+                "error_rate": 0.0
+              },
+              {
+                "rule_id": "R05",
+                "error_rate": 0.0
+              }
+            ],
+            "excluded_rules": [],
+            "macro_error_rate": 0.2
+          }
+        }
+      },
+      "clean_original_16_all_correct": true,
+      "prospective_prediction": {
+        "total_applications": 17,
+        "classified_predictions": 16,
+        "observed_classified_pairs": 16,
+        "agreement": 16,
+        "always_correct_baseline_on_same_pairs": 15,
+        "both_without_observed_tools": {
+          "pairs": 16,
+          "agreement": 16,
+          "always_correct_baseline": 15
+        },
+        "pairs": [
+          {
+            "application_id": "P03",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P08",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P09",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P13",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P14",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P18",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P19",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P23",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P24",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P28",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P29",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P33",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P34",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P38",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P39",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": true
+          },
+          {
+            "application_id": "P42",
+            "agreement": true,
+            "always_correct_baseline_agreement": false,
+            "both_without_observed_tools": true
+          }
+        ],
+        "interpretation": "Descriptive, on the same covered pairs; not an independent predictive model or mechanism identification."
+      }
+    },
+    "Gemini 3.1 Pro High": {
+      "direct": {
+        "planned": 17,
+        "returned": 15,
+        "scored": 15,
+        "core_correct": 15,
+        "full_correct": 15,
+        "tool_deviations": 10
+      },
+      "application": {
+        "planned": 17,
+        "returned": 2,
+        "scored": 2,
+        "core_correct": 1,
+        "full_correct": 1,
+        "tool_deviations": 1
+      },
+      "original_16": {
+        "planned": 16,
+        "returned": 2,
+        "scored": 2,
+        "core_correct": 1,
+        "full_correct": 1,
+        "tool_deviations": 1
+      },
+      "diagnostic": {
+        "planned": 1,
+        "returned": 0,
+        "scored": 0,
+        "core_correct": 0,
+        "full_correct": 0,
+        "tool_deviations": 0
+      },
+      "oracle": {
+        "planned": 9,
+        "returned": 0,
+        "scored": 0,
+        "core_correct": 0,
+        "full_correct": 0,
+        "tool_deviations": 0
+      },
+      "by_rule": {
+        "R01": {
+          "all_product_answers": {
+            "planned": 1,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R02": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 1,
+            "scored": 1,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 1,
+            "returned": 1,
+            "scored": 1,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R03": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 1,
+            "scored": 1,
+            "core_correct": 1,
+            "full_correct": 1,
+            "tool_deviations": 1
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R04": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R05": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R06": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R07": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R08": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        },
+        "R09": {
+          "all_product_answers": {
+            "planned": 2,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          },
+          "no_observed_tool_use": {
+            "planned": 0,
+            "returned": 0,
+            "scored": 0,
+            "core_correct": 0,
+            "full_correct": 0,
+            "tool_deviations": 0
+          }
+        }
+      },
+      "clean_version_error_families": [
+        "NPORT"
+      ],
+      "category_macro_error_rates": {
+        "registered_categories__all_product_answers": {
+          "news_level": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R06",
+              "R07",
+              "R09"
+            ],
+            "macro_error_rate": null
+          },
+          "operational": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05",
+              "R08"
+            ],
+            "macro_error_rate": null
+          }
+        },
+        "registered_categories__no_observed_tools": {
+          "news_level": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R06",
+              "R07",
+              "R09"
+            ],
+            "macro_error_rate": null
+          },
+          "operational": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05",
+              "R08"
+            ],
+            "macro_error_rate": null
+          }
+        },
+        "R08_news_sensitivity__all_product_answers": {
+          "news_level": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R06",
+              "R07",
+              "R08",
+              "R09"
+            ],
+            "macro_error_rate": null
+          },
+          "operational": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05"
+            ],
+            "macro_error_rate": null
+          }
+        },
+        "R08_news_sensitivity__no_observed_tools": {
+          "news_level": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R06",
+              "R07",
+              "R08",
+              "R09"
+            ],
+            "macro_error_rate": null
+          },
+          "operational": {
+            "complete_rules": [],
+            "excluded_rules": [
+              "R01",
+              "R02",
+              "R03",
+              "R04",
+              "R05"
+            ],
+            "macro_error_rate": null
+          }
+        }
+      },
+      "clean_original_16_all_correct": false,
+      "prospective_prediction": {
+        "total_applications": 17,
+        "classified_predictions": 15,
+        "observed_classified_pairs": 2,
+        "agreement": 1,
+        "always_correct_baseline_on_same_pairs": 1,
+        "both_without_observed_tools": {
+          "pairs": 0,
+          "agreement": 0,
+          "always_correct_baseline": 0
+        },
+        "pairs": [
+          {
+            "application_id": "P04",
+            "agreement": false,
+            "always_correct_baseline_agreement": false,
+            "both_without_observed_tools": false
+          },
+          {
+            "application_id": "P08",
+            "agreement": true,
+            "always_correct_baseline_agreement": true,
+            "both_without_observed_tools": false
+          }
+        ],
+        "interpretation": "Descriptive, on the same covered pairs; not an independent predictive model or mechanism identification."
+      }
+    }
+  },
+  "rows": [
+    {
+      "model": "GPT-6 High",
+      "id": "P01",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": null,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_schedule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P02",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": false,
+      "full_correct": false,
+      "version_consistent_error": false,
+      "classification": "other_unsupported_one_year_delay"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P03",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "scheduled_to_apply": true,
+        "compliance_date": "2025-11-17"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P04",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "scheduled_to_apply": false,
+        "compliance_date": "2027-11-17"
+      },
+      "notes": "Correct application despite P02 giving unsupported 2026 date in a separate conversation."
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P05",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "scheduled_to_apply": false,
+        "compliance_date": "2027-11-17"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P06",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P07",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P08",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline": "2023-03-16",
+        "deadline_passed": false
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P09",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline": "2024-03-11",
+        "deadline_passed": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P10",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline": "2024-03-11",
+        "deadline_passed": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P11",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P12",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P13",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline_passed": false,
+        "conditional_deadline": "2024-02-14"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P14",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline_passed": true,
+        "deadline": "2025-08-14"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P15",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline_passed": true,
+        "deadline": "2025-08-14"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P16",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P17",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P18",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "filing_date": "2024-02-05"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P19",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "filing_date": "2024-02-09"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P20",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "filing_date": "2024-02-09"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P21",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P22",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct_after_explicit_self_correction"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P23",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2017-09-07",
+        "settled_by_cutoff": false
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P24",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2017-09-07",
+        "settled_by_cutoff": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P25",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2017-09-07",
+        "settled_by_cutoff": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P26",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P27",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P28",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2024-05-29",
+        "settled_by_cutoff": false
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P29",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2024-05-29",
+        "settled_by_cutoff": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P30",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "settlement_date": "2024-05-29",
+        "settled_by_cutoff": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P31",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P32",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P33",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "ex_date": "2024-05-23",
+        "entitled": false
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P34",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "ex_date": "2024-06-06",
+        "entitled": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P35",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "ex_date": "2024-06-06",
+        "entitled": true
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P36",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P37",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P38",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "next_session": "2021-06-18"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P39",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "next_session": "2022-06-21"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P40",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "next_session": "2022-06-21"
+      },
+      "notes": ""
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P41",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_anchor",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": false,
+      "full_correct": false,
+      "version_consistent_error": false,
+      "classification": "wrong_version_consistent_60_day_embargo_unspecified_source"
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P42",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_anchor",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": false,
+      "full_correct": false,
+      "version_consistent_error": true,
+      "actual_fields": {
+        "usable": false,
+        "release_claim": "2026-05-30 or next business day 2026-06-01"
+      },
+      "notes": "Explicit day-60 embargo despite early ordinary third-fiscal-month filing. Matches the prespecified wrong alternative, without identifying internal training source."
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P43",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_anchor_oracle",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "usable": true,
+        "release": "upon filing on 2026-05-20"
+      },
+      "notes": "Same P42 application corrected when the verified original SEC sentence was supplied. One observed paired recovery, not a validated new algorithm."
+    },
+    {
+      "model": "GPT-6 High",
+      "id": "P44",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "deadline_release_diagnostic",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "sixty_days": "filing deadline, not mandatory public-release embargo",
+        "early_report_release": "upon filing subject to exceptions"
+      },
+      "notes": "Explicit deadline-versus-release distinction is correct in a fresh conversation, despite neutral P41/P42 errors. This limits a simple missing-knowledge interpretation."
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P01",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_schedule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P02",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_schedule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P03",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "failed",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P04",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": false,
+      "full_correct": false,
+      "version_consistent_error": true,
+      "actual_fields": {
+        "scheduled_to_apply": true,
+        "compliance_date": "2025-11-17"
+      },
+      "notes": "Applies pre-postponement 2024 schedule to May1,2025 planning date. P02 direct response had correctly said 2027 but used sources."
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P05",
+      "rule_id": "R02",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P06",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P07",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P08",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "actual_fields": {
+        "deadline": "2023-03-16",
+        "deadline_passed": false
+      },
+      "notes": ""
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P09",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "failed",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P10",
+      "rule_id": "R03",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P11",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P12",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P13",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P14",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P15",
+      "rule_id": "R04",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P16",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P17",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P18",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P19",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P20",
+      "rule_id": "R05",
+      "family": "OWNERSHIP",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P21",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P22",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "failed",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P23",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P24",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P25",
+      "rule_id": "R06",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P26",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P27",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P28",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P29",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P30",
+      "rule_id": "R07",
+      "family": "SETTLEMENT",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P31",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct",
+      "ancillary_error": "Unasked note says first T+1 record date was May 28, 2024; reference boundary is May 29. The asked May24 target remains correct."
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P32",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": true,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P33",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P34",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P35",
+      "rule_id": "R08",
+      "family": "SETTLEMENT",
+      "category": "operational",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P36",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "direct_pre",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "historical_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P37",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "direct_post",
+      "status": "returned",
+      "tool_deviation": false,
+      "core_correct": true,
+      "full_correct": true,
+      "version_consistent_error": false,
+      "classification": "current_rule_correct"
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P38",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_pre",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P39",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_post",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P40",
+      "rule_id": "R09",
+      "family": "CALENDAR",
+      "category": "news_level",
+      "condition": "application_post_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P41",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "direct_anchor",
+      "status": "failed",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P42",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_anchor",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P43",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "application_anchor_oracle",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    },
+    {
+      "model": "Gemini 3.1 Pro High",
+      "id": "P44",
+      "rule_id": "R01",
+      "family": "NPORT",
+      "category": "operational",
+      "condition": "deadline_release_diagnostic",
+      "status": "not_submitted",
+      "tool_deviation": null,
+      "core_correct": null,
+      "full_correct": null,
+      "version_consistent_error": false
+    }
+  ],
+  "limitations": [
+    "UI labels do not establish backend model revisions.",
+    "Tool flags reflect visible indicators/citations, not complete backend traces.",
+    "Request/return times are client-side observations, not server generation latencies.",
+    "One assistant graded answers; no independent blinded expert adjudication.",
+    "Deliberately constructed rule scenarios are not random samples of real workflows.",
+    "Scores concern requested reference fields and required explanations; unasked ancillary errors are recorded separately."
+  ],
+  "all_planned_requests_attempted": false,
+  "cross_family_continuation_trigger": false
+}

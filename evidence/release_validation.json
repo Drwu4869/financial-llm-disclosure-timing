@@ -1,0 +1,16 @@
+{
+  "verified_at_utc": "2026-11-09T02:22:56.624781+00:00",
+  "release_file_hashes": "passed",
+  "relative_markdown_links": "passed",
+  "python_syntax": "passed",
+  "current_manuscript_evidence": "passed",
+  "revision_checks": "passed",
+  "eligible_SEC_accessions": 349673,
+  "followup_programs": 36,
+  "opening_case_delayed_rows": "40/48",
+  "opening_case_delayed_periods": "5/6",
+  "historical_revalidation": "Historical reports read and curated; not all old experiments rerun.",
+  "new_model_calls": 0,
+  "candidate_programs_executed": false,
+  "github_publication": "This validation describes the prepared release content; remote publication is verified separately."
+}

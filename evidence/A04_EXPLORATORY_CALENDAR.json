@@ -1,0 +1,316 @@
+{
+  "updated_at": "2026-11-08T22:43:20.059359+00:00",
+  "introduced_at": "2026-11-08T22:29:00.126858+00:00",
+  "designation": "POST-HOC explanatory analysis; not part of frozen policy family or confirmatory counts",
+  "trigger": "Observed CLAUDE_NPORT_P1_r1 source and saved output after its first answer; 9 Claude answers had been returned.",
+  "method": "Handwritten 45/60-day floors with next-EDGAR-business-day roll, inclusive/strict variants; compare all five seeds and all 477 dates using saved baseline weights.",
+  "no_changes": "No frozen files, primary scores, candidate code, prompts or stopping rules changed.",
+  "programs": [
+    {
+      "token": "CLAUDE_F13_P0_r1",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P0_r2",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P0_r3",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P1_r1",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P1_r2",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P1_r3",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P2_r1",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P2_r2",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_F13_P2_r3",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r1",
+      "frozen_matches": [],
+      "exploratory_calendar_matches": [
+        {
+          "label": "floor60_edgar_inclusive",
+          "all_seed_max_errors": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "new_explanation_only": true
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r2",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P0_r3",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r1",
+      "frozen_matches": [],
+      "exploratory_calendar_matches": [
+        {
+          "label": "floor60_edgar_strict",
+          "all_seed_max_errors": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "new_explanation_only": true
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r2",
+      "frozen_matches": [
+        "floor60_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P1_r3",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r1",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r2",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "CLAUDE_NPORT_P2_r3",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P0_r1",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P0_r2",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P0_r3",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P1_r1",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P1_r2",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P1_r3",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P2_r1",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P2_r2",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_F13_P2_r3",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P0_r1",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P0_r2",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P0_r3",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P1_r1",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P1_r2",
+      "frozen_matches": [
+        "filing_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P1_r3",
+      "frozen_matches": [
+        "floor60_strict"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P2_r1",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P2_r2",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    },
+    {
+      "token": "GPT_NPORT_P2_r3",
+      "frozen_matches": [
+        "filing_inclusive"
+      ],
+      "exploratory_calendar_matches": [],
+      "new_explanation_only": false
+    }
+  ]
+}

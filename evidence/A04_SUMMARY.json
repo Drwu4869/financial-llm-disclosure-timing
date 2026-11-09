@@ -1,0 +1,264 @@
+{
+  "updated_at": "2026-11-08T22:42:42.168777+00:00",
+  "planned": 36,
+  "send_action_attempts": 36,
+  "returned": 36,
+  "pending": 0,
+  "evaluated": 36,
+  "unattempted": 0,
+  "cells": [
+    {
+      "vendor": "GPT",
+      "form": "NPORT",
+      "condition": "P0",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 0,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 3,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "GPT",
+      "form": "NPORT",
+      "condition": "P1",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 1,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 2,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "GPT",
+      "form": "NPORT",
+      "condition": "P2",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 3,
+        "filing_strict": 0,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "GPT",
+      "form": "F13",
+      "condition": "P0",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 3,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "GPT",
+      "form": "F13",
+      "condition": "P1",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 3,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "GPT",
+      "form": "F13",
+      "condition": "P2",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 3,
+        "filing_strict": 0,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "NPORT",
+      "condition": "P0",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 1,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 1,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "NPORT",
+      "condition": "P1",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 1,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 1,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "NPORT",
+      "condition": "P2",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 3,
+        "filing_strict": 0,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "F13",
+      "condition": "P0",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 1,
+        "filing_strict": 2,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "F13",
+      "condition": "P1",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 0,
+        "filing_strict": 3,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    },
+    {
+      "vendor": "CLAUDE",
+      "form": "F13",
+      "condition": "P2",
+      "planned": 3,
+      "evaluated": 3,
+      "all_seed_policy_counts": {
+        "filing_inclusive": 3,
+        "filing_strict": 0,
+        "floor45_inclusive": 0,
+        "floor45_strict": 0,
+        "floor60_inclusive": 0,
+        "floor60_strict": 0,
+        "fixed45_inclusive": 0,
+        "fixed60_inclusive": 0,
+        "report_date": 0
+      },
+      "refusals": 0,
+      "invalid_or_incomplete": 0,
+      "witness_programs": 0
+    }
+  ],
+  "scope": "A04 only; not pooled into original pilot. Execution seeds are not model generations."
+}
