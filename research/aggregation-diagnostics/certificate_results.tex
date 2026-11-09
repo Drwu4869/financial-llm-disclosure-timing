@@ -1,0 +1,45 @@
+\subsection{Post hoc incompatibility certificates}\label{sec:certificate-results}
+
+The full diagnostic and its provenance are specified in Section~\ref{sec:certificate}. No acceptance threshold was retuned. Table~\ref{tab:incompatibility} distinguishes strict eligibility from numerical normalization; zero eligible cases do not constitute evidence of compatibility.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}llrrrr@{}}\toprule
+Model & View & Eligible & Incompatible & Min. $d_*$ & Median $d_*$\\\midrule
+SmolLM3-3B & strict & 0/32 & 0 & --- & ---\\
+SmolLM3-3B & normalized & 32/32 & 32 & 0.942 & 7.060\\
+Qwen3-8B & strict & 22/32 & 22 & 2.066 & 7.045\\
+Qwen3-8B & normalized & 32/32 & 32 & 2.066 & 8.821\\
+\bottomrule\end{tabular}
+\caption{Incompatible means that the exact lower bound exceeds 0.005. Minimum and median distances are in percentage points of account exposure; displayed values use certified lower bounds, whose upper-bound gaps are below $3.08\times10^{-10}$ in fractional units.}\label{tab:incompatibility}\end{table}
+
+The SmolLM3 strict view supplies no complete eight-query vector. Qwen3 supplies 22, all incompatible at the reference budget. After numerical normalization, all 32 cases from each model remain incompatible: the smallest required uniform error is about 0.94 percentage points for SmolLM3 and 2.07 for Qwen3. Thus the normalized failure cannot be explained by a single fixed normalized multiplicity vector with answer errors bounded by half a percentage point. This rejects a proposed explanation of the recorded responses, not every possible arithmetic or prompt-dependent explanation.
+
+The component analysis also separates formatting from semantic restrictions. After normalization, all 32 cases per model have valid fractions; none passes the original slope criterion. The curvature criterion passes 0/32 SmolLM3 and 1/32 Qwen3 cases, while the anchor criterion passes 28/32 and 32/32. The zero-coverage result is therefore not solely an interface-validity artifact.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}lrrrrr@{}}\toprule
+Model & One query & Two queries & Midpoint & Union & Full LP\\\midrule
+SmolLM3-3B & 23 & 23 & 31 & 32 & 32\\
+Qwen3-8B & 21 & 25 & 29 & 31 & 32\\
+\bottomrule\end{tabular}
+\caption{Normalized cases rejected by lower-bound witnesses at the unchanged 0.005 budget, out of 32 per model. The union includes the three displayed families. The LP adds no rejected SmolLM3 case and one Qwen3 case; this does not show general superiority over simple tests.}\label{tab:simple-witnesses}\end{table}
+
+The release contains 86 exact-checked certificates: 22 strict Qwen3 vectors and 64 normalized vectors, with overlapping observations across views. They are not 86 independent cases. Five new software tests include consistent-but-wrong weights, a contradiction with a known exact optimum, and deliberate certificate corruption; the full suite has 18 passing tests. A separate checker also binds each certificate to archived prompt literals and raw outputs. These are internal checks, not independent human validation.
+
+\paragraph{A global contradiction missed by the three simple witness families.} The sole additional normalized Qwen3 case is \texttt{fresh\_13\_identical}. Its base and three positive-contrast responses are shown in Table~\ref{tab:global-example}. The base answer is correct. Every one-query, two-query and centered-midpoint witness in the specified families has lower bound zero for this case, yet no nonnegative normalized weighting vector fits all responses exactly.
+
+\begin{table}[H]\centering\small
+\begin{tabular}{@{}llr@{}}\toprule
+Query & Product A fractions & Reported A\\\midrule
+Base & $(0.296,0.296,0.296,0.296)$ & 0.296\\
+Contrast 1, plus & $(0.346,0.346,0.246,0.246)$ & 0.246\\
+Contrast 2, plus & $(0.346,0.246,0.346,0.246)$ & 0.346\\
+Contrast 3, plus & $(0.346,0.246,0.246,0.346)$ & 0.346\\\bottomrule
+\end{tabular}
+\caption{Actual saved Qwen3 responses; their original A/B fractions already sum to one, so normalization leaves these values unchanged. This example is the sole case added by the full LP over the stated simple-witness union.}\label{tab:global-example}\end{table}
+Write the three positive-contrast input rows as $x_1,x_2,x_3$. Coordinatewise,
+$-x_1+x_2+x_3=(0.346,0.146,0.346,0.346)$. Any nonnegative normalized weighting rule must therefore satisfy
+\begin{equation}
+-f(x_1)+f(x_2)+f(x_3)\leq0.346.
+\end{equation}
+The saved answers instead give $-0.246+0.346+0.346=0.446$. If each answer differs from some fixed rule by at most $\epsilon$, the three discrepancies can account for at most $3\epsilon$ of this gap. Consequently $\epsilon\geq0.100/3$, or $3.\overline3$ percentage points. The LP provides a matching upper bound. This is a falsification of an admissible fixed-rule explanation, not proof that the model literally used negative weights. It strengthens the diagnosis of this finite trace; it does not turn the original zero-coverage gate into a useful correctness verifier.

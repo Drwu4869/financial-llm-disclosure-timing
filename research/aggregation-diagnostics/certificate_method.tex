@@ -1,0 +1,32 @@
+\subsection{An exact-checkable diagnostic of incompatible aggregation}\label{sec:certificate}
+The contrast gate tests whether responses resemble the \emph{correct} weighting rule. Its failure does not establish whether another fixed weighting rule explains them. We therefore add a separately dated, post hoc diagnostic that asks whether \emph{any} nonnegative normalized rule is compatible with the saved answers. This is a bounded-error identification problem in the established set-membership tradition \citep{milanese1991}; the optimization uses standard norm approximation and convex duality \citep{boyd2004}. The contribution is the portfolio-specific formulation, explicit evidence certificates and empirical diagnosis, not a new linear-programming algorithm.
+
+Let $X\in[0,1]^{T\times J}$ contain the within-product A allocations displayed in the $T=8$ audit prompts, and let $y\in\mathbb R^T$ contain the corresponding reported A exposures. Define
+\begin{equation}
+ d_*(X,y)=\min_{p\geq0,\;\mathbf1^\top p=1}\|y-Xp\|_\infty.\label{eq:mindefect}
+\end{equation}
+This is the smallest uniform answer error needed to reconcile all queries with one admissible aggregation rule. It does not use the prescribed account weights $q$ or the gold aggregate answers. A rule may have $d_*=0$ and still weight products incorrectly. Conversely, $d_*>\epsilon$ rules out every fixed convex-combination explanation at error budget $\epsilon$; it does not show that every individual answer is wrong or identify a hidden causal mechanism.
+
+\begin{proposition}[A verifiable lower bound and an exact dual representation]\label{prop:certificate}
+For any $\lambda\in\mathbb R^T$ with $\|\lambda\|_1\leq1$, define
+\begin{equation}
+ L(\lambda)=\lambda^\top y-\max_j(X^\top\lambda)_j.
+\end{equation}
+Then $L(\lambda)\leq d_*(X,y)$, and
+\begin{equation}
+ d_*(X,y)=\max_{\|\lambda\|_1\leq1}L(\lambda).
+\end{equation}
+Any simplex vector $\widetilde p$ also supplies the upper bound
+$d_*\leq U(\widetilde p)=\|y-X\widetilde p\|_\infty$.
+\end{proposition}
+\begin{proof}
+For any admissible $p$, the convex-combination property gives
+$\lambda^\top Xp\leq\max_j(X^\top\lambda)_j$. Therefore
+$L(\lambda)\leq\lambda^\top(y-Xp)\leq\|y-Xp\|_\infty$ by the dual-norm inequality. Minimizing over $p$ proves the lower bound. For equality, write the infinity norm as a maximum over the unit $\ell_1$ ball and interchange the minimum and maximum of the continuous bilinear form on two compact convex sets. Minimizing over the simplex selects the largest coordinate of $X^\top\lambda$. The upper bound follows by evaluating any feasible $\widetilde p$.
+\end{proof}
+
+The numerical solver proposes primal and dual vectors. We round their coordinates to an integer grid, normalize the primal vector into the simplex, and scale the dual vector to have $\ell_1$ norm at most one. A separate checker recomputes $\max(0,L)$ and $U$ using exact rational arithmetic. It requires a bound gap at most $10^{-7}$, checks each input against the literal percentages in the archived prompts, and checks each answer against the saved raw response. The checker needs neither an optimizer nor a language model. These are certificates about the printed inputs and saved numerical outputs, not formal verification of the whole software stack.
+
+Simple certificates provide essential comparators. A one-query witness checks whether an answer lies outside the range of its product holdings. A two-query witness checks whether the answer difference lies outside the range of the product-level differences. A three-query midpoint witness checks whether a centered perturbation pair averages to the base response. All are special choices of $\lambda$ in Proposition~\ref{prop:certificate}; the optimizer can combine queries in other ways. The comparison concerns the stated witness families and error budget, not every possible elementary test. In particular, the original slope check already rejects the cases studied below.
+
+We apply the diagnostic to all evaluation cases in both strict and numerically normalized views. A strict case is eligible only when all eight original fractional outputs are valid. The normalized view reuses the previously defined $a/(a+b)$ transformation; it analyzes transformed answers and does not replace primary scoring. The $\epsilon=0.005$ reference is the existing exposure tolerance, not an estimated noise level. Because this analysis followed inspection of v4 outcomes, it is exploratory, with no additional model calls or independent sample.

@@ -1,0 +1,14 @@
+{
+  "status": "DETERMINISTIC_FAULT_INJECTION_NOT_LLM_OUTPUT",
+  "design": "48 account allocations x 80 nonempty multiplicity vectors",
+  "counts": {
+    "instances": 3840,
+    "benign_uniform_multiplicity": 96,
+    "nonuniform_multiplicity": 3744,
+    "identical_base_exact": 3840,
+    "heterogeneous_base_exact": 96,
+    "one_contrast_detected": 3648,
+    "three_contrasts_detected": 3744,
+    "max_reconstruction_error": 1.7763568394002505e-15
+  }
+}

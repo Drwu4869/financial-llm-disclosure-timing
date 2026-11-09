@@ -1,0 +1,154 @@
+\section{Accounting, risk, and what a correct answer identifies}\label{sec:theory}
+Let $q_j\geq0$ be the account fraction allocated to product $j$, with $\sum_jq_j=1$. Let $B_{ja}$ be the fraction of that product in underlying asset $a$. The aggregate exposure, state return, and standard deviation are
+\begin{align}
+ w&=B^\top q, & R_s&=w^\top r_s,\label{eq:accounting}\\
+ \sigma(w)&=\sqrt{\sum_s\pi_s(R_s-\mu)^2}
+           =\sqrt{w^\top\Sigma w},&\mu&=\sum_s\pi_sR_s.\label{eq:variance}
+\end{align}
+Equation~\ref{eq:accounting} is ordinary weighted accounting; Equation~\ref{eq:variance} is classical portfolio mathematics \citep{markowitz1952}. All comparisons fix the joint return distribution and exclude fees, taxes, leverage, trading, tracking error, counterparty risk, and other wrapper-specific effects. These assumptions define a controlled task rather than a claim that actual financial wrappers are economically interchangeable.
+
+Risk accuracy is also weaker than exposure identification. For two assets and $D=R_A-R_B$, classical variance algebra gives
+\begin{equation}
+\sigma^2(a)=\operatorname{Var}(R_B)+2a\operatorname{Cov}(R_B,D)+a^2\operatorname{Var}(D).
+\end{equation}
+If $\operatorname{Var}(D)>0$ and the minimum $a_*=-\operatorname{Cov}(R_B,D)/\operatorname{Var}(D)$ lies inside $[0,1]$, distinct admissible allocations equidistant from $a_*$ can have exactly the same risk. When $\operatorname{Var}(D)=0$, all allocations have the same standard deviation. These are standard consequences of the variance formula, not new risk theory. They explain why a correct risk number alone cannot generally certify correct extraction; tolerance-based scoring can obscure further exposure errors.
+
+For two assets, write $b_j=B_{jA}$ and $B_{jB}=1-b_j$. The correct account fraction in A is $a=q^\top b$. Consider the restricted error class
+\begin{equation}
+ f_m(b)=\frac{\sum_jm_jq_jb_j}{\sum_jm_jq_j}=p^\top b,
+ \qquad p_j=\frac{m_jq_j}{\sum_km_kq_k},\label{eq:errorclass}
+\end{equation}
+where $m_j\geq0$ and the denominator is positive. Omitting a product corresponds to $m_j=0$; duplicating it corresponds to $m_j=2$. More generally $m_j$ represents a relative weighting distortion. We introduce this class as an analytical model, not as an assertion about a language model's hidden computation.
+
+\begin{proposition}[Homogeneous-holdings blind spot]\label{prop:blind}
+If $b_j=a_0$ for every product, then $f_m(b)=a_0$ for every admissible multiplicity vector $m$. Neither aggregate exposure nor any risk statistic computed solely from that exposure distinguishes these errors from correct aggregation.
+\end{proposition}
+\begin{proof}
+Since $\sum_jp_j=1$, $p^\top(a_0\mathbf1)=a_0$. The aggregate B exposure is $1-a_0$, so every state payoff and every statistic of those fixed payoffs also coincides.
+\end{proof}
+The result covers all choices of $a_0$, not just balanced portfolios. Testing many homogeneous product mixtures at different stock/bond proportions still cannot identify product-specific weighting distortions. Uniform multiplication of all $m_j$ is economically irrelevant after normalization and should not be treated as an exposure error.
+
+For a single heterogeneous composition $b$, a wrong $p$ may still satisfy $(p-q)^\top b=0$. Thus correctness on one heterogeneous instance is also insufficient in general. For interior account weights and nonconstant $b$, normalization and one exact aggregate observation leave, generically, $J-2$ unconstrained weighting directions. This is an elementary rank observation, not a new result in linear algebra.
+
+\section{Diagnosing aggregation with informative interventions}\label{sec:diagnostics}
+\subsection{Interventions and conditional identification}
+The blind spot suggests a design requirement: a useful probe must make the reported total depend on the weights whose correctness is being assessed. Reordering or splitting identical holdings cannot do this for the error class in Equation~\ref{eq:errorclass}. Changing product compositions can. We derive this diagnostic under an explicit fixed-rule assumption; Study A subsequently tests that assumption and the acceptance rule rather than assuming they hold for an LLM.
+Hold account weights, product labels, and sentence structure fixed. For identification, let $J$ count positively funded products; zero-weight products can be removed. For contrast vector $c_\ell$, modify each product's A allocation by $\pm\delta c_{\ell j}$ and its B allocation by the opposite amount. Choose $\delta$ so every modified allocation remains in $[0,1]$. These interventions deliberately change economic exposure; they complement the payoff-preserving fragmentation tests rather than pretending to be additional invariant rewrites.
+
+For an observed aggregate-exposure function $f$, define
+\begin{equation}
+ g_\ell=\frac{f(b+\delta c_\ell)-f(b-\delta c_\ell)}{2\delta},
+ \qquad s=g-Cq.\label{eq:slope}
+\end{equation}
+Under Equation~\ref{eq:errorclass} with \emph{the same} $p$ across interventions, $g=Cp$. In particular, the expected response depends on the account allocations $q$, not the unknown base aggregate answer.
+
+\begin{proposition}[Identification from contrast measurements]\label{prop:rank}
+Within the class of fixed normalized linear aggregation rules $f(b)=p^\top b$, the contrast measurements $g=Cp$ uniquely identify every admissible weight vector $p$ if and only if
+\begin{equation}
+\operatorname{rank}\begin{bmatrix}\mathbf1^\top\\ C\end{bmatrix}=J.
+\end{equation}
+Consequently, identification from contrasts and normalization requires at least $J-1$ independent contrast measurements.
+\end{proposition}
+\begin{proof}
+If two normalized vectors produce the same measurements, their difference $e$ satisfies $\mathbf1^\top e=0$ and $Ce=0$. Full column rank forces $e=0$. If rank is deficient, take a nonzero null vector $e$. Around any interior normalized weight vector, a sufficiently small nonzero multiple of $e$ preserves nonnegativity and gives an indistinguishable alternative. The row count gives the lower bound.
+\end{proof}
+The lower bound is scoped to global identification within this observation scheme. A particular boundary vector can be uniquely identified with fewer measurements because of nonnegativity. The proposition does not assert optimality among arbitrary algorithms supplied with different information or additional ground-truth answers.
+
+For the four-product experiment, use the three nonconstant rows of a Hadamard matrix:
+\begin{equation}
+C=\begin{bmatrix}
+1&1&-1&-1\\1&-1&1&-1\\1&-1&-1&1
+\end{bmatrix},\quad
+C^\top C=4I-\mathbf1\mathbf1^\top.
+\end{equation}
+The effective weighting error and weights have the closed forms
+\begin{equation}
+\widehat e=\tfrac14 C^\top s,\qquad \widehat p=q+\widehat e.\label{eq:reconstruct}
+\end{equation}
+These identify normalized relative weights, not the absolute scale of multiplicities. Even perfect recovery of $p$ cannot distinguish $m$ from a positive scalar multiple of $m$.
+
+\begin{figure}[htbp]\centering
+\includegraphics[width=\linewidth]{figures/analytical_contrasts.pdf}
+\caption{An analytical example with $q=(0.1,0.2,0.3,0.4)$ and homogeneous 60\% A holdings. Counting the last product twice gives the same base exposure (black point), but different responses to the three composition contrasts. These lines describe specified linear rules, not observed model outputs.}\label{fig:contrasts}
+\end{figure}
+
+\begin{corollary}[Noise amplification]\label{cor:noise}
+If the fixed-linear assumption holds and each queried exposure has additive error of magnitude at most $\epsilon$, then
+\begin{equation}
+\|\widehat p-p\|_2\leq\frac{\sqrt3\epsilon}{2\delta}.
+\end{equation}
+\end{corollary}
+\begin{proof}
+Each centered difference has error at most $\epsilon/\delta$. The spectral norm of $C^\top/4$ is $1/2$, yielding the stated bound.
+\end{proof}
+Small perturbations amplify output noise. The experimental choice $\delta=0.05$ is fixed before the follow-up evaluation; it is not selected to maximize observed success.
+
+\subsection{From weighting distortion to potential risk error}
+An exposure diagnostic is more informative when its magnitude has an economic interpretation. Let $e=p-q$, and restrict within-product A allocations to $[\ell,u]$. Define the worst-case exposure distortion of the fixed aggregation rule over that composition domain by
+\begin{equation}
+\mathcal E(e;\ell,u)=\sup_{b\in[\ell,u]^J}|e^\top b|.
+\end{equation}
+\begin{proposition}[Sharp exposure bound and a risk consequence]\label{prop:impact}
+For normalized $p,q$,
+\begin{equation}
+\mathcal E(e;\ell,u)=\frac{u-\ell}{2}\|e\|_1.
+\end{equation}
+For two fixed underlying return series $R_A,R_B$, the corresponding standard-deviation discrepancy satisfies
+\begin{equation}
+|\sigma(p^\top b)-\sigma(q^\top b)|
+\leq \sigma(R_A-R_B)\,\mathcal E(e;\ell,u).
+\label{eq:impact}
+\end{equation}
+\end{proposition}
+\begin{proof}
+The positive and negative entries of $e$ have equal total magnitude because $\mathbf1^\top e=0$. Assign $b_j=u$ to positive entries and $b_j=\ell$ to negative entries; this attains $(u-\ell)\|e\|_1/2$, and no admissible assignment can exceed it. For the second statement, write the portfolio return as $R_B+a(R_A-R_B)$. The reverse triangle inequality for the norm of centered random variables bounds the difference of standard deviations by $|a_1-a_2|\sigma(R_A-R_B)$.
+\end{proof}
+For the four-product basis, exact contrast measurements therefore give
+\begin{equation}
+\mathcal E=\frac{u-\ell}{8}\|C^\top s\|_1.
+\end{equation}
+This score distinguishes a small weighting distortion from one capable of materially changing exposure, even if both give the same answer on the homogeneous base case. If the two assets have identical returns, $\sigma(R_A-R_B)=0$ and exposure mistakes have no payoff consequence in this restricted model. The risk bound is generally an upper bound, not necessarily attained simultaneously with the sharp exposure bound.
+
+Under Corollary~\ref{cor:noise}, a conservative exposure bound replaces $\|\widehat e\|_1$ by $\|\widehat e\|_1+\sqrt3\epsilon/\delta$. These are conditional analytical consequences of the fixed-rule model. We do not use them to relabel the empirical audit as a certified market-risk system or retune its frozen acceptance rule.
+
+\subsection{Acceptance rule and its limits}
+The audit uses eight calls: the base description, six centered perturbations, and an anchor with every product entirely allocated to B. For valid fractional outputs, let
+\begin{equation}
+\kappa=\max_\ell\left|\frac{f(b+\delta c_\ell)+f(b-\delta c_\ell)}2-f(b)\right|.
+\end{equation}
+At the prespecified operating point, the audit accepts the base answer only if
+\begin{equation}
+\|s\|_\infty\leq0.02,\qquad \kappa\leq0.005,\qquad |f(0)|\leq0.005.\label{eq:accept}
+\end{equation}
+Every query must also return valid nonnegative fractions summing to one within $10^{-5}$. Missing, malformed, truncated, or invalid outputs cause rejection. The anchor tests an additive offset; curvature tests a local failure of the affine model. The release also reports a tolerance sweep rather than presenting one threshold as universally calibrated.
+
+Even within the fixed-linear class, the empirical slope threshold is not a certificate of the $0.005$ accuracy target. For four products, $\|s\|_\infty\leq\tau$ implies only $\mathcal E\leq3(u-\ell)\tau/4$: the maximum of $\|C^\top s\|_1$ over this cube is $6\tau$, attained at its vertices. With $[\ell,u]=[0,1]$ and $\tau=0.02$, this permits exposure error up to $0.015$. The gate is an evaluated operating point, not an analytically calibrated correctness guarantee. Its thresholds remain frozen despite this limitation.
+
+The eight-call implementation is not query-optimal for noiseless linear identification. One-sided contrasts sharing a base query can use fewer calls. We use symmetric pairs to measure curvature and bound difference noise, and a separate anchor to check an additive offset. These additional diagnostics explain the budget; they do not establish universal validity.
+
+\begin{lstlisting}[caption={Four-product audit. The source structure is supplied by the benchmark.}]
+Input: source account weights q, product compositions b
+Query: base b; all-B anchor 0;
+       b + delta*C[k] and b - delta*C[k], k = 0,1,2
+If any answer is invalid or truncated: reject
+g[k] = (answer_plus[k] - answer_minus[k]) / (2*delta)
+s = g - C*q
+curvature = max_k(abs((answer_plus[k] + answer_minus[k])/2
+                     - answer_base))
+accept = (max(abs(s)) <= 0.02 and curvature <= 0.005
+          and abs(answer_anchor) <= 0.005)
+diagnostic_weights = q + transpose(C)*s/4
+Return: accept, s, curvature, diagnostic_weights
+\end{lstlisting}
+
+\textbf{This is not a universal semantic certificate.} A language model can change its effective computation between prompts. A nonlinear function can agree with the correct function on any finite set of queried points and disagree elsewhere. Curvature and an anchor reduce particular blind spots but do not remove this impossibility. Reconstructed weights are therefore \emph{conditional diagnostics}, not measurements of internal attention or proof that the model omitted a particular product.
+
+The experiment generates interventions from a known source representation. It does not solve the separate problem of reliably editing arbitrary unstructured financial documents. Moreover, because the experimenter knows $q$ and $b$, it can calculate the gold answer directly. The audit's role here is to characterize model behavior and benchmark informativeness, not to offer a cheaper replacement for that available calculator.
+
+\input{support/certificate_method.tex}
+
+\subsection{Comparators and a practical computation baseline}
+The matched eight-call comparator uses the base description, six lot-order permutations, and a version that splits each of four lots into two. It accepts only if all eight outputs are valid and their A exposures span at most $0.005$. This measures representation consistency at the same number of calls. Token and latency costs are also reported; matching calls does not guarantee identical computational cost.
+
+We separately evaluate two one-call computation pipelines. \emph{Aggregate extraction} asks the model for account-level A/B weights, then applies a deterministic risk calculator. \emph{Source-factored extraction} asks for one row per funded lot containing its identifier, account weight, and within-product weights. Software validates identifiers, ranges, account-weight conservation, and within-product conservation before calculating $\sum_j\widehat q_j\widehat b_j$. These checks detect structural failures but cannot guarantee that values were attached to the correct source clauses. The latter pipeline is an established extraction-and-computation baseline, not the novel part of this work.
+

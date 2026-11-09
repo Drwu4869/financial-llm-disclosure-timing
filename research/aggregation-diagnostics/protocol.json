@@ -1,0 +1,79 @@
+{
+  "frozen_at_utc": "2026-11-05T01:30:17.067974+00:00",
+  "status": "LOCALLY_FROZEN_FOLLOWUP_NOT_EXTERNALLY_PREREGISTERED",
+  "motivation": "Designed after v3 pilot; fresh prompts and parameter draws, no v4 outputs observed at freeze.",
+  "seed": 2026110507,
+  "decoding": {
+    "temperature": 0,
+    "max_tokens": 512,
+    "reasoning": "off",
+    "json_object": true
+  },
+  "evaluation_families": 16,
+  "evaluation_cases": 32,
+  "development_families": 2,
+  "models": [
+    "Qwen/Qwen3-8B-GGUF Q4_K_M",
+    "ggml-org/SmolLM3-3B-GGUF Q4_K_M"
+  ],
+  "audit": {
+    "C": [
+      [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "delta": 0.05,
+    "slope_tolerance": 0.02,
+    "curvature_tolerance": 0.005,
+    "anchor_tolerance": 0.005,
+    "budget": "8 calls: base, 6 perturbations, anchor. Matched comparator: base, 6 reorderings, split."
+  },
+  "primary": {
+    "exposure_absolute_tolerance": 0.005,
+    "risk_relative_tolerance": 0.05,
+    "unit": "family; identical and heterogeneous descriptions share a family",
+    "metrics": [
+      "accuracy",
+      "silent wrong accepts",
+      "coverage",
+      "conditional accepted accuracy",
+      "false rejects",
+      "paired split effect",
+      "cost and truncation"
+    ],
+    "bootstrap": "10000 paired family resamples, seed 2026110507; exploratory intervals",
+    "missing": "invalid and truncated outputs are failures, no response retries",
+    "secondary": [
+      "normalization",
+      "source-factored calculator",
+      "slope reconstruction compatibility",
+      "tolerance sweep [.001,.005,.01,.02]"
+    ]
+  },
+  "files": {
+    "cases.jsonl": "2ddf7913cbb9273abc3446c9c341ab0d13036a495578861532e2b4b8bc5755f1",
+    "answer_key.jsonl": "5948d01f57e47031978a7681474b90f58961389616cb1e428a5ed7b9800ca40f",
+    "prompts.jsonl": "7f51e889a3b720da405aea421807609a044b657ee67205494ee1fccaf67b47a2"
+  },
+  "limits": [
+    "Constructed text and returns; not authentic account statements.",
+    "Finite probes do not certify an arbitrary nonlinear language model.",
+    "Perturbation construction uses benchmark source structure; no autonomous verifier of arbitrary documents is claimed.",
+    "8B and 3B quantized local inference are not frontier-model evidence."
+  ]
+}

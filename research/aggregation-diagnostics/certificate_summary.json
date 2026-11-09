@@ -1,0 +1,98 @@
+[
+  {
+    "model": "smol",
+    "mode": "strict",
+    "cases": 32,
+    "eligible": 0,
+    "incompatible": 0,
+    "minimum": null,
+    "median": null,
+    "maximum": null,
+    "gate_component_passes": {
+      "valid": 0,
+      "slope": 0,
+      "curvature": 0,
+      "anchor": 0,
+      "all": 0
+    },
+    "simple_rejections": {
+      "single": 0,
+      "pair": 0,
+      "midpoint": 0
+    },
+    "simple_union_rejections": 0,
+    "max_bound_gap": 0
+  },
+  {
+    "model": "smol",
+    "mode": "normalized",
+    "cases": 32,
+    "eligible": 32,
+    "incompatible": 32,
+    "minimum": 0.009416193821283756,
+    "median": 0.07060205,
+    "maximum": 0.3905621999999999,
+    "gate_component_passes": {
+      "valid": 32,
+      "slope": 0,
+      "curvature": 0,
+      "anchor": 28,
+      "all": 0
+    },
+    "simple_rejections": {
+      "single": 23,
+      "pair": 23,
+      "midpoint": 31
+    },
+    "simple_union_rejections": 32,
+    "max_bound_gap": 1.3753222172230295e-10
+  },
+  {
+    "model": "qwen8",
+    "mode": "strict",
+    "cases": 32,
+    "eligible": 22,
+    "incompatible": 22,
+    "minimum": 0.020664959148242307,
+    "median": 0.0704521505904,
+    "maximum": 0.3570856444,
+    "gate_component_passes": {
+      "valid": 22,
+      "slope": 0,
+      "curvature": 1,
+      "anchor": 22,
+      "all": 0
+    },
+    "simple_rejections": {
+      "single": 12,
+      "pair": 15,
+      "midpoint": 19
+    },
+    "simple_union_rejections": 21,
+    "max_bound_gap": 3.0769905373650985e-10
+  },
+  {
+    "model": "qwen8",
+    "mode": "normalized",
+    "cases": 32,
+    "eligible": 32,
+    "incompatible": 32,
+    "minimum": 0.020664959148242307,
+    "median": 0.0882141629891356,
+    "maximum": 0.39381275,
+    "gate_component_passes": {
+      "valid": 32,
+      "slope": 0,
+      "curvature": 1,
+      "anchor": 32,
+      "all": 0
+    },
+    "simple_rejections": {
+      "single": 21,
+      "pair": 25,
+      "midpoint": 29
+    },
+    "simple_union_rejections": 31,
+    "max_bound_gap": 3.0769905373650985e-10
+  }
+]
