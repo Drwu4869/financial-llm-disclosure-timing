@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this research archive, cite the working paper and identify the study and release date."
+title: "No Look-Ahead, Yet Too Late: Inapplicable Disclosure Rules in LLM-Generated Backtest Code"
+type: software
+authors:
+  - family-names: Wu
+    given-names: Changyi
+    affiliation: Independent Researcher
+version: "0.1.0"
+date-released: "2026-11-09"
+keywords:
+  - financial language models
+  - disclosure timing
+  - point-in-time data
+  - code generation
+  - model evaluation
+preferred-citation:
+  type: unpublished
+  title: "No Look-Ahead, Yet Too Late: Inapplicable Disclosure Rules in LLM-Generated Backtest Code"
+  authors:
+    - family-names: Wu
+      given-names: Changyi
+  year: 2026
+  month: 11
+  notes: "Independent working paper; not peer reviewed."
