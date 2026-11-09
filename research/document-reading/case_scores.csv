@@ -1,0 +1,9 @@
+run,form,reported_low_or_point,reported_high,decision,dated_sources_and_pages,review_note,reference_low,reference_high,max_abs_error_pp,form_correct,numeric_correct,decision_correct,answer_text_sha256
+A_pdf,point,2.078,,within,1,Annual PDF pp. 252 and 317 correctly located; February positions used.,2.0780,2.0780,0.0000,1,1,1,8f7ff76e5ec965d4b55f4e38b3ac22961bdfd276c8c4d835655ec28af19428e1
+A_txt,point,2.078,,within,1,Correct statement pages and both February positions.,2.0780,2.0780,0.0000,1,1,1,525cf0a7051365eaac10296247a1ec4a07bb21ba8c039dd243b8df4dac250c95
+B_txt,interval,2.068,3.982,undetermined,1,September holdings and tenth row correctly sourced; no stale substitute.,2.0680,3.9820,0.0000,1,1,1,2794944af628c937bde26f8aee00e2f95c499b807418b27cda8824a9ad866b60
+B_pdf,interval,2.068,3.982,undetermined,1,Explicitly rejects mixing the 2025 1.01% holding into September; 2.674% is a discarded counterfactual.,2.0680,3.9820,0.0000,1,1,1,71231ed7f12bc2377378008ead1f894747a7d45d29fa71bda3a13bc3723fa0f2
+C_pdf,point,9.26,,over,1,7–10yr security identified in both September factsheets on p. 3; distinguishes later data date.,9.2600,9.2600,0.0000,1,1,1,6e0f3c4fc3a41fc8506b422cf73f33c966e3c1b37d3c616b752a8a1ed5c26561
+C_txt,point,9.26,,over,1,Uses the two September weights and documents the 0.26 pp excess.,9.2600,9.2600,0.0000,1,1,1,3146665851252000a724fbcd7940c26457a8c1ab4d6d303f057d7a516e7ba414
+D_txt,interval,2.068,3.982,within,1,Verifies compliance from the upper bound even though the September position is unknown.,2.0680,3.9820,0.0000,1,1,1,ad6490fd85387b128db04212a710ec4a91c34ace0f0ddddd7a0a4ada722cde11
+D_pdf,interval,2.068,3.982,within,1,Both September factsheets pp. 1 and 3; dated annual figures excluded; reports minimum headroom of 0.268 pp.,2.0680,3.9820,0.0000,1,1,1,3df034c4e3557a10c956eeda0024ead2243bebe7efd0194e91fc3f8bf88188be

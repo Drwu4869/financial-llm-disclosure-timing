@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "BlackRock_Investment_Funds_Annual_Report_2025.pdf",
+    "publisher": "BlackRock",
+    "url": "https://www.blackrock.com/uk/literature/annual-report/blackrock-investment-funds-en-annual-report-2025.pdf",
+    "sha256": "821418ed5341a882f75c2d298951bc103e50dd8d07cb456486831c9cfc02dc5a",
+    "pages": 510
+  },
+  {
+    "filename": "MyMap_3_Select_ESG.pdf",
+    "publisher": "BlackRock",
+    "url": "https://www.blackrock.com/uk/literature/fact-sheet/mymap-3-select-esg-fund-class-s-acc-accu-gbp-factsheet-gb00bn090r44-gb-en-individual.pdf",
+    "sha256": "d84a7edda866ff0368f2189d5e55b5379f1d4ffff98d7a67c20edd60f7c30311",
+    "pages": 4
+  },
+  {
+    "filename": "MyMap_5_Select_ESG.pdf",
+    "publisher": "BlackRock",
+    "url": "https://www.blackrock.com/uk/literature/fact-sheet/mymap-5-select-esg-fund-class-x-acc-accu-gbp-factsheet-gb00bfbfyz16-gb-en-individual.pdf",
+    "sha256": "860e0ff65751bcd6f6d0dcb6aa1105c0ed3cd8dbd3bd16e8d9c40535b93cecb0",
+    "pages": 4
+  }
+]

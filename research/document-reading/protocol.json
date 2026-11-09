@@ -1,0 +1,32 @@
+{
+  "frozen": "2026-11-06T19:44:25.872219+00:00",
+  "first_question_sent": false,
+  "model": "ChatGPT GPT-6 High; isolated unpersonalized temporary chat per trial",
+  "schedule": [
+    "A_pdf",
+    "A_text",
+    "B_text",
+    "B_pdf",
+    "C_pdf",
+    "C_text",
+    "D_text",
+    "D_pdf"
+  ],
+  "pdf_condition": "All 3 original issuer PDFs unchanged, 510+4+4 pages.",
+  "text_condition": "Three researcher-selected transcriptions: name and printed percentages for every security line on annual PDF pages 252 and 317 and continuation tables, and the full dated top-ten lists of both factsheets. Page retrieval and representation change together. Both arms use attachments and identical natural-language questions.",
+  "score": "Before dispatch. Separately score form, printed-value endpoints (both individually within 0.005 pp), cap decision, and citations. A/C require supported points. B/D require September bounds. A cap is inclusive. Numerical and decision success are distinct. Evidence needs the correct documents, as-of date and pages, allowing clearly mapped printed/PDF numbering. Record stale carry-forward, unlisted-as-zero and wrong maturity only when supported by visible answers. No output is a technical delivery event. One first response per cell, no repeats for performance.",
+  "interpretation": "One account, two dates, two funds; B and D deliberately share the exposure. Eight requests, four case pairs, three distinct exposure calculations. Descriptive, no population or novelty claim. Internal PDF parsing and retrieval are unobserved.",
+  "bounds_convention": "Use printed weights, direct long holding, nonnegative unknown position, rankings by displayed holding weight and a possible tie at cutoff. Actual imprecisely rounded economic exposures are outside scope.",
+  "source_sha256": {
+    "BlackRock_Investment_Funds_Annual_Report_2025.pdf": "821418ed5341a882f75c2d298951bc103e50dd8d07cb456486831c9cfc02dc5a",
+    "MyMap_3_Select_ESG.pdf": "d84a7edda866ff0368f2189d5e55b5379f1d4ffff98d7a67c20edd60f7c30311",
+    "MyMap_5_Select_ESG.pdf": "860e0ff65751bcd6f6d0dcb6aa1105c0ed3cd8dbd3bd16e8d9c40535b93cecb0"
+  },
+  "input_text_sha256": {
+    "MyMap_3_Select_ESG.txt": "f87d520e3d0a8955c316fbe647ddcb9220eb0d76da0021705c07e4a800dc8e94",
+    "MyMap_5_Select_ESG.txt": "4ae7553e79327170151abce176e2c49fe058478e127061ea36adcf7fb839bd23",
+    "questions.json": "a9383f55c19e8a9f788bb8835d73c5e2d66545b418bf37184fd9ea612425961a",
+    "BlackRock_Investment_Funds_Annual_Report_2025.txt": "4c31be297608a07c102ad81edfbcea3e32314c028636f6929da2642aed390341"
+  },
+  "key_sha256": "8ab7c674466aa764269d1437c8914a17569007cb07d900248aee0c6472bbfccd"
+}
