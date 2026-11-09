@@ -1,6 +1,6 @@
 # Artifact index
 
-Prepared 9 November 2026. Start with the current paper; historical manuscripts retain their original claims and must be read with subsequent rechecks. All linked files are included in this repository.
+Prepared 9 November 2026. Browse the [research collection](../research/README.md) for earlier directions or start with the current paper. Historical manuscripts retain their original claims and must be read with subsequent rechecks. All linked files are included in this repository.
 
 ## Current study
 
