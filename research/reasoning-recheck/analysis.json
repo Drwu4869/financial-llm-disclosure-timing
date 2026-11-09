@@ -1,0 +1,390 @@
+{
+  "status": "COMPLETE",
+  "evaluation_calls": 100,
+  "summaries": [
+    {
+      "view": "strict",
+      "configuration": "original",
+      "groups": {
+        "controlled_homogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "controlled_heterogeneous": {
+          "n": 24,
+          "answer_correct": 4,
+          "valid_answer": 24
+        },
+        "source_direct": {
+          "n": 26,
+          "answer_correct": 2,
+          "valid_answer": 26
+        },
+        "source_ledger": {
+          "n": 26,
+          "answer_correct": 5,
+          "valid_answer": 26,
+          "ledger_valid": 26,
+          "ledger_exact": 23,
+          "calculator_correct": 23,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 18
+        },
+        "source_direct_merged": {
+          "n": 13,
+          "answer_correct": 1,
+          "valid_answer": 13
+        },
+        "source_direct_fragmented": {
+          "n": 13,
+          "answer_correct": 1,
+          "valid_answer": 13
+        },
+        "source_ledger_merged": {
+          "n": 13,
+          "answer_correct": 3,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 13,
+          "calculator_correct": 13,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 10
+        },
+        "source_ledger_fragmented": {
+          "n": 13,
+          "answer_correct": 2,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 10,
+          "calculator_correct": 10,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 8
+        }
+      },
+      "homogeneous_minus_heterogeneous_pp": 83.33333333333334,
+      "family_bootstrap_95_pp": [
+        66.66666666666666,
+        95.83333333333334
+      ]
+    },
+    {
+      "view": "strict",
+      "configuration": "thinking",
+      "groups": {
+        "controlled_homogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "controlled_heterogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "source_direct": {
+          "n": 26,
+          "answer_correct": 25,
+          "valid_answer": 25
+        },
+        "source_ledger": {
+          "n": 26,
+          "answer_correct": 25,
+          "valid_answer": 25,
+          "ledger_valid": 25,
+          "ledger_exact": 25,
+          "calculator_correct": 25,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        },
+        "source_direct_merged": {
+          "n": 13,
+          "answer_correct": 13,
+          "valid_answer": 13
+        },
+        "source_direct_fragmented": {
+          "n": 13,
+          "answer_correct": 12,
+          "valid_answer": 12
+        },
+        "source_ledger_merged": {
+          "n": 13,
+          "answer_correct": 13,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 13,
+          "calculator_correct": 13,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        },
+        "source_ledger_fragmented": {
+          "n": 13,
+          "answer_correct": 12,
+          "valid_answer": 12,
+          "ledger_valid": 12,
+          "ledger_exact": 12,
+          "calculator_correct": 12,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        }
+      },
+      "homogeneous_minus_heterogeneous_pp": 0.0,
+      "family_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "view": "format_only",
+      "configuration": "original",
+      "groups": {
+        "controlled_homogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "controlled_heterogeneous": {
+          "n": 24,
+          "answer_correct": 4,
+          "valid_answer": 24
+        },
+        "source_direct": {
+          "n": 26,
+          "answer_correct": 2,
+          "valid_answer": 26
+        },
+        "source_ledger": {
+          "n": 26,
+          "answer_correct": 5,
+          "valid_answer": 26,
+          "ledger_valid": 26,
+          "ledger_exact": 23,
+          "calculator_correct": 23,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 18
+        },
+        "source_direct_merged": {
+          "n": 13,
+          "answer_correct": 1,
+          "valid_answer": 13
+        },
+        "source_direct_fragmented": {
+          "n": 13,
+          "answer_correct": 1,
+          "valid_answer": 13
+        },
+        "source_ledger_merged": {
+          "n": 13,
+          "answer_correct": 3,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 13,
+          "calculator_correct": 13,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 10
+        },
+        "source_ledger_fragmented": {
+          "n": 13,
+          "answer_correct": 2,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 10,
+          "calculator_correct": 10,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 8
+        }
+      },
+      "homogeneous_minus_heterogeneous_pp": 83.33333333333334,
+      "family_bootstrap_95_pp": [
+        66.66666666666666,
+        95.83333333333334
+      ]
+    },
+    {
+      "view": "format_only",
+      "configuration": "thinking",
+      "groups": {
+        "controlled_homogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "controlled_heterogeneous": {
+          "n": 24,
+          "answer_correct": 24,
+          "valid_answer": 24
+        },
+        "source_direct": {
+          "n": 26,
+          "answer_correct": 25,
+          "valid_answer": 25
+        },
+        "source_ledger": {
+          "n": 26,
+          "answer_correct": 25,
+          "valid_answer": 25,
+          "ledger_valid": 25,
+          "ledger_exact": 25,
+          "calculator_correct": 25,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        },
+        "source_direct_merged": {
+          "n": 13,
+          "answer_correct": 13,
+          "valid_answer": 13
+        },
+        "source_direct_fragmented": {
+          "n": 13,
+          "answer_correct": 12,
+          "valid_answer": 12
+        },
+        "source_ledger_merged": {
+          "n": 13,
+          "answer_correct": 13,
+          "valid_answer": 13,
+          "ledger_valid": 13,
+          "ledger_exact": 13,
+          "calculator_correct": 13,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        },
+        "source_ledger_fragmented": {
+          "n": 13,
+          "answer_correct": 12,
+          "valid_answer": 12,
+          "ledger_valid": 12,
+          "ledger_exact": 12,
+          "calculator_correct": 12,
+          "correct_total_wrong_valid_ledger": 0,
+          "fields_right_total_wrong": 0
+        }
+      },
+      "homogeneous_minus_heterogeneous_pp": 0.0,
+      "family_bootstrap_95_pp": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "paired_transitions": {
+    "strict_controlled_direct": {
+      "both_correct": 28,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 20,
+      "both_wrong": 0
+    },
+    "strict_source_direct": {
+      "both_correct": 2,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 23,
+      "both_wrong": 1
+    },
+    "strict_source_ledger": {
+      "both_correct": 4,
+      "correct_to_wrong": 1,
+      "wrong_to_correct": 21,
+      "both_wrong": 0
+    },
+    "format_only_controlled_direct": {
+      "both_correct": 28,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 20,
+      "both_wrong": 0
+    },
+    "format_only_source_direct": {
+      "both_correct": 2,
+      "correct_to_wrong": 0,
+      "wrong_to_correct": 23,
+      "both_wrong": 1
+    },
+    "format_only_source_ledger": {
+      "both_correct": 4,
+      "correct_to_wrong": 1,
+      "wrong_to_correct": 21,
+      "both_wrong": 0
+    }
+  },
+  "request_errors": 0,
+  "truncated": 2,
+  "nonempty_reasoning": 100,
+  "format_only_failure_census": [
+    {
+      "request_id": "BR4_BR5_fragmented_direct",
+      "corpus": "source",
+      "method": "direct",
+      "raw_text": "",
+      "gold_percent_exact": "89421/5000",
+      "gold_rows": [
+        {
+          "a_percent": "17.89",
+          "amount_gbp": 1680,
+          "fund": "BR4",
+          "lot": 1
+        },
+        {
+          "a_percent": "17.89",
+          "amount_gbp": 2520,
+          "fund": "BR4",
+          "lot": 2
+        },
+        {
+          "a_percent": "17.88",
+          "amount_gbp": 5800,
+          "fund": "BR5",
+          "lot": 3
+        }
+      ],
+      "direct_valid": false,
+      "answer_correct": false,
+      "absolute_error": null,
+      "ledger_valid": false,
+      "ledger_exact": false,
+      "calculator_correct": false,
+      "calculator_error": null,
+      "answer_matches_own_ledger": false,
+      "correct_total_wrong_ledger": false,
+      "correct_total_wrong_valid_ledger": false,
+      "finish_reason": "length"
+    },
+    {
+      "request_id": "BR4_BR5_fragmented_ledger",
+      "corpus": "source",
+      "method": "ledger",
+      "raw_text": "",
+      "gold_percent_exact": "89421/5000",
+      "gold_rows": [
+        {
+          "a_percent": "17.89",
+          "amount_gbp": 1680,
+          "fund": "BR4",
+          "lot": 1
+        },
+        {
+          "a_percent": "17.89",
+          "amount_gbp": 2520,
+          "fund": "BR4",
+          "lot": 2
+        },
+        {
+          "a_percent": "17.88",
+          "amount_gbp": 5800,
+          "fund": "BR5",
+          "lot": 3
+        }
+      ],
+      "direct_valid": false,
+      "answer_correct": false,
+      "absolute_error": null,
+      "ledger_valid": false,
+      "ledger_exact": false,
+      "calculator_correct": false,
+      "calculator_error": null,
+      "answer_matches_own_ledger": false,
+      "correct_total_wrong_ledger": false,
+      "correct_total_wrong_valid_ledger": false,
+      "finish_reason": "length"
+    }
+  ],
+  "note": "A configuration stress test on previously observed inputs, not a pure thinking-mode causal experiment, new blind benchmark, or proof of equivalence. Bootstrap intervals resample these 24 families; a degenerate zero interval at ceiling must not be read as evidence of population equivalence."
+}
