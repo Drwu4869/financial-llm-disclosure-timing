@@ -1,3 +1,13 @@
+# 金融文本、投资组合穿透与披露时点研究
+
+这里不只有最后一篇论文。文本碎片化、投资组合风险、暴露计算与穿透、聚合诊断公式、推理复验、部分披露和原始报告阅读，都已展开为独立研究板块。
+
+**[进入完整研究合集](research/README.zh-CN.md)** · [English research collection](research/README.md) · [完整探索历程](docs/research-journey.zh-CN.md)
+
+各板块可直接查看原始代码、数据、模型回答和 LaTeX 推导；旧论文原稿继续保留，后来修正或不支持原结论的实验放在旁边一起看。
+
+---
+
 # 不偷看未来，也可能用错数据
 
 **No Look-Ahead, Yet Too Late: Inapplicable Disclosure Rules in LLM-Generated Backtest Code**  

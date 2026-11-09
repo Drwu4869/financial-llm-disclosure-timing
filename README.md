@@ -1,3 +1,15 @@
+# Financial Text, Portfolio Exposure and Disclosure Timing
+
+**Changyi Wu · Independent Researcher**
+
+This repository includes the full research programme behind the current paper: textual fragmentation, portfolio risk, look-through accounting, aggregation diagnostics, reasoning rechecks, partial holdings and original-document tests.
+
+**[Explore all seven research strands](research/README.md)** · **[中文研究合集](research/README.zh-CN.md)** · [Research journey](docs/research-journey.md)
+
+Earlier work is available as browsable source code, data, mathematical derivations and raw answers, alongside the full historical manuscripts. Read original findings together with their subsequent corrections and rechecks.
+
+---
+
 # No Look-Ahead, Yet Too Late
 
 **Inapplicable Disclosure Rules in LLM-Generated Backtest Code**  
