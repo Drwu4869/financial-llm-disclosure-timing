@@ -1,0 +1,458 @@
+[
+  {
+    "id": "VG20",
+    "publisher": "Vanguard",
+    "name": "Vanguard LifeStrategy Global 20% Equity Fund",
+    "document": "vanguard_global",
+    "page": 6,
+    "date": "2026-09-30",
+    "coverage": "underlying funds table, with published rounding",
+    "rows": [
+      {
+        "holding": "Vanguard FTSE Developed World ex-U.K. Equity Index Fund",
+        "percent": "17.2"
+      },
+      {
+        "holding": "Vanguard Emerging Markets Stock Index Fund",
+        "percent": "1.9"
+      },
+      {
+        "holding": "Vanguard FTSE U.K. All Share Index Unit Trust",
+        "percent": "0.6"
+      },
+      {
+        "holding": "Vanguard Global Bond Index Fund",
+        "percent": "33.1"
+      },
+      {
+        "holding": "Vanguard U.S. Government Bond Index Fund",
+        "percent": "13.7"
+      },
+      {
+        "holding": "Vanguard U.S. Investment Grade Credit Index Fund",
+        "percent": "11.4"
+      },
+      {
+        "holding": "Vanguard Euro Government Bond Index Fund",
+        "percent": "10.4"
+      },
+      {
+        "holding": "Vanguard Euro Investment Grade Bond Index Fund",
+        "percent": "6.1"
+      },
+      {
+        "holding": "Vanguard Japan Government Bond Index Fund",
+        "percent": "3.1"
+      },
+      {
+        "holding": "Vanguard U.K. Government Bond Index Fund",
+        "percent": "1.3"
+      },
+      {
+        "holding": "Vanguard U.K. Investment Grade Bond Index Fund",
+        "percent": "0.6"
+      },
+      {
+        "holding": "Vanguard U.K. Inflation-Linked Gilt Index Fund",
+        "percent": "0.6"
+      }
+    ],
+    "target": "Vanguard U.S. Equity Index Fund",
+    "target_percent": "0"
+  },
+  {
+    "id": "VG40",
+    "publisher": "Vanguard",
+    "name": "Vanguard LifeStrategy Global 40% Equity Fund",
+    "document": "vanguard_global",
+    "page": 10,
+    "date": "2026-09-30",
+    "coverage": "underlying funds table, with published rounding",
+    "rows": [
+      {
+        "holding": "Vanguard FTSE Developed World ex-U.K. Equity Index Fund",
+        "percent": "25.9"
+      },
+      {
+        "holding": "Vanguard U.S. Equity Index Fund",
+        "percent": "6.8"
+      },
+      {
+        "holding": "Vanguard Emerging Markets Stock Index Fund",
+        "percent": "4.0"
+      },
+      {
+        "holding": "Vanguard FTSE U.K. All Share Index Unit Trust",
+        "percent": "1.2"
+      },
+      {
+        "holding": "Vanguard FTSE Developed Europe ex-U.K. Equity Index Fund",
+        "percent": "1.0"
+      },
+      {
+        "holding": "Vanguard Japan Stock Index Fund",
+        "percent": "0.6"
+      },
+      {
+        "holding": "Vanguard Pacific ex-Japan Stock Index Fund",
+        "percent": "0.2"
+      },
+      {
+        "holding": "Vanguard Global Bond Index Fund",
+        "percent": "33.0"
+      },
+      {
+        "holding": "Vanguard U.S. Government Bond Index Fund",
+        "percent": "7.9"
+      },
+      {
+        "holding": "Vanguard U.S. Investment Grade Credit Index Fund",
+        "percent": "6.6"
+      },
+      {
+        "holding": "Vanguard Euro Government Bond Index Fund",
+        "percent": "6.0"
+      },
+      {
+        "holding": "Vanguard Euro Investment Grade Bond Index Fund",
+        "percent": "3.4"
+      },
+      {
+        "holding": "Vanguard Japan Government Bond Index Fund",
+        "percent": "1.7"
+      },
+      {
+        "holding": "Vanguard U.K. Government Bond Index Fund",
+        "percent": "0.8"
+      },
+      {
+        "holding": "Vanguard U.K. Inflation-Linked Gilt Index Fund",
+        "percent": "0.3"
+      },
+      {
+        "holding": "Vanguard U.K. Investment Grade Bond Index Fund",
+        "percent": "0.3"
+      }
+    ],
+    "target": "Vanguard U.S. Equity Index Fund",
+    "target_percent": "6.8"
+  },
+  {
+    "id": "VG60",
+    "publisher": "Vanguard",
+    "name": "Vanguard LifeStrategy Global 60% Equity Fund",
+    "document": "vanguard_global",
+    "page": 14,
+    "date": "2026-09-30",
+    "coverage": "underlying funds table, with published rounding",
+    "rows": [
+      {
+        "holding": "Vanguard FTSE Developed World ex-U.K. Equity Index Fund",
+        "percent": "32.9"
+      },
+      {
+        "holding": "Vanguard U.S. Equity Index Fund",
+        "percent": "14.8"
+      },
+      {
+        "holding": "Vanguard Emerging Markets Stock Index Fund",
+        "percent": "6.0"
+      },
+      {
+        "holding": "Vanguard FTSE Developed Europe ex-U.K. Equity Index Fund",
+        "percent": "2.3"
+      },
+      {
+        "holding": "Vanguard FTSE U.K. All Share Index Unit Trust",
+        "percent": "1.9"
+      },
+      {
+        "holding": "Vanguard Japan Stock Index Fund",
+        "percent": "1.4"
+      },
+      {
+        "holding": "Vanguard Pacific ex-Japan Stock Index Fund",
+        "percent": "0.5"
+      },
+      {
+        "holding": "Vanguard Global Bond Index Fund",
+        "percent": "33.1"
+      },
+      {
+        "holding": "Vanguard U.S. Government Bond Index Fund",
+        "percent": "2.0"
+      },
+      {
+        "holding": "Vanguard U.S. Investment Grade Credit Index Fund",
+        "percent": "1.7"
+      },
+      {
+        "holding": "Vanguard Euro Government Bond Index Fund",
+        "percent": "1.5"
+      },
+      {
+        "holding": "Vanguard Euro Investment Grade Bond Index Fund",
+        "percent": "0.9"
+      },
+      {
+        "holding": "Vanguard Japan Government Bond Index Fund",
+        "percent": "0.6"
+      },
+      {
+        "holding": "Vanguard U.K. Government Bond Index Fund",
+        "percent": "0.3"
+      }
+    ],
+    "target": "Vanguard U.S. Equity Index Fund",
+    "target_percent": "14.8"
+  },
+  {
+    "id": "VG80",
+    "publisher": "Vanguard",
+    "name": "Vanguard LifeStrategy Global 80% Equity Fund",
+    "document": "vanguard_global",
+    "page": 18,
+    "date": "2026-09-30",
+    "coverage": "underlying funds table, with published rounding",
+    "rows": [
+      {
+        "holding": "Vanguard FTSE Developed World ex-U.K. Equity Index Fund",
+        "percent": "33.0"
+      },
+      {
+        "holding": "Vanguard U.S. Equity Index Fund",
+        "percent": "28.3"
+      },
+      {
+        "holding": "Vanguard Emerging Markets Stock Index Fund",
+        "percent": "7.9"
+      },
+      {
+        "holding": "Vanguard FTSE Developed Europe ex-U.K. Equity Index Fund",
+        "percent": "4.5"
+      },
+      {
+        "holding": "Vanguard Japan Stock Index Fund",
+        "percent": "2.6"
+      },
+      {
+        "holding": "Vanguard FTSE U.K. All Share Index Unit Trust",
+        "percent": "2.5"
+      },
+      {
+        "holding": "Vanguard Pacific ex-Japan Stock Index Fund",
+        "percent": "1.0"
+      },
+      {
+        "holding": "Vanguard Global Bond Index Fund",
+        "percent": "20.1"
+      }
+    ],
+    "target": "Vanguard U.S. Equity Index Fund",
+    "target_percent": "28.3"
+  },
+  {
+    "id": "VG100",
+    "publisher": "Vanguard",
+    "name": "Vanguard LifeStrategy Global 100% Equity Fund",
+    "document": "vanguard_global",
+    "page": 22,
+    "date": "2026-09-30",
+    "coverage": "underlying funds table, with published rounding",
+    "rows": [
+      {
+        "holding": "Vanguard U.S. Equity Index Fund",
+        "percent": "33.6"
+      },
+      {
+        "holding": "Vanguard FTSE Developed World ex-U.K. Equity Index Fund",
+        "percent": "33.0"
+      },
+      {
+        "holding": "Vanguard Emerging Markets Stock Index Fund",
+        "percent": "9.9"
+      },
+      {
+        "holding": "Vanguard FTSE North America UCITS ETF",
+        "percent": "8.3"
+      },
+      {
+        "holding": "Vanguard FTSE Developed Europe ex-U.K. Equity Index Fund",
+        "percent": "6.7"
+      },
+      {
+        "holding": "Vanguard Japan Stock Index Fund",
+        "percent": "3.9"
+      },
+      {
+        "holding": "Vanguard FTSE U.K. All Share Index Unit Trust",
+        "percent": "3.1"
+      },
+      {
+        "holding": "Vanguard Pacific ex-Japan Stock Index Fund",
+        "percent": "1.5"
+      }
+    ],
+    "target": "Vanguard U.S. Equity Index Fund",
+    "target_percent": "33.6"
+  },
+  {
+    "id": "BR3",
+    "publisher": "BlackRock",
+    "name": "MyMap 3",
+    "document": "mymap3",
+    "page": 3,
+    "date": "2026-09-30",
+    "coverage": "Top 10 Holdings; percentages of entire fund NAV, not renormalized",
+    "rows": [
+      {
+        "holding": "ISHRS US EQ IDX FD (UK) X ACC",
+        "percent": "13.08"
+      },
+      {
+        "holding": "ISHS $ TSY BOND 7-10YR UCITS ETF",
+        "percent": "10.21"
+      },
+      {
+        "holding": "ISHR US CORP BD IDX(IE) FLX USD AC",
+        "percent": "9.11"
+      },
+      {
+        "holding": "ISHARES ULTRASHORT BOND ESG SRI",
+        "percent": "8.88"
+      },
+      {
+        "holding": "ISHARES EUR GOVT BOND CLIMATE UCIT",
+        "percent": "6.96"
+      },
+      {
+        "holding": "ISHARES EURO CORP BOND ESG U EUR A",
+        "percent": "5.39"
+      },
+      {
+        "holding": "ISHS $ TRSY BOND 3-7 YR UCITS ETF",
+        "percent": "5.39"
+      },
+      {
+        "holding": "ISHARES $ TREAS BND 1-3 ETF USD DI",
+        "percent": "5.08"
+      },
+      {
+        "holding": "ISHARES EUR HY CORP BOND ESG ETF",
+        "percent": "3.99"
+      },
+      {
+        "holding": "ISH UK GILTS 0-5 ETF GBP DIST",
+        "percent": "3.02"
+      }
+    ],
+    "target": "ISHRS US EQ IDX FD (UK) X ACC",
+    "target_percent": "13.08"
+  },
+  {
+    "id": "BR4",
+    "publisher": "BlackRock",
+    "name": "MyMap 4",
+    "document": "mymap4",
+    "page": 3,
+    "date": "2026-09-30",
+    "coverage": "Top 10 Holdings; percentages of entire fund NAV, not renormalized",
+    "rows": [
+      {
+        "holding": "ISHRS US EQ IDX FD (UK) X ACC",
+        "percent": "17.89"
+      },
+      {
+        "holding": "ISHS $ TSY BOND 7-10YR UCITS ETF",
+        "percent": "11.41"
+      },
+      {
+        "holding": "ISHARES NORTH AMERICA EQ (UK) ACC",
+        "percent": "8.65"
+      },
+      {
+        "holding": "ISHARES EUR GOVT BOND CLIMATE UCIT",
+        "percent": "7.48"
+      },
+      {
+        "holding": "ISHR US CORP BD IDX(IE) FLX USD AC",
+        "percent": "6.94"
+      },
+      {
+        "holding": "ISHARES MSCI EM UCITS ETF USD ACC",
+        "percent": "5.40"
+      },
+      {
+        "holding": "ISHR CONT EUR EQ IDX FD (UK) X ACC",
+        "percent": "4.34"
+      },
+      {
+        "holding": "GBP CASH(Alpha Committed)",
+        "percent": "3.98"
+      },
+      {
+        "holding": "ISHR UK GLT ALL STKS IDX(UK) X ACC",
+        "percent": "3.50"
+      },
+      {
+        "holding": "ISHS MSCI WRLD VALUE FAC ADV USD A",
+        "percent": "3.20"
+      }
+    ],
+    "target": "ISHRS US EQ IDX FD (UK) X ACC",
+    "target_percent": "17.89"
+  },
+  {
+    "id": "BR5",
+    "publisher": "BlackRock",
+    "name": "MyMap 5",
+    "document": "mymap5",
+    "page": 3,
+    "date": "2026-09-30",
+    "coverage": "Top 10 Holdings; percentages of entire fund NAV, not renormalized",
+    "rows": [
+      {
+        "holding": "ISHRS US EQ IDX FD (UK) X ACC",
+        "percent": "17.88"
+      },
+      {
+        "holding": "ISHARES NORTH AMERICA EQ (UK) ACC",
+        "percent": "16.89"
+      },
+      {
+        "holding": "ISHS $ TSY BOND 7-10YR UCITS ETF",
+        "percent": "8.49"
+      },
+      {
+        "holding": "ISHR CONT EUR EQ IDX FD (UK) X ACC",
+        "percent": "5.97"
+      },
+      {
+        "holding": "ISHARES MSCI EM UCITS ETF USD ACC",
+        "percent": "5.69"
+      },
+      {
+        "holding": "GBP CASH(Alpha Committed)",
+        "percent": "4.99"
+      },
+      {
+        "holding": "ISHARES EUR GOVT BOND CLIMATE UCIT",
+        "percent": "4.41"
+      },
+      {
+        "holding": "ISHARES PHYSICAL GOLD ETC",
+        "percent": "3.02"
+      },
+      {
+        "holding": "ISHARES MSCI USA SWAP UCITS ETF US",
+        "percent": "3.01"
+      },
+      {
+        "holding": "ISHR US CORP BD IDX(IE) FLX USD AC",
+        "percent": "3.01"
+      }
+    ],
+    "target": "ISHRS US EQ IDX FD (UK) X ACC",
+    "target_percent": "17.88"
+  }
+]

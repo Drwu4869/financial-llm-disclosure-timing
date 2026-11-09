@@ -1,0 +1,55 @@
+{
+  "created_at_utc": "2026-11-05T18:46:00.268877+00:00",
+  "analysis_status": "POST_HOC_FORMAT_ONLY_SENSITIVITY",
+  "rule": "If rows is absent and lots is a list, rename lots to rows. Do not alter any values, rows, identifiers, units or totals. Existing rows takes precedence. No other key aliases.",
+  "sets": [
+    {
+      "corpus": "controlled",
+      "model": "qwen8",
+      "n": 96,
+      "alias_applied": 0,
+      "ledger_valid": 96,
+      "ledger_exact": 96,
+      "calculator_correct": 96,
+      "answer_correct": 55,
+      "correct_total_wrong_valid_ledger": 0,
+      "exact_ledger_wrong_total": 41
+    },
+    {
+      "corpus": "controlled",
+      "model": "phi4",
+      "n": 96,
+      "alias_applied": 96,
+      "ledger_valid": 96,
+      "ledger_exact": 96,
+      "calculator_correct": 96,
+      "answer_correct": 55,
+      "correct_total_wrong_valid_ledger": 0,
+      "exact_ledger_wrong_total": 41
+    },
+    {
+      "corpus": "source",
+      "model": "qwen8",
+      "n": 26,
+      "alias_applied": 0,
+      "ledger_valid": 26,
+      "ledger_exact": 23,
+      "calculator_correct": 23,
+      "answer_correct": 5,
+      "correct_total_wrong_valid_ledger": 0,
+      "exact_ledger_wrong_total": 18
+    },
+    {
+      "corpus": "source",
+      "model": "phi4",
+      "n": 26,
+      "alias_applied": 26,
+      "ledger_valid": 26,
+      "ledger_exact": 26,
+      "calculator_correct": 26,
+      "answer_correct": 11,
+      "correct_total_wrong_valid_ledger": 0,
+      "exact_ledger_wrong_total": 15
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "analysis": "POST_HOC complete census of source-ledger field failures after the separately specified format alias. No responses or values modified.",
+  "failures": [
+    {
+      "model": "qwen8",
+      "request_id": "VG20_VG40_fragmented_ledger",
+      "family": "VG20_VG40",
+      "representation": "fragmented",
+      "gold_rows": [
+        {
+          "a_percent": "0",
+          "amount_gbp": 575,
+          "fund": "VG20",
+          "lot": 1
+        },
+        {
+          "a_percent": "0",
+          "amount_gbp": 1725,
+          "fund": "VG20",
+          "lot": 2
+        },
+        {
+          "a_percent": "6.8",
+          "amount_gbp": 7700,
+          "fund": "VG40",
+          "lot": 3
+        }
+      ],
+      "reported_object": {
+        "rows": [
+          [
+            1,
+            575,
+            6.8
+          ],
+          [
+            2,
+            1725,
+            6.8
+          ],
+          [
+            3,
+            7700,
+            1.6
+          ]
+        ],
+        "total_a_percent": 10.0
+      },
+      "gold_percent_exact": "1309/250",
+      "calculator_error_pp": 2.44,
+      "corresponding_merged_ledger_exact": true,
+      "alias_applied": false
+    },
+    {
+      "model": "qwen8",
+      "request_id": "VG20_VG60_fragmented_ledger",
+      "family": "VG20_VG60",
+      "representation": "fragmented",
+      "gold_rows": [
+        {
+          "a_percent": "0",
+          "amount_gbp": 1860,
+          "fund": "VG20",
+          "lot": 1
+        },
+        {
+          "a_percent": "0",
+          "amount_gbp": 1240,
+          "fund": "VG20",
+          "lot": 2
+        },
+        {
+          "a_percent": "14.8",
+          "amount_gbp": 6900,
+          "fund": "VG60",
+          "lot": 3
+        }
+      ],
+      "reported_object": {
+        "rows": [
+          [
+            1,
+            1860,
+            14.8
+          ],
+          [
+            2,
+            1240,
+            14.8
+          ],
+          [
+            3,
+            6900,
+            14.8
+          ]
+        ],
+        "total_a_percent": 14.8
+      },
+      "gold_percent_exact": "2553/250",
+      "calculator_error_pp": 4.588,
+      "corresponding_merged_ledger_exact": true,
+      "alias_applied": false
+    },
+    {
+      "model": "qwen8",
+      "request_id": "VG20_VG80_fragmented_ledger",
+      "family": "VG20_VG80",
+      "representation": "fragmented",
+      "gold_rows": [
+        {
+          "a_percent": "0",
+          "amount_gbp": 1240,
+          "fund": "VG20",
+          "lot": 1
+        },
+        {
+          "a_percent": "0",
+          "amount_gbp": 1860,
+          "fund": "VG20",
+          "lot": 2
+        },
+        {
+          "a_percent": "28.3",
+          "amount_gbp": 6900,
+          "fund": "VG80",
+          "lot": 3
+        }
+      ],
+      "reported_object": {
+        "rows": [
+          [
+            1,
+            1240,
+            1.9
+          ],
+          [
+            2,
+            1860,
+            1.9
+          ],
+          [
+            3,
+            6900,
+            28.3
+          ]
+        ],
+        "total_a_percent": 22.4
+      },
+      "gold_percent_exact": "19527/1000",
+      "calculator_error_pp": 0.589,
+      "corresponding_merged_ledger_exact": true,
+      "alias_applied": false
+    }
+  ]
+}

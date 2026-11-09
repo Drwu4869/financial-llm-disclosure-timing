@@ -1,0 +1,30 @@
+[
+  {
+    "name": "vanguard_global",
+    "url": "https://www.vanguard.co.uk/content/dam/intl/europe/documents/en/lifestrategy-global-fund-combined-quarterly-report.pdf",
+    "sha256": "1ffbbf66452b7ccb203e3e17a05fbc05be0f09de970394dda27d461c81f25ba5",
+    "bytes": 753206,
+    "pages": 26
+  },
+  {
+    "name": "mymap3",
+    "url": "https://www.blackrock.com/uk/literature/fact-sheet/mymap-3-class-s-inc-dist-gbp-factsheet-gb00bfbfyh34-gb-en-individual.pdf",
+    "sha256": "5e7b329038eaf8c5ab74bcc27a8d62a960a1024fb6c2b2c81a9255c01a0a9d76",
+    "bytes": 211651,
+    "pages": 4
+  },
+  {
+    "name": "mymap4",
+    "url": "https://www.blackrock.com/uk/literature/fact-sheet/mymap-4-class-s-inc-dist-gbp-factsheet-gb00bfbfyp18-gb-en-individual.pdf",
+    "sha256": "48f72e43ed6a903f15678723cdbdd30ea1bf4e4ea126bc28039cc4caa5f14d8e",
+    "bytes": 212275,
+    "pages": 4
+  },
+  {
+    "name": "mymap5",
+    "url": "https://www.blackrock.com/uk/literature/fact-sheet/mymap-5-class-d-inc-dist-gbp-factsheet-gb00bfbfyr32-gb-en-individual.pdf",
+    "sha256": "b41b657ad0c9dc12e0ecb0ab30ee037edd129b3e7d5f6f6ddc1974175046ef05",
+    "bytes": 211576,
+    "pages": 4
+  }
+]

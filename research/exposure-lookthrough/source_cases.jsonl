@@ -1,0 +1,13 @@
+{"amounts": [2300, 7700], "family": "VG20_VG40", "funds": ["VG20", "VG40"], "gold_percent_exact": "1309/250", "publisher": "Vanguard", "split_amount": 575, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [3100, 6900], "family": "VG20_VG60", "funds": ["VG20", "VG60"], "gold_percent_exact": "2553/250", "publisher": "Vanguard", "split_amount": 1860, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [3100, 6900], "family": "VG20_VG80", "funds": ["VG20", "VG80"], "gold_percent_exact": "19527/1000", "publisher": "Vanguard", "split_amount": 1240, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [6900, 3100], "family": "VG20_VG100", "funds": ["VG20", "VG100"], "gold_percent_exact": "1302/125", "publisher": "Vanguard", "split_amount": 1725, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [7700, 2300], "family": "VG40_VG60", "funds": ["VG40", "VG60"], "gold_percent_exact": "216/25", "publisher": "Vanguard", "split_amount": 3080, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [6900, 3100], "family": "VG40_VG80", "funds": ["VG40", "VG80"], "gold_percent_exact": "2693/200", "publisher": "Vanguard", "split_amount": 1725, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [5800, 4200], "family": "VG40_VG100", "funds": ["VG40", "VG100"], "gold_percent_exact": "2257/125", "publisher": "Vanguard", "split_amount": 3480, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [7700, 2300], "family": "VG60_VG80", "funds": ["VG60", "VG80"], "gold_percent_exact": "3581/200", "publisher": "Vanguard", "split_amount": 4620, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [6300, 3700], "family": "VG60_VG100", "funds": ["VG60", "VG100"], "gold_percent_exact": "5439/250", "publisher": "Vanguard", "split_amount": 1575, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [3100, 6900], "family": "VG80_VG100", "funds": ["VG80", "VG100"], "gold_percent_exact": "31957/1000", "publisher": "Vanguard", "split_amount": 1860, "target": "Vanguard U.S. Equity Index Fund"}
+{"amounts": [3700, 6300], "family": "BR3_BR4", "funds": ["BR3", "BR4"], "gold_percent_exact": "161103/10000", "publisher": "BlackRock", "split_amount": 1480, "target": "ISHRS US EQ IDX FD (UK) X ACC"}
+{"amounts": [3700, 6300], "family": "BR3_BR5", "funds": ["BR3", "BR5"], "gold_percent_exact": "2013/125", "publisher": "BlackRock", "split_amount": 1480, "target": "ISHRS US EQ IDX FD (UK) X ACC"}
+{"amounts": [4200, 5800], "family": "BR4_BR5", "funds": ["BR4", "BR5"], "gold_percent_exact": "89421/5000", "publisher": "BlackRock", "split_amount": 1680, "target": "ISHRS US EQ IDX FD (UK) X ACC"}
