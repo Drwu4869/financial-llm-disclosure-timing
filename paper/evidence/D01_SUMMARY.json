@@ -1,0 +1,228 @@
+{
+  "analysis": "D01 post-hoc full-horizon diagnostic; original primary scorer unchanged",
+  "completed_at": "2026-11-08T00:50:29.345643+00:00",
+  "baseline_only": false,
+  "program_count": 36,
+  "weight_producing_programs": 35,
+  "interface_refusals": [
+    "GPT_dates_P0_r3"
+  ],
+  "sixty_day_floor_programs": [
+    "GPT_dates_P0_r1",
+    "GPT_dates_P0_r2",
+    "GPT_dates_P1_r2",
+    "GPT_dates_P1_r3",
+    "GPT_revisions_P0_r1",
+    "GPT_revisions_P0_r2",
+    "GPT_revisions_P0_r3",
+    "GPT_revisions_P1_r1",
+    "GPT_revisions_P1_r2",
+    "GPT_revisions_P1_r3"
+  ],
+  "filing_date_strict_programs": [
+    "GPT_dates_P1_r1"
+  ],
+  "oracle_aligned_programs": 24,
+  "generations_added": 0,
+  "decision_days_per_seed": 477,
+  "report_periods_per_seed": 6,
+  "usable_program_seed_cases": 175,
+  "all_day_policy_matches": 175,
+  "usable_daily_vectors": 83475,
+  "isolated_executions": 3600,
+  "deduplicated_intervention_checks": 3420,
+  "outcome_counts": {
+    "no_witness": 3360,
+    "unassessable_baseline_refusal": 60
+  },
+  "usable_daily_interventions": 182252,
+  "controls": [
+    {
+      "schema": "dates",
+      "seed": 101,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 101,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "schema": "dates",
+      "seed": 101,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 202,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 202,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "schema": "dates",
+      "seed": 202,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 303,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 303,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "schema": "dates",
+      "seed": 303,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 404,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 404,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "schema": "dates",
+      "seed": 404,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 505,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "dates",
+      "seed": 505,
+      "policy": "report_date",
+      "has_witness": true
+    },
+    {
+      "schema": "dates",
+      "seed": 505,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 101,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 101,
+      "policy": "global_latest",
+      "has_witness": true
+    },
+    {
+      "schema": "revisions",
+      "seed": 101,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 202,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 202,
+      "policy": "global_latest",
+      "has_witness": true
+    },
+    {
+      "schema": "revisions",
+      "seed": 202,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 303,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 303,
+      "policy": "global_latest",
+      "has_witness": true
+    },
+    {
+      "schema": "revisions",
+      "seed": 303,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 404,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 404,
+      "policy": "global_latest",
+      "has_witness": true
+    },
+    {
+      "schema": "revisions",
+      "seed": 404,
+      "policy": "all_cash",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 505,
+      "policy": "point_in_time",
+      "has_witness": false
+    },
+    {
+      "schema": "revisions",
+      "seed": 505,
+      "policy": "global_latest",
+      "has_witness": true
+    },
+    {
+      "schema": "revisions",
+      "seed": 505,
+      "policy": "all_cash",
+      "has_witness": false
+    }
+  ],
+  "limits": [
+    "All dates in five fixed synthetic fixtures, not arbitrary unseen inputs.",
+    "Daily audit varies future filings, not future prices; original price probes remain limited.",
+    "Deduplication changes neither dates/prices nor model code.",
+    "Refusal is excluded from useful timing success; original raw status is retained.",
+    "Rule classification and full-horizon checks are post-hoc, prompted by reviewer correction."
+  ]
+}
